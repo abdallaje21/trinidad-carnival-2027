@@ -6,54 +6,46 @@ interface Props {
 
 const { events } = Astro.props;
 
-// Group events by their date string with explicit TypeScript types
 const eventsByDate = events.reduce((acc: Record<string, any[]>, event: any) => {
   if (!acc[event.date]) acc[event.date] = [];
   acc[event.date].push(event);
   return acc;
 }, {});
 
-// Generate a static array of dates to render for the peak Carnival window
-const calendarDays = [
-  { dateStr: '2027-01-31', label: 'Jan 31', isPeak: true },
-  { dateStr: '2027-02-01', label: 'Feb 1', isPeak: true },
-  { dateStr: '2027-02-02', label: 'Feb 2', isPeak: true },
-  { dateStr: '2027-02-03', label: 'Feb 3', isPeak: true },
-  { dateStr: '2027-02-04', label: 'Feb 4', isPeak: true },
-  { dateStr: '2027-02-05', label: 'Feb 5', isPeak: true },
-  { dateStr: '2027-02-06', label: 'Feb 6', isPeak: true },
-  { dateStr: '2027-02-07', label: 'Feb 7', isPeak: true },
-  { dateStr: '2027-02-08', label: 'Feb 8', isPeak: true },
-  { dateStr: '2027-02-09', label: 'Feb 9', isPeak: true },
-  { dateStr: '2027-02-10', label: 'Feb 10', isPeak: true },
-];
+const calendarDays: any[] = [];
+
+// Populate January 2027 cells
+for (let d = 1; d <= 31; d++) {
+  const dayStr = d.toString().padStart(2, '0');
+  calendarDays.push({ dateStr: `2027-01-${dayStr}`, label: `Jan ${d}` });
+}
+
+// Populate February 2027 cells
+for (let d = 1; d <= 28; d++) {
+  const dayStr = d.toString().padStart(2, '0');
+  calendarDays.push({ dateStr: `2027-02-${dayStr}`, label: `Feb ${d}` });
+}
+
+// January 1st, 2027 starts on a Friday, requiring 5 empty grid cells for alignment
+const paddingCells = Array(5).fill(null);
 ---
 
 <div class="bg-white rounded-xl border border-gray-100 shadow-sm p-4 overflow-x-auto">
-  <div class="min-w-[800px]">
-    <!-- Calendar Days Header -->
+  <div class="min-w-[900px]">
     <div class="grid grid-cols-7 gap-2 bg-purple-600 text-white text-center font-bold text-xs py-2.5 rounded-t-xl tracking-wider uppercase">
       <div>Sun</div><div>Mon</div><div>Tue</div><div>Wed</div><div>Thu</div><div>Fri</div><div>Sat</div>
     </div>
 
-    <!-- Calendar Matrix Grid -->
-    <div class="grid grid-cols-7 gap-2 bg-gray-50 p-2 rounded-b-xl border-b border-x border-gray-100 min-h-[450px]">
-      <!-- January 31, 2027 is a Sunday, so no empty placeholder padding divs are needed -->
+    <div class="grid grid-cols-7 gap-2 bg-gray-50 p-2 rounded-b-xl border-b border-x border-gray-100 min-h-[600px]">
+      {paddingCells.map(() => <div class="bg-gray-100/30 rounded-lg min-h-[140px] border border-dashed border-gray-200"></div>)}
       
       {calendarDays.map((day) => (
-        <div class="bg-white p-3 rounded-lg border border-gray-100 flex flex-col min-h-[140px] shadow-2xs hover:border-purple-200 transition-colors">
-          <span class="text-xs font-bold text-gray-400 mb-2 block">{day.label}</span>
-          
-          <div class="space-y-1.5 overflow-y-auto flex-grow custom-scrollbar">
+        <div class="bg-white p-2 border border-gray-100 flex flex-col min-h-[155px] shadow-2xs rounded-lg">
+          <span class="text-[11px] font-bold text-gray-400 mb-1.5 block">{day.label}</span>
+          <div class="space-y-1 overflow-y-auto flex-grow max-h-[120px] custom-scrollbar">
             {eventsByDate[day.dateStr]?.map((event: any) => (
-              <a 
-                href={event.ticketUrl} 
-                target="_blank" 
-                rel="noopener noreferrer" 
-                class="block text-[11px] leading-tight font-semibold p-1.5 bg-purple-50 text-purple-700 rounded border border-purple-100 hover:bg-purple-100 hover:text-purple-900 transition-all truncate"
-                title={`${event.name} @ ${event.startTime}`}
-              >
-                <span class="text-[9px] opacity-70 block font-normal">{event.startTime}</span>
+              <a href={event.ticketUrl} target="_blank" rel="noopener noreferrer" class="block text-[10px] leading-tight font-semibold p-1 bg-purple-50 text-purple-700 rounded border border-purple-100 truncate" title={event.name}>
+                <span class="text-[8px] opacity-70 block font-normal">{event.startTime}</span>
                 {event.name}
               </a>
             ))}
