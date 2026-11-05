@@ -1,4539 +1,4305 @@
 [
   {
-    "id": "scraped-0",
-    "name": "Unassigned Fete Match #0",
+    "id": "island-0",
+    "name": "Nov2026",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "5:00pm",
+    "location": "Churchill Roosevelt Hwy, Valsayn",
+    "region": "South",
+    "ticketUrl": "https://islandetickets.com/event/TT051126",
+    "tags": [
+      "islandetickets"
+    ]
+  },
+  {
+    "id": "island-1",
+    "name": "THURSDAY TASTE | 05 November 2026",
+    "type": "Fete",
+    "date": "2027-02-03",
+    "startTime": "9:00pm",
+    "location": "X Lounge",
     "region": "North",
     "ticketUrl": "https://islandetickets.com/event/TT051126",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-1",
-    "name": "Unassigned Fete Match #1",
+    "id": "island-2",
+    "name": "Chef's Table- Wine Pairing",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "7:00pm",
+    "location": "Solemar Compass Point",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com/event/TT051126",
+    "ticketUrl": "https://islandetickets.com/event/Chefs-Table",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-2",
-    "name": "Unassigned Fete Match #2",
+    "id": "island-3",
+    "name": "WIRED! A True Trini Bacchanal!",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "8:00pm",
+    "location": "Central Bank Auditorium",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/WIRED-ENCORE-SCAI-FRIDAY",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-3",
-    "name": "Unassigned Fete Match #3",
+    "id": "island-4",
+    "name": "All Hands on Deck",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "8:00pm",
+    "location": "Harbour Master, Western Main Road, Cocorite, POS",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/All-hands-on-deck",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-4",
-    "name": "Unassigned Fete Match #4",
+    "id": "island-5",
+    "name": "FRIDAY FETISH | 06 November 2026",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "8:00pm",
+    "location": "X Lounge",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/FF061126",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-5",
-    "name": "Unassigned Fete Match #5",
+    "id": "island-6",
+    "name": "Nirvana",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "10:00pm",
+    "location": "Harbor Master",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/NirvanaNoPhones",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-6",
-    "name": "Unassigned Fete Match #6",
+    "id": "island-7",
+    "name": "Residuals Hidden Desires",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "10:00pm",
+    "location": "Carnival City Ultra Lounge",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/Residuals-Hidden-Desires",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-7",
-    "name": "Unassigned Fete Match #7",
+    "id": "island-8",
+    "name": "Praise On Water 2K26 - Liming with Legends",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "9:00am",
+    "location": "C3 Marina 119 Western Main Road",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/Liming-with-Legends",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-8",
-    "name": "Unassigned Fete Match #8",
+    "id": "island-9",
+    "name": "PRIME PLAY MONEY BALL",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
-    "region": "North",
-    "ticketUrl": "https://islandetickets.com",
-    "tags": [
-      "scraped"
-    ]
-  },
-  {
-    "id": "scraped-9",
-    "name": "Unassigned Fete Match #9",
-    "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
-    "region": "North",
-    "ticketUrl": "https://islandetickets.com",
-    "tags": [
-      "scraped"
-    ]
-  },
-  {
-    "id": "scraped-10",
-    "name": "Unassigned Fete Match #10",
-    "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
-    "region": "North",
-    "ticketUrl": "https://islandetickets.com",
-    "tags": [
-      "scraped"
-    ]
-  },
-  {
-    "id": "scraped-11",
-    "name": "Unassigned Fete Match #11",
-    "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
-    "region": "North",
-    "ticketUrl": "https://islandetickets.com",
-    "tags": [
-      "scraped"
-    ]
-  },
-  {
-    "id": "scraped-12",
-    "name": "Unassigned Fete Match #12",
-    "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
-    "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "date": "2027-02-03",
+    "startTime": "2:00pm",
+    "location": "Prime Play, Center of Excellence, Macoya",
+    "region": "East",
+    "ticketUrl": "https://islandetickets.com/event/PRIMEPLAY",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-13",
-    "name": "Unassigned Fete Match #13",
+    "id": "island-10",
+    "name": "ANONYMOUS",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "6:30pm",
+    "location": "The Anchorage",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/AnonymousRoom21",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-14",
-    "name": "Unassigned Fete Match #14",
+    "id": "island-11",
+    "name": "28 Grams",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "7:00pm",
+    "location": "Harbour Master",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/28grams",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-15",
-    "name": "Unassigned Fete Match #15",
+    "id": "island-12",
+    "name": "Parang On The Bay",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "7:08pm",
+    "location": "ROCK BACK BY THE BAY - CHAGURAMAS",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/Parangonthebay",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-16",
-    "name": "Unassigned Fete Match #16",
+    "id": "island-13",
+    "name": "Motivation Through Music",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "7:30pm",
+    "location": "St. Dominic's Pastoral Centre, Morne Coco Road, Diego Martin",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/DJ-RENE-Motivation-Through-Music",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-17",
-    "name": "Unassigned Fete Match #17",
+    "id": "island-14",
+    "name": "Girlz Mansion: After Dark",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
-    "region": "North",
-    "ticketUrl": "https://islandetickets.com",
-    "tags": [
-      "scraped"
-    ]
-  },
-  {
-    "id": "scraped-18",
-    "name": "Unassigned Fete Match #18",
-    "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
-    "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "date": "2027-02-03",
+    "startTime": "8:00pm",
+    "location": "Palmiste South Trinidad",
+    "region": "South",
+    "ticketUrl": "https://islandetickets.com/event/Girlzmansion",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-19",
-    "name": "Unassigned Fete Match #19",
+    "id": "island-16",
+    "name": "SATURDAY STEAM | 07 November 2026",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "8:00pm",
+    "location": "X Lounge",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/SS071126",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-20",
-    "name": "Unassigned Fete Match #20",
+    "id": "island-17",
+    "name": "Lovers & Friends - Destination Love",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
-    "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "date": "2027-02-03",
+    "startTime": "9:00pm",
+    "location": "South, Trinidad",
+    "region": "South",
+    "ticketUrl": "https://islandetickets.com/event/DestinationLove",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-21",
-    "name": "Unassigned Fete Match #21",
+    "id": "island-18",
+    "name": "Life Beyond The Creek",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "9:00pm",
+    "location": "Clifton Hill Beach Resort, Point Fortin",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/UraveMas",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-22",
-    "name": "Unassigned Fete Match #22",
-    "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "id": "island-19",
+    "name": "Rejuvenate The Cooler Event",
+    "type": "Cooler Fete",
+    "date": "2027-02-03",
+    "startTime": "9:00pm",
+    "location": "Sound Forge",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/Xzotik-Mas-Rejuvenate",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-23",
-    "name": "Unassigned Fete Match #23",
+    "id": "island-20",
+    "name": "Club House",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "10:00pm",
+    "location": "CLUB VICE",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/clubhouse",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-24",
-    "name": "Unassigned Fete Match #24",
+    "id": "island-21",
+    "name": "Kabuki’s White",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
-    "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "date": "2027-02-03",
+    "startTime": "10:00pm",
+    "location": "Sammy's Resto Bar, Arima",
+    "region": "East",
+    "ticketUrl": "https://islandetickets.com/event/Kabukis-White-Cherish-the-Night",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-25",
-    "name": "Unassigned Fete Match #25",
+    "id": "island-22",
+    "name": "CHAIN UP",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "1:29pm",
+    "location": "DOWN THE ISLANDS ,SCOTLAND BAY",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/CHAIN-UP",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-26",
-    "name": "Unassigned Fete Match #26",
+    "id": "island-23",
+    "name": "Mahalo '26",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "4:00pm",
+    "location": "Harbour Master",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/Mahalo-2026",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-27",
-    "name": "Unassigned Fete Match #27",
+    "id": "island-24",
+    "name": "DeJavu",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "4:00pm",
+    "location": "CALABASH GARDEN 48 Tragarete Road, Port of Spain",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/DEJavu-2026",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-28",
-    "name": "Unassigned Fete Match #28",
+    "id": "island-25",
+    "name": "Lights Out",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "5:00pm",
+    "location": "Radisson Hotel",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/Lights-Out-26",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-29",
-    "name": "Unassigned Fete Match #29",
+    "id": "island-26",
+    "name": "SILK, STEEL and STRINGS",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "5:00pm",
+    "location": "The Garden Gazebo  La Joya Complex EMR ST. JOSEPH",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/selecteventstt",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-30",
-    "name": "Unassigned Fete Match #30",
+    "id": "island-27",
+    "name": "Barons Infinity III Christmas Edition “BENEFIT CONCERT”",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "6:00pm",
+    "location": "Bishops & Trinity East College Auditorium",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/SOBS-PRODUCTIONS",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-31",
-    "name": "Unassigned Fete Match #31",
+    "id": "island-29",
+    "name": "Dy Vybz 2",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "7:00pm",
+    "location": "Alexandra Street, St Clair",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/dyvybz2",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-32",
-    "name": "Unassigned Fete Match #32",
+    "id": "island-30",
+    "name": "Love Rendezvous",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "9:00pm",
+    "location": "Woodford Cafe",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/LoveRendezvous",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-33",
-    "name": "Unassigned Fete Match #33",
+    "id": "island-31",
+    "name": "District Love",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "9:00pm",
+    "location": "Vice Night Club (Cipriani Boulevard)",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/Districtlove",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-34",
-    "name": "Unassigned Fete Match #34",
+    "id": "island-32",
+    "name": "Colorful Jungle 2026",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "4:00am",
+    "location": "Special Auto Car Park Brazil",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/Country-Brunch-Events",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-35",
-    "name": "Unassigned Fete Match #35",
+    "id": "island-34",
+    "name": "WEDNESDAY WETTING | 11 November 2026",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "5:00pm",
+    "location": "X Lounge",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/WW111126",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-36",
-    "name": "Unassigned Fete Match #36",
+    "id": "island-35",
+    "name": "XXIV CARAT SAFE CIRCLE",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "5:27pm",
+    "location": "138 Roberts Street, Woodbrook",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/XXIV24CARAT",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-37",
-    "name": "Unassigned Fete Match #37",
+    "id": "island-36",
+    "name": "Laugh out Loud",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "8:00pm",
+    "location": "Vice",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/Laugh-out-Loud",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-38",
-    "name": "Unassigned Fete Match #38",
+    "id": "island-37",
+    "name": "THURSDAY TASTE | 12 November 2026",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "8:00pm",
+    "location": "X Lounge",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/TT121126",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-39",
-    "name": "Unassigned Fete Match #39",
+    "id": "island-38",
+    "name": "LAUGH OUT LOUD- INFLUENCERS",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "8:00pm",
+    "location": "Vice Lounge - Cipriani Boulevard",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/Influencers",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-40",
-    "name": "Unassigned Fete Match #40",
+    "id": "island-39",
+    "name": "Driftwood by Martina Laird (Stage Reading)",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "6:00pm",
+    "location": "National Academy for the Performing Arts (NAPA)",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/driftwood",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-41",
-    "name": "Unassigned Fete Match #41",
+    "id": "island-40",
+    "name": "D Island Link Up Showcase: POS Edition",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "7:00pm",
+    "location": "Port Of Spain",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/dislandlinkup1",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-42",
-    "name": "Unassigned Fete Match #42",
+    "id": "island-41",
+    "name": "FOR THE GIRLIES x LETS CONNECT 2",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "7:00pm",
+    "location": "Samurai Restaurant",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/Connectftg",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-43",
-    "name": "Unassigned Fete Match #43",
+    "id": "island-42",
+    "name": "BEADS & GLOW 2026",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "8:00pm",
+    "location": "OCEAN PELICAN",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/BG2026",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-44",
-    "name": "Unassigned Fete Match #44",
+    "id": "island-43",
+    "name": "Sound Bath",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "8:00am",
+    "location": "The Arboretum, Chaguaramas",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/SoundBath",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-45",
-    "name": "Unassigned Fete Match #45",
+    "id": "island-44",
+    "name": "High Impact Tea",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "11:00am",
+    "location": "Arazzi, Maraval",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/highimpacttea26",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-46",
-    "name": "Unassigned Fete Match #46",
+    "id": "island-45",
+    "name": "Frat Island",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "5:00pm",
+    "location": "D’IVY",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/FRATISLAND",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-47",
-    "name": "Unassigned Fete Match #47",
+    "id": "island-46",
+    "name": "Pepper Pot Parang",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "5:00pm",
+    "location": "Bishop Anstey Junior School, Ariapita Road, St. Ann's",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/bajs",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-48",
-    "name": "Unassigned Fete Match #48",
+    "id": "island-47",
+    "name": "The Stragglers Presents: Figures of Speech",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "7:00pm",
+    "location": "Little Carib Theatre",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/TheStragglersFOS",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-49",
-    "name": "Unassigned Fete Match #49",
+    "id": "island-48",
+    "name": "BOXING NIGHT III",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "7:00pm",
+    "location": "Totalkickbox",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/BN3HISTORY",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-50",
-    "name": "Unassigned Fete Match #50",
+    "id": "island-49",
+    "name": "D Island Link Up Showcase Point Fortin Edition",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "8:00pm",
+    "location": "Point Fortin",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/dislandlinkup2",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-51",
-    "name": "Unassigned Fete Match #51",
+    "id": "island-50",
+    "name": "FOREVER YOUNG",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
-    "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "date": "2027-02-03",
+    "startTime": "8:00pm",
+    "location": "Beer Pit, South Haven Debe",
+    "region": "South",
+    "ticketUrl": "https://islandetickets.com/event/Foreveryoung",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-52",
-    "name": "Unassigned Fete Match #52",
+    "id": "island-51",
+    "name": "1 BIG STONE",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "10:00pm",
+    "location": "THE SUMMIT  XTRA FOODS PLAZA",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/D RIGHT PROMOTIONS",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-53",
-    "name": "Unassigned Fete Match #53",
+    "id": "island-52",
+    "name": "1 Big Stone",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "10:00pm",
+    "location": "The SUMMIT",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/djdrross",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-54",
-    "name": "Unassigned Fete Match #54",
+    "id": "island-53",
+    "name": "Camp Rock",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "10:00pm",
+    "location": "CLUB VICE",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/camprock",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-55",
-    "name": "Unassigned Fete Match #55",
+    "id": "island-54",
+    "name": "Jamette Ball",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "12:00am",
+    "location": "Sound Forge",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/Mas-Chalay-Festival",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-56",
-    "name": "Unassigned Fete Match #56",
+    "id": "island-55",
+    "name": "Bayside",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "2:00pm",
+    "location": "5 islands Amusement Park",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/Bayside2026",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-57",
-    "name": "Unassigned Fete Match #57",
+    "id": "island-56",
+    "name": "SPAMILY DDI EP 1",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "2:00pm",
+    "location": "DDI",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-58",
-    "name": "Unassigned Fete Match #58",
+    "id": "island-57",
+    "name": "Sunsets 2026",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "3:00pm",
+    "location": "Harbour Master",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/Sunsets2026",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-59",
-    "name": "Unassigned Fete Match #59",
+    "id": "island-58",
+    "name": "SSS - Reggae & R&B With A Touch Of Soca",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "4:00pm",
+    "location": "Rock Back on the Bay Anchorage",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/SSS-Reggae-RB-With-A-Touch-Of-Soca",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-60",
-    "name": "Unassigned Fete Match #60",
+    "id": "island-59",
+    "name": "Day Club: Something Different",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "5:00pm",
+    "location": "Xscape & Venue Lounge, Valpark Plaza",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/dayclub2",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-61",
-    "name": "Unassigned Fete Match #61",
+    "id": "island-60",
+    "name": "It’s Beginning To Look A Lot Like Christmas 5",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "6:00pm",
+    "location": "Chamber of Commerce , Westmoorings , Trinidad and Tobago",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/itsbeginning5",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-62",
-    "name": "Unassigned Fete Match #62",
+    "id": "island-61",
+    "name": "Live Reggae Season 1 FINALE - A SOLAR RETURN - Wadi Gad's Earthstrong Celebration",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "7:00pm",
+    "location": "Omega Lounge, #3 Eastern Main Road, Tacarigua",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/SolarReturn",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-63",
-    "name": "Unassigned Fete Match #63",
+    "id": "island-62",
+    "name": "Kaiso Conversations VIDEO REPLAY: Freetown Collective on the art of calypso lyrics, with Nigel Campbell",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "6:00pm",
+    "location": "The Writers Centre, 14 Alcazar Street, Port of Spain",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/KC_Freetown_Replay",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-64",
-    "name": "Unassigned Fete Match #64",
-    "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "id": "island-63",
+    "name": "Rock The Boat Orlando: All Black Boat Ride | Classic Weekend Kickoff 2026",
+    "type": "Boat Cruise",
+    "date": "2027-02-03",
+    "startTime": "7:00pm",
+    "location": "Barbara Lee",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/rocktheboatfcw",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-65",
-    "name": "Unassigned Fete Match #65",
+    "id": "island-64",
+    "name": "Couleurs Vives \"The Land Edition\"",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "9:00pm",
+    "location": "The Lobby",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/CouleursVives",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-66",
-    "name": "Unassigned Fete Match #66",
+    "id": "island-65",
+    "name": "Pocket Jam",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "9:00pm",
+    "location": "Maraval",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/POCKETJAM",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-67",
-    "name": "Unassigned Fete Match #67",
+    "id": "island-66",
+    "name": "PMD: AQUA.AI- CYBER & GHOULS (MASKED WEARING WATER & PAINT EVENT )",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "2:00am",
+    "location": "SOUNDFORGE CAR PARK",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/PMD",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-68",
-    "name": "Unassigned Fete Match #68",
+    "id": "island-67",
+    "name": "Fantastic Voyage 4-Dexter Birthday Edition",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "9:00am",
+    "location": "Harbour Master",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/Dexstar21",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-69",
-    "name": "Unassigned Fete Match #69",
+    "id": "island-68",
+    "name": "FLX FEST",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "3:00pm",
+    "location": "Trinidad and Tobago",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/FLX-FEST",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-70",
-    "name": "Unassigned Fete Match #70",
+    "id": "island-69",
+    "name": "Ram's Soca Burnout '26",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "3:30pm",
+    "location": "National Cycling Velodrome Couva",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/Rams-Soca-Burnout",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-71",
-    "name": "Unassigned Fete Match #71",
+    "id": "island-70",
+    "name": "Clash of the Caribbean 2",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "5:00pm",
+    "location": "Cascadia Hotel, Port of Spain",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/CLASH",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-72",
-    "name": "Unassigned Fete Match #72",
+    "id": "island-71",
+    "name": "Single Pan Band FINALS - National Panorama 2027",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
-    "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "date": "2027-02-03",
+    "startTime": "6:00pm",
+    "location": "Skinner Park, San Fernando",
+    "region": "South",
+    "ticketUrl": "https://islandetickets.com/event/singlepanfinals2027",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-73",
-    "name": "Unassigned Fete Match #73",
+    "id": "island-72",
+    "name": "CUFF 24",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "6:30pm",
+    "location": "Trinity College East, Trincity, Trinidad and Tobago",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/cuff24",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-74",
-    "name": "Unassigned Fete Match #74",
+    "id": "island-73",
+    "name": "We Stranded",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "7:00pm",
+    "location": "Harbour Master, Port-Of-Spain",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/WeStranded",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-75",
-    "name": "Unassigned Fete Match #75",
-    "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "id": "island-74",
+    "name": "PLEASURE CRUISE | Saturday 21 November 2026",
+    "type": "Boat Cruise",
+    "date": "2027-02-03",
+    "startTime": "8:00pm",
+    "location": "Chaguaramas",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/PC211126",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-76",
-    "name": "Unassigned Fete Match #76",
+    "id": "island-75",
+    "name": "Best Little Whorehouse In Guapo - Cipriani Labour  College",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
-    "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "date": "2027-02-03",
+    "startTime": "8:30pm",
+    "location": "Cipriani Labour College - Valsayn",
+    "region": "East",
+    "ticketUrl": "https://islandetickets.com/event/BestLittleWhorehouseInGuapoCIPRIANICOLLE",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-77",
-    "name": "Unassigned Fete Match #77",
+    "id": "island-76",
+    "name": "Country Parang - D Christmas Lime",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "9:00pm",
+    "location": "Country Backyard - Talparo",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/CountryParang",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-78",
-    "name": "Unassigned Fete Match #78",
+    "id": "island-77",
+    "name": "Buzzed",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "10:00pm",
+    "location": "The Anchorage",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/GetBuzzed",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-79",
-    "name": "Unassigned Fete Match #79",
+    "id": "island-78",
+    "name": "DOCTOR ROSS BIRTHNIGHT",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "10:00pm",
+    "location": "AVALA HEARTLAND PLAZA",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/D-RIGHT-PROMOTIONS",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-80",
-    "name": "Unassigned Fete Match #80",
+    "id": "island-79",
+    "name": "Ecclesiastes (The Garden)",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "10:30pm",
+    "location": "Boarding at The Anchorage",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/Ecclesiastes",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-81",
-    "name": "Unassigned Fete Match #81",
+    "id": "island-80",
+    "name": "Vice Sea 2026",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "11:00pm",
+    "location": "Ocean Pelican",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/Tunup",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-82",
-    "name": "Unassigned Fete Match #82",
+    "id": "island-81",
+    "name": "Chacachacare Island Lighthouse and Salt Pond Hike",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "8:30am",
+    "location": "DDI, Trinidad",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/Chacachacare-Island-Hike",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-83",
-    "name": "Unassigned Fete Match #83",
+    "id": "island-82",
+    "name": "SPINN",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "10:00am",
+    "location": "PRIVATE VENUE",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/sweatnplayspinn",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-84",
-    "name": "Unassigned Fete Match #84",
+    "id": "island-83",
+    "name": "DIY Clothes & Accessories Workshop",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "11:30am",
+    "location": "Mt. Lambert Community Center",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/DIYClothingEvent",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-85",
-    "name": "Unassigned Fete Match #85",
+    "id": "island-84",
+    "name": "HITS ( High Infusion Taste & Sound)",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "2:00pm",
+    "location": "Calabash Garden",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/HITS",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-86",
-    "name": "Unassigned Fete Match #86",
+    "id": "island-85",
+    "name": "Whine gyal bend",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "2:27pm",
+    "location": "Vessigny Beach",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/islandeticketscomeventsWhinegyalbend",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-87",
-    "name": "Unassigned Fete Match #87",
+    "id": "island-86",
+    "name": "ⓝⓤⓓⓔ ‘26",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "2:30pm",
+    "location": "Harbour Master",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/nude26",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-88",
-    "name": "Unassigned Fete Match #88",
+    "id": "island-87",
+    "name": "LET LOOSE Glow Edition",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "4:00pm",
+    "location": "The Lobby (Paria Suites Hotel)",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/LetLooseGlow",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-89",
-    "name": "Unassigned Fete Match #89",
+    "id": "island-88",
+    "name": "HOLI-DAYS One Holy Night",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "5:30pm",
+    "location": "NAPA - Port of Spain, Trinidad",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/HOLI-DAYS-One-Holy-Night",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-90",
-    "name": "Unassigned Fete Match #90",
+    "id": "island-89",
+    "name": "Iconography: David Rudder",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "6:00pm",
+    "location": "Queen's Hall Auditorium",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/ICONOGRAPHY-David-Rudder",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-91",
-    "name": "Unassigned Fete Match #91",
-    "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "id": "island-90",
+    "name": "Rock The Boat Cincinnati 2026 | Thanksgiving Eve Black & Gold Boat Party",
+    "type": "Boat Cruise",
+    "date": "2027-02-03",
+    "startTime": "10:30pm",
+    "location": "Spirit Of Cincinnati",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/thanksrtb",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-92",
-    "name": "Unassigned Fete Match #92",
-    "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "id": "island-91",
+    "name": "Rock The Boat New Orleans: Black Friday All Black Boat Ride",
+    "type": "Boat Cruise",
+    "date": "2027-02-03",
+    "startTime": "7:00pm",
+    "location": "Creole Queen",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/bayouclassic",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-93",
-    "name": "Unassigned Fete Match #93",
-    "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "id": "island-92",
+    "name": "Brown Sugar Cooler Cruise",
+    "type": "Boat Cruise",
+    "date": "2027-02-03",
+    "startTime": "7:00pm",
+    "location": "Ocean Pelican",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/Brown-Sugar",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-94",
-    "name": "Unassigned Fete Match #94",
+    "id": "island-93",
+    "name": "ObodO SZN Finale",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "8:00pm",
+    "location": "Calabash Garden",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/obodosznfinale",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-95",
-    "name": "Unassigned Fete Match #95",
+    "id": "island-94",
+    "name": "Classic Gold",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "9:00pm",
+    "location": "Ace Night Club",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-96",
-    "name": "Unassigned Fete Match #96",
+    "id": "island-95",
+    "name": "BLACKOUT ATLANTA: All Black Affair – First 500 RSVPs FREE!",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "10:00pm",
+    "location": "Lux Cafe",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/blackoutatl2026",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-97",
-    "name": "Unassigned Fete Match #97",
+    "id": "island-96",
+    "name": "Wag City: Baila After Dark",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "10:30pm",
+    "location": "Harbour Master Trinidad",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/Check-out-this-event-I-found-on-Island-e",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-98",
-    "name": "Unassigned Fete Match #98",
+    "id": "island-97",
+    "name": "Uncharted",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "11:00pm",
+    "location": "Ocean Pelican",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/Uncharted",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-99",
-    "name": "Unassigned Fete Match #99",
+    "id": "island-98",
+    "name": "Sealective players",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "12:00am",
+    "location": "Port of spain",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/HUSTLEACTIVE",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-100",
-    "name": "Unassigned Fete Match #100",
+    "id": "island-99",
+    "name": "The Offline Club Social",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "12:30pm",
+    "location": "36 Cornelio Street, Woodbrook, POS",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/novembersocial",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-101",
-    "name": "Unassigned Fete Match #101",
+    "id": "island-100",
+    "name": "Speed Friending + Meet Up",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "4:00pm",
+    "location": "Jagz Beer Garden",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/Friendzones",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-102",
-    "name": "Unassigned Fete Match #102",
-    "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "id": "island-101",
+    "name": "Soca And Parang Cooler Fete — LET’S LIME FOR A CAUSE - ROTARY CLUB OF ST AUGUSTINE",
+    "type": "Cooler Fete",
+    "date": "2027-02-03",
+    "startTime": "6:00pm",
+    "location": "St Augustine Tennis Club",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/socaandparangcoolerfete",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-103",
-    "name": "Unassigned Fete Match #103",
+    "id": "island-102",
+    "name": "Parang Under the Lanterns",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "6:00pm",
+    "location": "Immortelle, 12 Juniper Terrace, Sam Boucaud, Upper Santa Cruz",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/ParangUnderTheLanterns",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-104",
-    "name": "Unassigned Fete Match #104",
+    "id": "island-103",
+    "name": "Annual Dinner and Student-Athlete Awards Ceremony",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "6:00pm",
+    "location": "Bishop Anstey High School & Trinity College East, 35-51 College Avenue, Trincity, Tacarigua, Trinidad",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/Dinner-Student-Athlete-Awards-Ceremony",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-105",
-    "name": "Unassigned Fete Match #105",
+    "id": "island-104",
+    "name": "Mix and Mingle",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "6:00pm",
+    "location": "UWI Inn & Conference Centre",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/UWIAATT-Mixer",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-106",
-    "name": "Unassigned Fete Match #106",
+    "id": "island-105",
+    "name": "LIV • THE EXPERIENCE",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "7:00pm",
+    "location": "GROS ISLET MINI STADIUM",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/LIV-THE-EXPERIENCE",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-107",
-    "name": "Unassigned Fete Match #107",
+    "id": "island-106",
+    "name": "Retro South Edition The Hamper Drive",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
-    "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "date": "2027-02-03",
+    "startTime": "8:00pm",
+    "location": "Lobby Restaurant and Bar Paria Suites Gulf City",
+    "region": "South",
+    "ticketUrl": "https://islandetickets.com/event/The-Renny-Toolsie-Foundation",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-108",
-    "name": "Unassigned Fete Match #108",
+    "id": "island-107",
+    "name": "Breaking Dawn Christmas Party",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "8:00pm",
+    "location": "Lions Cultural Center",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/httpsislandeticketscomevent280701",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-109",
-    "name": "Unassigned Fete Match #109",
+    "id": "island-108",
+    "name": "Zungusha: The Frequency- Sound & Soul",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
-    "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "date": "2027-02-03",
+    "startTime": "8:00pm",
+    "location": "The Ponderosa, #23 Peter Circular, Arima",
+    "region": "East",
+    "ticketUrl": "https://islandetickets.com/event/ZUNGUSHA-Sound-and-Soul",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-110",
-    "name": "Unassigned Fete Match #110",
+    "id": "island-109",
+    "name": "A LUAU",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "8:00pm",
+    "location": "Blaxks pool house torrib trace new Grant",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/Aluau",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-111",
-    "name": "Unassigned Fete Match #111",
+    "id": "island-110",
+    "name": "November to Remember - Tiki After Dark",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "8:00pm",
+    "location": "Rock Back on the Bay, Chaguaramas",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/N2R-Tiki",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-112",
-    "name": "Unassigned Fete Match #112",
+    "id": "island-111",
+    "name": "Little Black Dress ( R&B Edition )",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "8:00pm",
+    "location": "277 Restaurant /Underground Bar *RUNOUT*",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/LBD",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-113",
-    "name": "Unassigned Fete Match #113",
+    "id": "island-112",
+    "name": "TIMELESS STRIKES BACK",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "8:00pm",
+    "location": "Woodford Cafe",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/TimelessStrikesBack",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-114",
-    "name": "Unassigned Fete Match #114",
+    "id": "island-113",
+    "name": "R&B Love Journey: Love Without Limits",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
-    "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "date": "2027-02-03",
+    "startTime": "9:00pm",
+    "location": "SOUTH RANCH, Debe",
+    "region": "South",
+    "ticketUrl": "https://islandetickets.com/event/lovewithoutlimits",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-115",
-    "name": "Unassigned Fete Match #115",
+    "id": "island-114",
+    "name": "Wet Zone",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "9:00pm",
+    "location": "D' Grove Retreat, Dow Village",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/WetZone",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-116",
-    "name": "Unassigned Fete Match #116",
+    "id": "island-115",
+    "name": "The masquerade",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "9:00pm",
+    "location": "Tba",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/eventprmotiongalary",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-117",
-    "name": "Unassigned Fete Match #117",
+    "id": "island-116",
+    "name": "Garden Of Secrets",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "10:00pm",
+    "location": "White House TT",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/Garden-of-Secrets",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-118",
-    "name": "Unassigned Fete Match #118",
+    "id": "island-117",
+    "name": "Mixx Tings Featuring Eli Fola",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "10:00pm",
+    "location": "Katalyst",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/Mixxtingselifola",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-119",
-    "name": "Unassigned Fete Match #119",
+    "id": "island-118",
+    "name": "BLUSH THE LADIES FANTASY - R&B, Reggae & Sweet Soca",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
-    "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "date": "2027-02-03",
+    "startTime": "10:00pm",
+    "location": "Sensational Sammy Restobar -#20 St. Joseph Street, Arima",
+    "region": "East",
+    "ticketUrl": "https://islandetickets.com/event/blushtheladiesfantasy",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-120",
-    "name": "Unassigned Fete Match #120",
+    "id": "island-119",
+    "name": "A Taste of Moruga Tour",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "7:30am",
+    "location": "Moruga, Trinidad",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/A-Taste-of-Moruga-Tour",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-121",
-    "name": "Unassigned Fete Match #121",
+    "id": "island-120",
+    "name": "Brunchin' 33",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "10:00am",
+    "location": "33 Hookah Lounge: 110 Eastern Main Road, Saint Augustine",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/33-Hookah-Lounge-Brunchin33",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-122",
-    "name": "Unassigned Fete Match #122",
+    "id": "island-121",
+    "name": "Steam On Wheels",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "12:00pm",
+    "location": "Destination To Toco Beach",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/steamonwheels",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-123",
-    "name": "Unassigned Fete Match #123",
+    "id": "island-122",
+    "name": "Island Brunch (RnB edition)",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "3:00pm",
+    "location": "Rockback on the bay",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/Island-brunch",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-124",
-    "name": "Unassigned Fete Match #124",
+    "id": "island-123",
+    "name": "BRUNCH IN BLUE",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "3:00pm",
+    "location": "The Normandie Hotel : Under The Trees",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/Blueaffair",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-125",
-    "name": "Unassigned Fete Match #125",
+    "id": "island-124",
+    "name": "SUN SEA & SKIN",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "3:00pm",
+    "location": "OCEAN PELICAN HART’S CUT CHAGUARAMAS",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/Cbm-events",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-126",
-    "name": "Unassigned Fete Match #126",
+    "id": "island-125",
+    "name": "Sauna - Bikini Beach",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "3:00pm",
+    "location": "Chaquacabana",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/saunabb",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-127",
-    "name": "Unassigned Fete Match #127",
+    "id": "island-126",
+    "name": "COFFEEHouse New York",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "3:00pm",
+    "location": "New York",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/coffeehousenyc",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-128",
-    "name": "Unassigned Fete Match #128",
+    "id": "island-127",
+    "name": "BIM TIPSY",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "3:00pm",
+    "location": "Barbados",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/httpstipsymusicfestcom",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-129",
-    "name": "Unassigned Fete Match #129",
+    "id": "island-128",
+    "name": "Bikini & Shades",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "3:00pm",
+    "location": "Secret Eastside Location",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/Pure-Noir",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-130",
-    "name": "Unassigned Fete Match #130",
+    "id": "island-129",
+    "name": "House Parang",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "4:00pm",
+    "location": "Anchorage Beach Club, Chaguaramas",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/Houseparang",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-131",
-    "name": "Unassigned Fete Match #131",
+    "id": "island-130",
+    "name": "868 Wrestling Academy Presents: BANGIN' ON HEAVEN'S DOOR",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "4:00pm",
+    "location": "7 Marcus Tewarie Drive, Railway Road, Longdenville, Chaguanas",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/868wabohd",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-132",
-    "name": "Unassigned Fete Match #132",
+    "id": "island-131",
+    "name": "Signal Hill Flavour and Sounds of Christmas Musical Celebration",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
-    "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "date": "2027-02-03",
+    "startTime": "5:00pm",
+    "location": "Churchill Roosevelt Hwy, Valsayn",
+    "region": "East",
+    "ticketUrl": "https://islandetickets.com/event/SIGNAL_HILL_CHRISTMAS_MUSICAL",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-133",
-    "name": "Unassigned Fete Match #133",
+    "id": "island-132",
+    "name": "Dec2026",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
-    "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "date": "2027-02-03",
+    "startTime": "9:00pm",
+    "location": "Hilton Trinidad, Poolside",
+    "region": "South",
+    "ticketUrl": "https://islandetickets.com/event/Builders-Anointing",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-134",
-    "name": "Unassigned Fete Match #134",
+    "id": "island-133",
+    "name": "The Builders Anointing 2 Days Conference",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "6:00pm",
+    "location": "Orange Hill Scarborough Tobago",
     "region": "North",
     "ticketUrl": "https://islandetickets.com/event/Builders-Anointing",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-135",
-    "name": "Unassigned Fete Match #135",
+    "id": "island-134",
+    "name": "Uncommon Reunion",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
-    "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "date": "2027-02-03",
+    "startTime": "6:30pm",
+    "location": "Skinner’s Park San Fernando",
+    "region": "South",
+    "ticketUrl": "https://islandetickets.com/event/Uncommon",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-136",
-    "name": "Unassigned Fete Match #136",
+    "id": "island-135",
+    "name": "WE ARE THE GALLOWS + FIVE MILES TO MIDNIGHT LIVE",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "9:00pm",
+    "location": "Big Black Box",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/bassyardrock",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-137",
-    "name": "Unassigned Fete Match #137",
+    "id": "island-136",
+    "name": "MistleToe",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
-    "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "date": "2027-02-03",
+    "startTime": "10:00pm",
+    "location": "The Vybz Room Arima",
+    "region": "East",
+    "ticketUrl": "https://islandetickets.com/event/cloud9xendlesseventsmistletoeNMN",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-138",
-    "name": "Unassigned Fete Match #138",
+    "id": "island-137",
+    "name": "Pajama Jab",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "10:00pm",
+    "location": "Game Busters, Valpark",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/ECEPJJ",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-139",
-    "name": "Unassigned Fete Match #139",
+    "id": "island-138",
+    "name": "Paint By The Numbers: Christmas Ornaments Art Party - Saturday 5th December, 2026",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
-    "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "date": "2027-02-03",
+    "startTime": "12:00pm",
+    "location": "Harewood Doorly Auditorium, The Parish Church of St. Paul's, Harris Promenade, San Fernando",
+    "region": "South",
+    "ticketUrl": "https://islandetickets.com/event/Paint-By-The-Numbers-Ornaments-5",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-140",
-    "name": "Unassigned Fete Match #140",
+    "id": "island-139",
+    "name": "Nauti Night",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "3:00pm",
+    "location": "The Anchorage",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/Nauti-Night",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-141",
-    "name": "Unassigned Fete Match #141",
+    "id": "island-140",
+    "name": "Aura",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "3:00pm",
+    "location": "Ocean pelican harts cut chaguaramas",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/MAS-events",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-142",
-    "name": "Unassigned Fete Match #142",
+    "id": "island-141",
+    "name": "Bourgeois",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "5:00pm",
+    "location": "11 diamond plane mt gomery local rd tobago",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/Bourgeois",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-143",
-    "name": "Unassigned Fete Match #143",
+    "id": "island-142",
+    "name": "The Art Forum 14 (Exploring Visual Art)",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "6:30pm",
+    "location": "Noir Coffee Lab 12 Austin Street St. Augustine",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/TAF14",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-144",
-    "name": "Unassigned Fete Match #144",
+    "id": "island-143",
+    "name": "CHEERS II: THEN and NOW",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "7:00pm",
+    "location": "Diegosec Courtyard",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/CheersIIThenandNow",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-145",
-    "name": "Unassigned Fete Match #145",
+    "id": "island-144",
+    "name": "Atherly's After Dark: The Coronation",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "8:00pm",
+    "location": "Omega Lounge - #3 Eastern Main Road, Tacarigua",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/atherlysafterdarkthecoronation",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-146",
-    "name": "Unassigned Fete Match #146",
+    "id": "island-145",
+    "name": "Toxic Love and R&B",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "9:00pm",
+    "location": "Ace Night Club And Lounge",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/Toxic-love",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-147",
-    "name": "Unassigned Fete Match #147",
+    "id": "island-146",
+    "name": "Miami Nice 2026 | Art Basel Weekend All Black Yacht Party",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "9:30pm",
+    "location": "Dinner Key Marina",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/artbasel2026",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-148",
-    "name": "Unassigned Fete Match #148",
+    "id": "island-147",
+    "name": "Lights Off - Lost at Sea",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "10:00pm",
+    "location": "Ocean Pelican",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/Lights-off-lost-at-sea",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-149",
-    "name": "Unassigned Fete Match #149",
+    "id": "island-148",
+    "name": "Dirty Santa J’ouvert",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
-    "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "date": "2027-02-03",
+    "startTime": "3:15am",
+    "location": "South Side Venue",
+    "region": "South",
+    "ticketUrl": "https://islandetickets.com/event/Dirtysantajouvertii",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-150",
-    "name": "Unassigned Fete Match #150",
+    "id": "island-149",
+    "name": "RHAND's Children's Christmas Party 2026",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "1:00pm",
+    "location": "Tobago: Shaw Park Complex, December 6th | Trinidad: Centre of Excellence, December 13th",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/rhand-ccp-2026",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-151",
-    "name": "Unassigned Fete Match #151",
+    "id": "island-150",
+    "name": "Paramin Paradise Tour",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "1:00pm",
+    "location": "Paramin, Trinidad",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/ParaminParadiseTour",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-152",
-    "name": "Unassigned Fete Match #152",
+    "id": "island-151",
+    "name": "SAZÓN",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "2:00pm",
+    "location": "Rockback On The Bay",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/s26",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-153",
-    "name": "Unassigned Fete Match #153",
-    "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "id": "island-152",
+    "name": "LOVE BOAT",
+    "type": "Boat Cruise",
+    "date": "2027-02-03",
+    "startTime": "3:00pm",
+    "location": "Harbor Master",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/LoveBoat26",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-154",
-    "name": "Unassigned Fete Match #154",
+    "id": "island-153",
+    "name": "RUM BRUNCH",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
-    "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "date": "2027-02-03",
+    "startTime": "4:00pm",
+    "location": "Garden Sanctuary Macoya, Center of Excellence",
+    "region": "East",
+    "ticketUrl": "https://islandetickets.com/event/Rum-Brunch-Christmas-Soiree",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-155",
-    "name": "Unassigned Fete Match #155",
+    "id": "island-154",
+    "name": "TOUCH OF PURPLE, HEART OF GOLD",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
-    "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "date": "2027-02-03",
+    "startTime": "7:00pm",
+    "location": "SIDELINE SIPS - CENTRE OF EXCELLENCE MACOYA",
+    "region": "East",
+    "ticketUrl": "https://islandetickets.com/event/WRYS",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-156",
-    "name": "Unassigned Fete Match #156",
+    "id": "island-155",
+    "name": "Gasparee Caves & Monos Island Tour",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "8:30am",
+    "location": "DDI, Trinidad",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/Gasparee-Caves-Monos-Island-Tour",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-157",
-    "name": "Unassigned Fete Match #157",
+    "id": "island-156",
+    "name": "Paint By The Numbers: Christmas Ornaments Art Party - Saturday 12th December, 2026",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
-    "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "date": "2027-02-03",
+    "startTime": "12:00pm",
+    "location": "Harewood, Doorly Auditorium  The Parish Church of St. Paul's, Harris Promenade, San Fernando",
+    "region": "South",
+    "ticketUrl": "https://islandetickets.com/event/Paint-By-The-Numbers-Ornaments-12",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-158",
-    "name": "Unassigned Fete Match #158",
+    "id": "island-157",
+    "name": "The OBX",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "2:00pm",
+    "location": "DDI, Trinidad",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/theOBX",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-159",
-    "name": "Unassigned Fete Match #159",
+    "id": "island-158",
+    "name": "NOIR RAFT UP",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "2:00pm",
+    "location": "DDI, Trinidad",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/Betonblack",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-160",
-    "name": "Unassigned Fete Match #160",
+    "id": "island-159",
+    "name": "Members Only Yacht Ride Raft Up",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "3:00pm",
+    "location": "Scotland Bay, Trinidad",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/httpislandeticketscomcomeventmembers-onl",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-161",
-    "name": "Unassigned Fete Match #161",
+    "id": "island-160",
+    "name": "Small Conventional Band Semi-Finals: National Panorama 2027",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "4:00pm",
+    "location": "Grand Stand, Queen’s Park Savannah, Port of Spain",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/smallsemis2027",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-162",
-    "name": "Unassigned Fete Match #162",
+    "id": "island-161",
+    "name": "Paint  Parang & Proseco",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "5:30pm",
+    "location": "Tanty Eileen's Place...Mazanilla Road, Mayaro",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/Paint-Parang-Proseco",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-163",
-    "name": "Unassigned Fete Match #163",
+    "id": "island-162",
+    "name": "Off The Coast",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "6:00pm",
+    "location": "D Hideout Pool Resort | East Trinidad",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/OTC",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-164",
-    "name": "Unassigned Fete Match #164",
+    "id": "island-163",
+    "name": "THE FESTIVAL OF MUSIC",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
-    "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "date": "2027-02-03",
+    "startTime": "10:00pm",
+    "location": "#23 Peter Circular Arima",
+    "region": "East",
+    "ticketUrl": "https://islandetickets.com/event/THE-FESTIVAL-OF-MUSIC",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-165",
-    "name": "Unassigned Fete Match #165",
+    "id": "island-164",
+    "name": "Steam till yuh Cream",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "11:00pm",
+    "location": "Chaquacabana Chaguramas",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/Steam-till-yuh-cream",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-166",
-    "name": "Unassigned Fete Match #166",
+    "id": "island-165",
+    "name": "Jingle & Mingle:A Holiday Speed Friending Special",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
-    "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "date": "2027-02-03",
+    "startTime": "4:00pm",
+    "location": "Sideline Sips, Centre of Excellence, Macoya",
+    "region": "East",
+    "ticketUrl": "https://islandetickets.com/event/jinglemingle",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-167",
-    "name": "Unassigned Fete Match #167",
+    "id": "island-166",
+    "name": "Movie Fundraiser",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "5:30pm",
+    "location": "Movietowne - C3",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/SMovieFundraiser-C3",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-168",
-    "name": "Unassigned Fete Match #168",
+    "id": "island-167",
+    "name": "Black Cake & Sorrel III",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "7:00pm",
+    "location": "Trinidad All Stars Panyard Neville Jules Junction  46-48 Duke Street Port-of-Spain",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/blackcakesorrel3",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-169",
-    "name": "Unassigned Fete Match #169",
+    "id": "island-168",
+    "name": "X-Mas : Naughty or Nice",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "11:00pm",
+    "location": "Harbour Master",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/Xmas",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-170",
-    "name": "Unassigned Fete Match #170",
+    "id": "island-169",
+    "name": "Pork and Parang",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
-    "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "date": "2027-02-03",
+    "startTime": "6:00pm",
+    "location": "Sideline Sips, Macoya",
+    "region": "East",
+    "ticketUrl": "https://islandetickets.com/event/Pork-and-Parang",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-171",
-    "name": "Unassigned Fete Match #171",
+    "id": "island-170",
+    "name": "The Legend of Santa at SAPA Saturday 19  Dec",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "7:00pm",
+    "location": "SAPA",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/LegendofSantaSapaSat",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-172",
-    "name": "Unassigned Fete Match #172",
+    "id": "island-171",
+    "name": "Small Conventional Band FINALS - National Panorama 2027",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "7:00pm",
+    "location": "Grand Stand, Queen’s Park Savannah, Port of Spain",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/smallfinals2027",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-173",
-    "name": "Unassigned Fete Match #173",
+    "id": "island-172",
+    "name": "Headliner",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "7:00pm",
+    "location": "National Cycling Centre, Couva",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/headliner",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-174",
-    "name": "Unassigned Fete Match #174",
+    "id": "island-173",
+    "name": "Parang With Rome '26",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
-    "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "date": "2027-02-03",
+    "startTime": "8:00pm",
+    "location": "Cipriani College, Valsayn",
+    "region": "East",
+    "ticketUrl": "https://islandetickets.com/event/ParangWithRome2026",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-175",
-    "name": "Unassigned Fete Match #175",
+    "id": "island-174",
+    "name": "Pork and Parang in YMC",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "9:00pm",
+    "location": "Doc's Ranch",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/pork",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-176",
-    "name": "Unassigned Fete Match #176",
+    "id": "island-175",
+    "name": "Parang In De Hole",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "10:00pm",
+    "location": "Chatham Community Centre",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/httpsislandeticketscomevent281046",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-177",
-    "name": "Unassigned Fete Match #177",
+    "id": "island-176",
+    "name": "Arise",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "2:00am",
+    "location": "East Mucurapo Secondary School",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/NexUpArise",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-178",
-    "name": "Unassigned Fete Match #178",
+    "id": "island-177",
+    "name": "Beach Hopping Down 'D' Islands Tour",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "8:30am",
+    "location": "DDI, Trinidad",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/Beach-Hopping-DDI",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-179",
-    "name": "Unassigned Fete Match #179",
+    "id": "island-178",
+    "name": "The Legend of Santa at Sapa Sunday 20 Dec 2026",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "5:00pm",
+    "location": "SAPA",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/LegendofSantaSapaSun",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-180",
-    "name": "Unassigned Fete Match #180",
+    "id": "island-179",
+    "name": "BELIEVE: An Evening of Carols & Classics by Candlelight",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "6:00pm",
+    "location": "Church of Our Lady of the Assumption, Maraval",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/Believe2026",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-181",
-    "name": "Unassigned Fete Match #181",
+    "id": "island-181",
+    "name": "Monday Madness Parang 2026",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "6:30pm",
+    "location": "Sound Forge",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/mondaymadnessparang2026",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-182",
-    "name": "Unassigned Fete Match #182",
+    "id": "island-182",
+    "name": "VEYLA",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "3:00pm",
+    "location": "Harbour Master",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/VEYLA",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-183",
-    "name": "Unassigned Fete Match #183",
+    "id": "island-183",
+    "name": "Furi Durinku (The Free Drinks Affair)",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "9:00pm",
+    "location": "TBA",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-184",
-    "name": "Unassigned Fete Match #184",
+    "id": "island-184",
+    "name": "UGLY SWEATER ATL 2026 | Everyone FREE Before 12AM With RSVP!",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "10:00pm",
+    "location": "Lux Cafe",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/uglysweateratl",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-185",
-    "name": "Unassigned Fete Match #185",
-    "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "id": "island-185",
+    "name": "JAMMBOAT",
+    "type": "Boat Cruise",
+    "date": "2027-02-03",
+    "startTime": "11:00pm",
+    "location": "Harbour Master",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/Jammboat",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-186",
-    "name": "Unassigned Fete Match #186",
+    "id": "island-186",
+    "name": "Need For Speed ( No Limits  )",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "3:00pm",
+    "location": "Harbour Master",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/Nolimits",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-187",
-    "name": "Unassigned Fete Match #187",
+    "id": "island-187",
+    "name": "START IT V: MVP",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "4:00pm",
+    "location": "Skinner Park",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/STARTITMVP",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-188",
-    "name": "Unassigned Fete Match #188",
+    "id": "island-188",
+    "name": "Short Skirt Naughty or Nice",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "7:00pm",
+    "location": "Harbour Master",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/Short-skirt-naughty-or-nice",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-189",
-    "name": "Unassigned Fete Match #189",
+    "id": "island-189",
+    "name": "The RED CARPET EVENT (New Years Eve Gala)",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "9:00pm",
+    "location": "Cascadia Hotel Compound St. Anns",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/theredcarpetevent",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-190",
-    "name": "Unassigned Fete Match #190",
+    "id": "island-190",
+    "name": "Jamboree OYN Met Gala",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "9:00pm",
+    "location": "Hilton Trinidad, Poolside",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/MetGala2027",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-191",
-    "name": "Unassigned Fete Match #191",
+    "id": "island-191",
+    "name": "Jan2027",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
-    "region": "North",
-    "ticketUrl": "https://islandetickets.com",
-    "tags": [
-      "scraped"
-    ]
-  },
-  {
-    "id": "scraped-192",
-    "name": "Unassigned Fete Match #192",
-    "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
-    "region": "North",
-    "ticketUrl": "https://islandetickets.com",
-    "tags": [
-      "scraped"
-    ]
-  },
-  {
-    "id": "scraped-193",
-    "name": "Unassigned Fete Match #193",
-    "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
-    "region": "North",
-    "ticketUrl": "https://islandetickets.com",
-    "tags": [
-      "scraped"
-    ]
-  },
-  {
-    "id": "scraped-194",
-    "name": "Unassigned Fete Match #194",
-    "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
-    "region": "North",
+    "date": "2027-01-03",
+    "startTime": "7:00pm",
+    "location": "Grand & North Stands, Queen’s Park Savannah, Port of Spain",
+    "region": "South",
     "ticketUrl": "https://islandetickets.com/event/DayOne2027",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-195",
-    "name": "Unassigned Fete Match #195",
+    "id": "island-192",
+    "name": "DAY ONE",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
-    "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "date": "2027-02-03",
+    "startTime": "8:00am",
+    "location": "San Fernando, Trinidad",
+    "region": "South",
+    "ticketUrl": "https://islandetickets.com/event/DayOne2027",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-196",
-    "name": "Unassigned Fete Match #196",
+    "id": "island-193",
+    "name": "1ST JAM 2027",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "3:00pm",
+    "location": "Port-of-Spain",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/1ST-JAM-2027",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-197",
-    "name": "Unassigned Fete Match #197",
-    "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "id": "island-194",
+    "name": "TAILOR MADE 2027: New Year’s Day Black Tie Boat Ride | New Orleans",
+    "type": "Boat Cruise",
+    "date": "2027-02-03",
+    "startTime": "7:00pm",
+    "location": "Creole Queen",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/tailormadenola",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-198",
-    "name": "Unassigned Fete Match #198",
+    "id": "island-195",
+    "name": "DEBUT",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "1:00pm",
+    "location": "Port of Spain",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/Debut",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-199",
-    "name": "Unassigned Fete Match #199",
+    "id": "island-196",
+    "name": "TIDE",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "3:00pm",
+    "location": "Harbour Master",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/TIDEWILD",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-200",
-    "name": "Unassigned Fete Match #200",
-    "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "id": "island-197",
+    "name": "Bishop’s Food Inclusive Cooler Fete",
+    "type": "Cooler Fete",
+    "date": "2027-02-03",
+    "startTime": "5:00pm",
+    "location": "Chancery Lane, Port of Spain",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/httpswwwfacebookcomsharep1BhwsDPb6Kmibex",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-201",
-    "name": "Unassigned Fete Match #201",
+    "id": "island-198",
+    "name": "JOUVERT ON THE LAND - BLANC",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "2:00am",
+    "location": "IYKYK",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/JOTL-BLANC",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-202",
-    "name": "Unassigned Fete Match #202",
+    "id": "island-199",
+    "name": "So Sweet Brunch",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "6:00am",
+    "location": "NAPA Garden",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/sosweet27",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-203",
-    "name": "Unassigned Fete Match #203",
-    "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "id": "island-200",
+    "name": "French Toast Breakfast Experience",
+    "type": "Breakfast Fete",
+    "date": "2027-02-03",
+    "startTime": "6:00am",
+    "location": "Queens Hall, Port of Spain",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/Frenchtoast27",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-204",
-    "name": "Unassigned Fete Match #204",
-    "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "id": "island-201",
+    "name": "CIAO - Hello Carnival Bikini Breakfast Cooler Cruise",
+    "type": "Boat Cruise",
+    "date": "2027-02-03",
+    "startTime": "9:00am",
+    "location": "Harbour Master 191 Westen Main Road, Cocorite (After Peakes Gas Station)",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/ciao27",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-205",
-    "name": "Unassigned Fete Match #205",
+    "id": "island-202",
+    "name": "Hello Carnival : The Rooftop Experience",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "3:00pm",
+    "location": "Port of Spain",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/Hello-carnival-2027",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-206",
-    "name": "Unassigned Fete Match #206",
+    "id": "island-203",
+    "name": "FIORÈ - Garden of Desire",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "4:00pm",
+    "location": "Brentwood",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/FIORE2027",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-207",
-    "name": "Unassigned Fete Match #207",
+    "id": "island-204",
+    "name": "Soka in Moka - Enchanted",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "5:00pm",
+    "location": "Trinity College, Moka",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/sokainmoka27",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-208",
-    "name": "Unassigned Fete Match #208",
+    "id": "island-205",
+    "name": "St. Andrew’s Schooler Fete 5",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "8:00pm",
+    "location": "Sound Forge",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/schooler-5",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-209",
-    "name": "Unassigned Fete Match #209",
+    "id": "island-206",
+    "name": "Pour Decisions - Overboard",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "10:30pm",
+    "location": "Harbour Master",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/PourDecisionsOverboard",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-210",
-    "name": "Unassigned Fete Match #210",
+    "id": "island-207",
+    "name": "The First Pump",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "4:00am",
+    "location": "Coming Soon",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/Flare-First-Pump",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-211",
-    "name": "Unassigned Fete Match #211",
+    "id": "island-208",
+    "name": "Sunset Soirée",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "5:00pm",
+    "location": "POS",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/SunsetSoireeOrange",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-212",
-    "name": "Unassigned Fete Match #212",
+    "id": "island-209",
+    "name": "Phoenix the Festival 2027",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "6:00pm",
+    "location": "Holy Name Convent Secondary School",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/HNC-Cooler-Experience",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-213",
-    "name": "Unassigned Fete Match #213",
+    "id": "island-210",
+    "name": "Blue Sky-Blume 2027",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "6:00pm",
+    "location": "El Dorado East Secondary (Blue Thunder Grounds)",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/Blume2027",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-214",
-    "name": "Unassigned Fete Match #214",
+    "id": "island-211",
+    "name": "LinkUp N Fete (Tranquillity fete)",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "7:00pm",
+    "location": "Sound Forge",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/Linkupnfete",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-215",
-    "name": "Unassigned Fete Match #215",
+    "id": "island-212",
+    "name": "UNDERCOVER 2027",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "8:00pm",
+    "location": "Drew Manor, Santa Cruz",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/UNDERCOVER2027",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-216",
-    "name": "Unassigned Fete Match #216",
-    "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "id": "island-213",
+    "name": "BEAUCOUP BACCHANAL BREAKFAST ’27",
+    "type": "Breakfast Fete",
+    "date": "2027-02-03",
+    "startTime": "5:00am",
+    "location": "NAPA, Port of Spain",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/BBB27",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-217",
-    "name": "Unassigned Fete Match #217",
+    "id": "island-214",
+    "name": "Sunset The Golden Hour",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "3:00pm",
+    "location": "Valpark Xscape x venue night life",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/Sunset-the-golden-hour",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-218",
-    "name": "Unassigned Fete Match #218",
+    "id": "island-215",
+    "name": "Mical Teja | MAS The Festival",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "5:00pm",
+    "location": "Queen's Hall Gardens, Port Of Spain",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/micaltejamas2027",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-219",
-    "name": "Unassigned Fete Match #219",
-    "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "id": "island-216",
+    "name": "B-YACHT Carnival Cooler Cruise 2027",
+    "type": "Boat Cruise",
+    "date": "2027-02-03",
+    "startTime": "11:00pm",
+    "location": "Harbour Master",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/byatch2027",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-220",
-    "name": "Unassigned Fete Match #220",
+    "id": "island-217",
+    "name": "XPERIENCE AMAZONIA",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "3:00am",
+    "location": "Skinner Park San Fernando",
+    "region": "South",
+    "ticketUrl": "https://islandetickets.com/event/XperienceAmazonia2027",
+    "tags": [
+      "islandetickets"
+    ]
+  },
+  {
+    "id": "island-218",
+    "name": "Rum and Music | Cruizin Down D Islands 27",
+    "type": "Fete",
+    "date": "2027-02-03",
+    "startTime": "8:45am",
+    "location": "Trinidad and Tobago",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/ddi2027",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-221",
-    "name": "Unassigned Fete Match #221",
+    "id": "island-219",
+    "name": "FREE AT LAST 2027 | MLK WEEKEND BLACK & GOLD AFFAIR ✨ | ATLANTA",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "10:00pm",
+    "location": "Lux Cafe",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/freeatlast27",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-222",
-    "name": "Unassigned Fete Match #222",
+    "id": "island-220",
+    "name": "Hot Sun & Soca",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "9:00am",
+    "location": "Harbour Master",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/HOTSUNSOCA27",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-223",
-    "name": "Unassigned Fete Match #223",
+    "id": "island-221",
+    "name": "A CLASS ' NEON CARNIVAL",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "4:00pm",
+    "location": "CIPRIANI LABOR COLLEGE GROUNDS",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/ACLASSNEONCARNIVAL",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-224",
-    "name": "Unassigned Fete Match #224",
+    "id": "island-222",
+    "name": "PREStige Origins",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "5:00pm",
+    "location": "Presentation College San Fernando",
+    "region": "South",
+    "ticketUrl": "https://islandetickets.com/event/PREStige-Fete-Origins",
+    "tags": [
+      "islandetickets"
+    ]
+  },
+  {
+    "id": "island-223",
+    "name": "Carnival Pop Up - Night Market Edition",
+    "type": "Fete",
+    "date": "2027-02-03",
+    "startTime": "3:00pm",
+    "location": "Queen's Hall, Lobby",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/TheFashionArch",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-225",
-    "name": "Unassigned Fete Match #225",
+    "id": "island-224",
+    "name": "FETEYARD 2027",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "9:00pm",
+    "location": "TBD",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/FETEYARD2027",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-226",
-    "name": "Unassigned Fete Match #226",
-    "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "id": "island-225",
+    "name": "TRINI SOCA CRUISE",
+    "type": "Boat Cruise",
+    "date": "2027-02-03",
+    "startTime": "2:00pm",
+    "location": "Harbour Master, #191 Western Main Road, Cocorite",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/Trini-Soca-Cruise-2027",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-227",
-    "name": "Unassigned Fete Match #227",
-    "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "id": "island-226",
+    "name": "FETE GALA V ALL INCLUSIVE",
+    "type": "All-Inclusive",
+    "date": "2027-02-03",
+    "startTime": "6:00pm",
+    "location": "Queen's Park Oval",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/FETEGALAVALLINCLUSIVE",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-228",
-    "name": "Unassigned Fete Match #228",
+    "id": "island-227",
+    "name": "QRC Fete Royal 2027: Ascendance",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "6:30pm",
+    "location": "Queen's Royal College Grounds",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/QRCFeteAscendance",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-229",
-    "name": "Unassigned Fete Match #229",
-    "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "id": "island-228",
+    "name": "Good Vibes Crew: Carnival Cooler Fete",
+    "type": "Cooler Fete",
+    "date": "2027-02-03",
+    "startTime": "8:30pm",
+    "location": "Alver's Place Cacao Trace Paramin",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/Good-Vibes-Crew",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-230",
-    "name": "Unassigned Fete Match #230",
+    "id": "island-229",
+    "name": "Untamed Jouvert Carnival",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "2:00am",
+    "location": "TBA",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/UntamedJouvertCarnival",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-231",
-    "name": "Unassigned Fete Match #231",
+    "id": "island-230",
+    "name": "IATF \"The Declaration of Peace\" Jouvert Party",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "3:00am",
+    "location": "Garden Road Aranguez",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/TheDeclarationofPeaceJouvertParty",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-232",
-    "name": "Unassigned Fete Match #232",
-    "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "id": "island-231",
+    "name": "RAZE Breakfast Party",
+    "type": "Breakfast Fete",
+    "date": "2027-02-03",
+    "startTime": "6:00am",
+    "location": "Normandie under the Trees",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/RazeBreakfast",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-233",
-    "name": "Unassigned Fete Match #233",
+    "id": "island-232",
+    "name": "Savannah Party - Medium & Large Conventional Band Semi-Finals: National Panorama 2027",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "1:00pm",
+    "location": "Grand & North Stands, Queen’s Park Savannah, Port of Spain",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/savannahparty2027",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-234",
-    "name": "Unassigned Fete Match #234",
+    "id": "island-233",
+    "name": "EMBRACE CARNIVAL",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "8:00pm",
+    "location": "ROOF TOP POS",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/EMBRACECARNIVAL",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-235",
-    "name": "Unassigned Fete Match #235",
+    "id": "island-234",
+    "name": "Rep Yuh Band “Flag Party”",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "11:00am",
+    "location": "Sound Forge",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/Repyuhbandflagparty",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-236",
-    "name": "Unassigned Fete Match #236",
-    "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "id": "island-235",
+    "name": "Palmiste All Inclusive - Secrets of Marrakech",
+    "type": "All-Inclusive",
+    "date": "2027-02-03",
+    "startTime": "5:00pm",
+    "location": "Pinard Recreational Ground",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/PalmistePeopleSOM",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-237",
-    "name": "Unassigned Fete Match #237",
+    "id": "island-236",
+    "name": "Afterglow 2027",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "10:00pm",
+    "location": "TBA",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/afterglow2027",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-238",
-    "name": "Unassigned Fete Match #238",
-    "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "id": "island-237",
+    "name": "Jus FriendZs The Ultimate House Cooler Party 14th Edition",
+    "type": "Cooler Fete",
+    "date": "2027-02-03",
+    "startTime": "10:00pm",
+    "location": "Pine Ridge Heights Arouca",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/Jus-FriendZsHouseCoolerParty14",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-239",
-    "name": "Unassigned Fete Match #239",
+    "id": "island-238",
+    "name": "RISE - Nasty Jouvert",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "2:00am",
+    "location": "O2 PARK Westside Chaguaramas",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/RiseNasty",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-240",
-    "name": "Unassigned Fete Match #240",
+    "id": "island-239",
+    "name": "Addiction: The Premium All Inclusive Breakfast Party",
+    "type": "Breakfast Fete",
+    "date": "2027-02-03",
+    "startTime": "4:00am",
+    "location": "#1A D’Arceuil Lane Mausica Street Arima",
+    "region": "East",
+    "ticketUrl": "https://islandetickets.com/event/ADDICTIONPREMIUMALLINCLUSIVEBREAKFASTPAR",
+    "tags": [
+      "islandetickets"
+    ]
+  },
+  {
+    "id": "island-240",
+    "name": "Brunch Extravaganza",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "11:00am",
+    "location": "TBA",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/lgbtbrunch",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-241",
-    "name": "Unassigned Fete Match #241",
+    "id": "island-241",
+    "name": "LAVA ON WATER",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "2:00pm",
+    "location": "Habour Master",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/httpsislandeticketscomevent280878",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-242",
-    "name": "Unassigned Fete Match #242",
+    "id": "island-242",
+    "name": "VYBE - The Butterfly Effect",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "2:00pm",
+    "location": "5 Islands Courtyard",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/VybeButterfly",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-243",
-    "name": "Unassigned Fete Match #243",
+    "id": "island-243",
+    "name": "People With Class '27 - The New Eden",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "2:00pm",
+    "location": "Green Meadows Santa Cruz",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/pwctheneweden",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-244",
-    "name": "Unassigned Fete Match #244",
+    "id": "island-244",
+    "name": "Carnival RaftUp",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "3:00pm",
+    "location": "DDI",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/Carnivalraftup2027",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-245",
-    "name": "Unassigned Fete Match #245",
+    "id": "island-245",
+    "name": "Wet & Wild - Space Jam",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "3:00pm",
+    "location": "South Ranch Debe",
+    "region": "South",
+    "ticketUrl": "https://islandetickets.com/event/wetnwild2027",
+    "tags": [
+      "islandetickets"
+    ]
+  },
+  {
+    "id": "island-246",
+    "name": "Blossom “V” Paris || Luxury Inclusive",
+    "type": "All-Inclusive",
+    "date": "2027-02-03",
+    "startTime": "4:00pm",
+    "location": "Mille Fleurs, Maraval Rd, St. Clair POS",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/Blossom-V-Paris",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-246",
-    "name": "Unassigned Fete Match #246",
+    "id": "island-247",
+    "name": "Blossom || Nella Love Luxury Lounge",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "4:00pm",
+    "location": "Mille Fleurs, Maraval Rd, St. Clair POS",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/Blossom-Nella-love",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-247",
-    "name": "Unassigned Fete Match #247",
-    "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "id": "island-248",
+    "name": "Lavish All Inclusive 2027",
+    "type": "All-Inclusive",
+    "date": "2027-02-03",
+    "startTime": "5:30pm",
+    "location": "Hilton Trinidad & Conference Centre",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/Lavish2027",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-248",
-    "name": "Unassigned Fete Match #248",
-    "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "id": "island-249",
+    "name": "FOUNDATION FETE ANNUAL COOLER PARTY",
+    "type": "Cooler Fete",
+    "date": "2027-02-03",
+    "startTime": "6:00pm",
+    "location": "LA JOYA ST. JOSEPH",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/FOUNDATIONFETE2027",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-249",
-    "name": "Unassigned Fete Match #249",
+    "id": "island-250",
+    "name": "EDAY",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "6:00pm",
+    "location": "Port Of Spain",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/EDAY2027",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-250",
-    "name": "Unassigned Fete Match #250",
+    "id": "island-251",
+    "name": "Medium Conventional Band FINALS - National Panorama 2027",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "7:00pm",
+    "location": "Grand & North Stands, Queen’s Park Savannah, Port of Spain",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/mediumfinals2027",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-251",
-    "name": "Unassigned Fete Match #251",
+    "id": "island-252",
+    "name": "Feb2027",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
-    "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "date": "2027-02-03",
+    "startTime": "12:00pm",
+    "location": "TBA",
+    "region": "South",
+    "ticketUrl": "https://islandetickets.com/event/httpsislandeticketscomevent279921",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-252",
-    "name": "Unassigned Fete Match #252",
+    "id": "island-253",
+    "name": "MOKSHA",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
-    "region": "North",
-    "ticketUrl": "https://islandetickets.com",
-    "tags": [
-      "scraped"
-    ]
-  },
-  {
-    "id": "scraped-253",
-    "name": "Unassigned Fete Match #253",
-    "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
-    "region": "North",
-    "ticketUrl": "https://islandetickets.com",
-    "tags": [
-      "scraped"
-    ]
-  },
-  {
-    "id": "scraped-254",
-    "name": "Unassigned Fete Match #254",
-    "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
-    "region": "North",
-    "ticketUrl": "https://islandetickets.com",
-    "tags": [
-      "scraped"
-    ]
-  },
-  {
-    "id": "scraped-255",
-    "name": "Unassigned Fete Match #255",
-    "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
-    "region": "North",
-    "ticketUrl": "https://islandetickets.com",
-    "tags": [
-      "scraped"
-    ]
-  },
-  {
-    "id": "scraped-256",
-    "name": "Unassigned Fete Match #256",
-    "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "9:00pm",
+    "location": "Centre of Excellence",
     "region": "North",
     "ticketUrl": "https://islandetickets.com/event/httpsislandeticketscomevent279921",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-257",
-    "name": "Unassigned Fete Match #257",
+    "id": "island-254",
+    "name": "Pree Dawn 2027",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "3:00am",
+    "location": "Harbour Master",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/PreeDawn2027",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-258",
-    "name": "Unassigned Fete Match #258",
-    "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "id": "island-255",
+    "name": "K-Paya Cooler Cruise",
+    "type": "Boat Cruise",
+    "date": "2027-02-03",
+    "startTime": "4:00pm",
+    "location": "Harbour Master",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/Kpayacooler",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-259",
-    "name": "Unassigned Fete Match #259",
+    "id": "island-256",
+    "name": "SHHH TRINIDAD",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "5:00pm",
+    "location": "MILLE FLEURS",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/SHHH-TRINIDAD27",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-260",
-    "name": "Unassigned Fete Match #260",
-    "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "id": "island-257",
+    "name": "HOUSE OF VALEVIBE COOLER-2027",
+    "type": "Cooler Fete",
+    "date": "2027-02-03",
+    "startTime": "5:00pm",
+    "location": "DREW MANOR, SANTA CRUZ, TRINIDAD",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/HOUSE-OF-VALEVIBE-COOLER-2027",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-261",
-    "name": "Unassigned Fete Match #261",
-    "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "id": "island-258",
+    "name": "Tequila Sunrise",
+    "type": "Breakfast Fete",
+    "date": "2027-02-03",
+    "startTime": "4:00am",
+    "location": "Harbour Master",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/TequilaSunrise2027",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-262",
-    "name": "Unassigned Fete Match #262",
-    "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "id": "island-259",
+    "name": "ASSUME CARNIVAL COOLER CRUISE 'RUM EDITION'",
+    "type": "Boat Cruise",
+    "date": "2027-02-03",
+    "startTime": "9:00am",
+    "location": "OCEAN PELICAN",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/AssumeCarnivalCoolerCruiseRUMEDITION",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-263",
-    "name": "Unassigned Fete Match #263",
+    "id": "island-260",
+    "name": "RUNAWAY",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "10:00am",
+    "location": "Harbour Master",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/RunawayCarnivalEdition",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-264",
-    "name": "Unassigned Fete Match #264",
-    "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "id": "island-261",
+    "name": "Citrus Trinidad Carnival 2027 | PREMIUM ALL INCLUSIVE TROPICAL EXPERIENCE",
+    "type": "All-Inclusive",
+    "date": "2027-02-03",
+    "startTime": "2:00pm",
+    "location": "Green Meadows, Santa Barbara Boulevard, Santa Cruz, Trinidad & Tobago",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/citrus-tt-27",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-265",
-    "name": "Unassigned Fete Match #265",
+    "id": "island-262",
+    "name": "WE LIMING WEDNESDAY",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "2:00pm",
+    "location": "OCEAN PELICAN",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/WelimingWednesday",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-266",
-    "name": "Unassigned Fete Match #266",
-    "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "id": "island-263",
+    "name": "NECTAR 2027- All Inclusive",
+    "type": "All-Inclusive",
+    "date": "2027-02-03",
+    "startTime": "5:00pm",
+    "location": "Trinidad",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/nectar2027",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-267",
-    "name": "Unassigned Fete Match #267",
+    "id": "island-264",
+    "name": "J'lime Trinidad Carnival 2027",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "6:30pm",
+    "location": "Mille Fleurs 23 Maraval Rd",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/jlimett27",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-268",
-    "name": "Unassigned Fete Match #268",
+    "id": "island-265",
+    "name": "DJ JEL - Jus'so Fete 2027 - The Night Market",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "8:00pm",
+    "location": "SoundForge Woodbrook, POS Trinidad",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/dj-jel-jusso-fete-2027",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-269",
-    "name": "Unassigned Fete Match #269",
+    "id": "island-266",
+    "name": "Good People Cooler Boatride 2",
+    "type": "Boat Cruise",
+    "date": "2027-02-03",
+    "startTime": "8:00pm",
+    "location": "Kings Wharf, San Fernando",
+    "region": "South",
+    "ticketUrl": "https://islandetickets.com/event/GoodPeopleBoatride2",
+    "tags": [
+      "islandetickets"
+    ]
+  },
+  {
+    "id": "island-267",
+    "name": "CROSS ROADS 2027",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "9:00pm",
+    "location": "Port of Spain",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/crossroads2027",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-270",
-    "name": "Unassigned Fete Match #270",
+    "id": "island-268",
+    "name": "A.M.BEACH CLUB '27",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "6:00am",
+    "location": "Trinidad",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/ambeachclub27",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-271",
-    "name": "Unassigned Fete Match #271",
-    "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "id": "island-269",
+    "name": "BOOZY BOAT III",
+    "type": "Boat Cruise",
+    "date": "2027-02-03",
+    "startTime": "7:00am",
+    "location": "Harbour Master",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/BOOZYBOATIII",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-272",
-    "name": "Unassigned Fete Match #272",
+    "id": "island-270",
+    "name": "AWOL TT 2027",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "9:00am",
+    "location": "Harts Cut Chaguramas Trinidad",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/AWOLTT2027",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-273",
-    "name": "Unassigned Fete Match #273",
-    "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "id": "island-271",
+    "name": "04022027 Private Carnival Cruise",
+    "type": "Boat Cruise",
+    "date": "2027-02-03",
+    "startTime": "2:30pm",
+    "location": "Pick up Point: Crews Inn Marina",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/0402202-Private-Carnival-Cruise",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-274",
-    "name": "Unassigned Fete Match #274",
+    "id": "island-272",
+    "name": "Pure White 2027",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "4:00pm",
+    "location": "Harbour Master",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/PureWhite2027",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-275",
-    "name": "Unassigned Fete Match #275",
+    "id": "island-273",
+    "name": "B.O.Y.C.O.T.T. 2027",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "5:00pm",
+    "location": "West Moorings, Diego Martin",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/BOYCOTT2027",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-276",
-    "name": "Unassigned Fete Match #276",
+    "id": "island-274",
+    "name": "FOF Carnival “A Cold World”",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "5:00pm",
+    "location": "Hotel Normandie",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/fofcoldworld",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-277",
-    "name": "Unassigned Fete Match #277",
-    "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "id": "island-275",
+    "name": "SOCA LOVEBOAT 2027  WONDERLAND OF THE SEA",
+    "type": "Boat Cruise",
+    "date": "2027-02-03",
+    "startTime": "6:00pm",
+    "location": "The Anchorage",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/socaloveboat2027",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-278",
-    "name": "Unassigned Fete Match #278",
+    "id": "island-276",
+    "name": "Caribbean and Foreigners Fete 2027",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "8:00pm",
+    "location": "The Lobby, Paria Suites Hotel",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/Caribbean-and-Foreigners-Fete-2027",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-279",
-    "name": "Unassigned Fete Match #279",
+    "id": "island-277",
+    "name": "TRIBE Ignite - Olympia 2027",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "9:00pm",
+    "location": "POS",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/TRIBE-Ignite-Olympia",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-280",
-    "name": "Unassigned Fete Match #280",
-    "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "id": "island-278",
+    "name": "Freebird Fete 2027: The Breakfast Club",
+    "type": "Breakfast Fete",
+    "date": "2027-02-03",
+    "startTime": "6:00am",
+    "location": "National Cricket Centre Couva",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/Freebirdfete27",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-281",
-    "name": "Unassigned Fete Match #281",
-    "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "id": "island-279",
+    "name": "Rum and Music - Cruizin | Cooler Cruise 27 | Trinidad Carnival",
+    "type": "Boat Cruise",
+    "date": "2027-02-03",
+    "startTime": "2:00pm",
+    "location": "Harbour Master",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/cruizincooler27",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-282",
-    "name": "Unassigned Fete Match #282",
+    "id": "island-280",
+    "name": "Frolic..Rhythm of our people",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "6:00pm",
+    "location": "Fete Yard, Queen's Hall, St. Anns, Port of Spain",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/froliccarnivalfete27",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-283",
-    "name": "Unassigned Fete Match #283",
+    "id": "island-281",
+    "name": "Hard Fete - Fete Harder!",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "8:00pm",
+    "location": "Port of Spain",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/Hard-Fete-Fete-Harder",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-284",
-    "name": "Unassigned Fete Match #284",
-    "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "id": "island-282",
+    "name": "Blue Range Cooler Fete 2027",
+    "type": "Cooler Fete",
+    "date": "2027-02-03",
+    "startTime": "9:00pm",
+    "location": "Blue Range Tennis Court",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/BRC-2027",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-285",
-    "name": "Unassigned Fete Match #285",
+    "id": "island-283",
+    "name": "SOCA On The Seas",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "10:00pm",
+    "location": "Trinidad",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/Soca-Cruise280380",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-286",
-    "name": "Unassigned Fete Match #286",
-    "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "id": "island-284",
+    "name": "STRUT TRINIDAD CARNIVAL COOLER CRUISE 2027",
+    "type": "Boat Cruise",
+    "date": "2027-02-03",
+    "startTime": "7:00am",
+    "location": "Trinidad",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/STRUT-TRINIDAD-CARNIVAL-COOLER-CRUISE-27",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-287",
-    "name": "Unassigned Fete Match #287",
+    "id": "island-285",
+    "name": "SKIN2SKIN TT",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "10:00am",
+    "location": "Anchorage",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/SKIN2SKINTT",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-288",
-    "name": "Unassigned Fete Match #288",
+    "id": "island-286",
+    "name": "Soca Brainwash Music Festival 'A Pirate’s Tale'",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "12:00pm",
+    "location": "St Mary's Grounds",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/SocaBrainwash",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-289",
-    "name": "Unassigned Fete Match #289",
+    "id": "island-287",
+    "name": "PINKnicTT presents 'JAIPUR' The Pink City",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "3:00pm",
+    "location": "Trinidad",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/pinknic2027",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-290",
-    "name": "Unassigned Fete Match #290",
+    "id": "island-288",
+    "name": "WESTMOORINGS FETE BY D SEA 2027",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "4:00pm",
+    "location": "WESTMOORINGS",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/FETE-BY-D-SEA-2027",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-291",
-    "name": "Unassigned Fete Match #291",
+    "id": "island-289",
+    "name": "Shades of Blue 3",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "5:00pm",
+    "location": "Tanty .Elieen's Place..Mazanilla Road, Mayaro",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/ShadesofBlue3",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-292",
-    "name": "Unassigned Fete Match #292",
+    "id": "island-290",
+    "name": "Large Conventional Band FINALS - National Panorama 2027",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "7:00pm",
+    "location": "Grand & North Stands, Queen’s Park Savannah, Port of Spain",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/largefinals2027",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-293",
-    "name": "Unassigned Fete Match #293",
+    "id": "island-291",
+    "name": "MIAMI BEACH BLUE",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "2:00am",
+    "location": "02 Park Chaguaramas",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/MiamiBeachBlue",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-294",
-    "name": "Unassigned Fete Match #294",
+    "id": "island-292",
+    "name": "Island Rise 2026",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "5:00am",
+    "location": "Mendez Drive, Diego Martin",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/Island-Rise-2026",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-295",
-    "name": "Unassigned Fete Match #295",
-    "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "id": "island-293",
+    "name": "D'Original Vale Breakfast Party 2027",
+    "type": "Breakfast Fete",
+    "date": "2027-02-03",
+    "startTime": "5:00am",
+    "location": "Drew Manor, Santa Cruz",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/valevibebreakfast2027",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-296",
-    "name": "Unassigned Fete Match #296",
-    "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "id": "island-294",
+    "name": "NAKED BREAKFAST CRUISE TT",
+    "type": "Boat Cruise",
+    "date": "2027-02-03",
+    "startTime": "6:00am",
+    "location": "191 WESTERN MAIN ROAD, PORT OF SPAIN, TRINIDAD",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/nbctt3",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-297",
-    "name": "Unassigned Fete Match #297",
+    "id": "island-295",
+    "name": "SHADES NOSTALGIA 2027",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "6:00am",
+    "location": "NAPA, POS",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/Shades2027",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-298",
-    "name": "Unassigned Fete Match #298",
+    "id": "island-296",
+    "name": "TROPIC - Hot Sun + Rum",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "12:00pm",
+    "location": "Harbour Master",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/TROPICHotSunRum",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-299",
-    "name": "Unassigned Fete Match #299",
+    "id": "island-297",
+    "name": "Botanica - Garden Glamishness",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "3:00pm",
+    "location": "POS",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/botanica27",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-300",
-    "name": "Unassigned Fete Match #300",
-    "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "id": "island-298",
+    "name": "M.C. Boat Experience T&T 2027",
+    "type": "Boat Cruise",
+    "date": "2027-02-03",
+    "startTime": "3:00pm",
+    "location": "Chaquacabana Beach Resort, Chaguaramas, Trinidad",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/mcboat2027",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-301",
-    "name": "Unassigned Fete Match #301",
-    "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "id": "island-299",
+    "name": "Soca Refuel Cooler Party",
+    "type": "Cooler Fete",
+    "date": "2027-02-03",
+    "startTime": "3:00pm",
+    "location": "Normandie under the Trees",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/socarefuelcoolerparty2027",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-302",
-    "name": "Unassigned Fete Match #302",
+    "id": "island-300",
+    "name": "JABB - TRINIDAD JOUVERT 2027",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "2:00am",
+    "location": "TRINIDAD",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/JABB-TRINIDAD-2027",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-303",
-    "name": "Unassigned Fete Match #303",
+    "id": "island-301",
+    "name": "Rebelź Jouvert",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "3:00am",
+    "location": "Port of spain",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/Reblez",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-304",
-    "name": "Unassigned Fete Match #304",
+    "id": "island-302",
+    "name": "Enter the Wild- ROD Kingdom J’ouvert 2027 (in collaboration with Dirty Medics Carnival)",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "3:00am",
+    "location": "Nelson Mandela Park",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/RODKingdom",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-305",
-    "name": "Unassigned Fete Match #305",
+    "id": "island-303",
+    "name": "JabJouverTT | THE RISING",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "3:00am",
+    "location": "Port of Spain",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/JabJouverTT2027",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-306",
-    "name": "Unassigned Fete Match #306",
+    "id": "island-304",
+    "name": "NVus J'ouvert | Wicked Jab",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "3:00am",
+    "location": "Port-of-Spain",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/NVus",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-307",
-    "name": "Unassigned Fete Match #307",
+    "id": "island-305",
+    "name": "Rebelź J'ouvert",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "3:00am",
+    "location": "Port of Spain, Trinidad",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/RebelJouvert2027",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-308",
-    "name": "Unassigned Fete Match #308",
+    "id": "island-306",
+    "name": "LIME J'ouvert 2027 - RELEASE",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "3:00am",
+    "location": "Port of Spain",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/lime-jouvert-2027",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-309",
-    "name": "Unassigned Fete Match #309",
+    "id": "island-307",
+    "name": "Trinidad Carnival 2027 w/Treasures Mas",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "8:43am",
+    "location": "Port of Spain",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/Infinitymas_Band",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-310",
-    "name": "Unassigned Fete Match #310",
+    "id": "island-308",
+    "name": "Blow Mano Blow Carnival 2027 - To Birdie With Love",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "12:00pm",
+    "location": "Trinidad and Tobago",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/BlowManoBlowToBirdieWithLove2027",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-311",
-    "name": "Unassigned Fete Match #311",
+    "id": "island-309",
+    "name": "CURVEZ TRINIDAD DDI",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "9:00am",
+    "location": "Harts Cut, Chagaramus",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/CURVEZTRINIDAD",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-312",
-    "name": "Unassigned Fete Match #312",
+    "id": "island-310",
+    "name": "Pink Pineapple",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "2:00pm",
+    "location": "DDI Trinidad",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/Pinkpinett",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-313",
-    "name": "Unassigned Fete Match #313",
+    "id": "island-311",
+    "name": "Champions On Deck",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "6:00pm",
+    "location": "Port Of Spain, Trinidad & Tobago",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/championsondecktt",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-314",
-    "name": "Unassigned Fete Match #314",
+    "id": "island-312",
+    "name": "Carnival Lagniappe - 2027 Champs",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "7:00pm",
+    "location": "Grand Stand, Queen’s Park Savannah, Port of Spain",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/2027champs",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-315",
-    "name": "Unassigned Fete Match #315",
+    "id": "island-313",
+    "name": "Galentine’s & Glow",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "10:30am",
+    "location": "Emerald Plaza St. Augustine",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/galentinesandglow",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-316",
-    "name": "Unassigned Fete Match #316",
-    "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "id": "island-314",
+    "name": "Anxiety The Boat Ride (The Post-Carnival Cool Event)",
+    "type": "Boat Cruise",
+    "date": "2027-02-03",
+    "startTime": "12:00pm",
+    "location": "TBA",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/residualstheboatride",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-317",
-    "name": "Unassigned Fete Match #317",
+    "id": "island-315",
+    "name": "Mar2027",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
-    "region": "North",
-    "ticketUrl": "https://islandetickets.com",
-    "tags": [
-      "scraped"
-    ]
-  },
-  {
-    "id": "scraped-318",
-    "name": "Unassigned Fete Match #318",
-    "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
-    "region": "North",
-    "ticketUrl": "https://islandetickets.com",
-    "tags": [
-      "scraped"
-    ]
-  },
-  {
-    "id": "scraped-319",
-    "name": "Unassigned Fete Match #319",
-    "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
-    "region": "North",
-    "ticketUrl": "https://islandetickets.com",
-    "tags": [
-      "scraped"
-    ]
-  },
-  {
-    "id": "scraped-320",
-    "name": "Unassigned Fete Match #320",
-    "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "2:00pm",
+    "location": "Clifton Hill Beach Resort",
     "region": "North",
     "ticketUrl": "https://islandetickets.com/event/panamartb",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-321",
-    "name": "Unassigned Fete Match #321",
-    "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "id": "island-316",
+    "name": "Rock The Boat Panama 2027 | All White Boat Ride",
+    "type": "Boat Cruise",
+    "date": "2027-02-03",
+    "startTime": "6:00pm",
+    "location": "Majestic - Balboa Yacht Club, Panama City, Panama",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/panamartb",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-322",
-    "name": "Unassigned Fete Match #322",
+    "id": "island-317",
+    "name": "CARIBBEAN FOOD IS LOVE FESTIVAL",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "2:00pm",
+    "location": "Clifton Hill Beach Resort",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/FIL2016",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-323",
-    "name": "Unassigned Fete Match #323",
+    "id": "island-318",
+    "name": "Apr2027",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
-    "region": "North",
-    "ticketUrl": "https://islandetickets.com",
-    "tags": [
-      "scraped"
-    ]
-  },
-  {
-    "id": "scraped-324",
-    "name": "Unassigned Fete Match #324",
-    "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "4:00pm",
+    "location": "St. Augustine",
     "region": "North",
     "ticketUrl": "https://islandetickets.com/event/Duttybunny2027",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-325",
-    "name": "Unassigned Fete Match #325",
+    "id": "island-319",
+    "name": "Dutty Bunny",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "4:00pm",
+    "location": "St. Augustine",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/Duttybunny2027",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-326",
-    "name": "Unassigned Fete Match #326",
+    "id": "island-320",
+    "name": "May2027",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
-    "region": "North",
-    "ticketUrl": "https://islandetickets.com",
-    "tags": [
-      "scraped"
-    ]
-  },
-  {
-    "id": "scraped-327",
-    "name": "Unassigned Fete Match #327",
-    "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "11:00pm",
+    "location": "TBA",
     "region": "North",
     "ticketUrl": "https://islandetickets.com/event/louisvillertb",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-328",
-    "name": "Unassigned Fete Match #328",
-    "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "id": "island-321",
+    "name": "Rock The Boat Louisville: All White Boat Ride 2027",
+    "type": "Boat Cruise",
+    "date": "2027-02-03",
+    "startTime": "1:00pm",
+    "location": "The Mary M. Miller Riverboat -131 W. River Road,  Louisville, KY 40202",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/louisvillertb",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-329",
-    "name": "Unassigned Fete Match #329",
-    "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "id": "island-322",
+    "name": "Rock The Boat New Orleans: Memorial Day Weekend All White Boat Party",
+    "type": "Boat Cruise",
+    "date": "2027-02-03",
+    "startTime": "7:00pm",
+    "location": "Creole Queen",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/nolamdw",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-330",
-    "name": "Unassigned Fete Match #330",
-    "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "id": "island-323",
+    "name": "ROCK THE BOAT Pittsburgh All-White Memorial Day Weekend 2027 Party Cruise",
+    "type": "Boat Cruise",
+    "date": "2027-02-03",
+    "startTime": "10:00pm",
+    "location": "Empress",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/rtbpittsburgh2027",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-331",
-    "name": "Unassigned Fete Match #331",
+    "id": "island-324",
+    "name": "PATH OF THE WARRIOR 3 GOD VALLEY",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "9:00am",
+    "location": "The Arboretum, Chaguaramas",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/POTW3GodValley",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-332",
-    "name": "Unassigned Fete Match #332",
+    "id": "island-325",
+    "name": "Release - Charlie and the Water Factory",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "11:00pm",
+    "location": "TBA",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/Release2027",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-333",
-    "name": "Unassigned Fete Match #333",
+    "id": "island-326",
+    "name": "Jun2027",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
-    "region": "North",
-    "ticketUrl": "https://islandetickets.com",
-    "tags": [
-      "scraped"
-    ]
-  },
-  {
-    "id": "scraped-334",
-    "name": "Unassigned Fete Match #334",
-    "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "9:00pm",
+    "location": "Mt. Zion Resort-Whim Tobago",
     "region": "North",
     "ticketUrl": "https://islandetickets.com/event/ON-2027",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-335",
-    "name": "Unassigned Fete Match #335",
+    "id": "island-327",
+    "name": "ON 2027: Water + FOAM + 2000 LADIES",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "12:01am",
+    "location": "ST JOHN'S AMBULANCE HALL - NEXT DOOR TO HASLEY CRAWFORD STADIUM",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/ON-2027",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-336",
-    "name": "Unassigned Fete Match #336",
+    "id": "island-328",
+    "name": "Wicked In White",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "9:00pm",
+    "location": "Mt. Zion Resort-Whim Tobago",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/WICKEDINWHITE",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-337",
-    "name": "Unassigned Fete Match #337",
+    "id": "island-329",
+    "name": "Jul2027",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
-    "region": "North",
-    "ticketUrl": "https://islandetickets.com",
-    "tags": [
-      "scraped"
-    ]
-  },
-  {
-    "id": "scraped-338",
-    "name": "Unassigned Fete Match #338",
-    "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "7:00pm",
+    "location": "Creole Queen",
     "region": "North",
     "ticketUrl": "https://islandetickets.com/event/nolaessence2027",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-339",
-    "name": "Unassigned Fete Match #339",
-    "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "id": "island-330",
+    "name": "ROCK THE BOAT ANNUAL ALL WHITE BOAT RIDE PARTY 4TH OF JULY WEEKEND 2027",
+    "type": "Boat Cruise",
+    "date": "2027-02-03",
+    "startTime": "7:00pm",
+    "location": "Creole Queen",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/nolaessence2027",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-340",
-    "name": "Unassigned Fete Match #340",
+    "id": "island-331",
+    "name": "Aug2027",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
-    "region": "North",
-    "ticketUrl": "https://islandetickets.com",
-    "tags": [
-      "scraped"
-    ]
-  },
-  {
-    "id": "scraped-341",
-    "name": "Unassigned Fete Match #341",
-    "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "10:00pm",
+    "location": "St James",
     "region": "North",
     "ticketUrl": "https://islandetickets.com/event/reddressrun",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-342",
-    "name": "Unassigned Fete Match #342",
+    "id": "island-332",
+    "name": "Red Dress Run (Trinidad Edition)",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "10:00pm",
+    "location": "St James",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/reddressrun",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-343",
-    "name": "Unassigned Fete Match #343",
+    "id": "island-333",
+    "name": "Oct2027",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
-    "region": "North",
-    "ticketUrl": "https://islandetickets.com",
-    "tags": [
-      "scraped"
-    ]
-  },
-  {
-    "id": "scraped-344",
-    "name": "Unassigned Fete Match #344",
-    "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "10:00pm",
+    "location": "T.B.A",
     "region": "North",
     "ticketUrl": "https://islandetickets.com/event/thebornexlipse3",
     "tags": [
-      "scraped"
+      "islandetickets"
     ]
   },
   {
-    "id": "scraped-345",
-    "name": "Unassigned Fete Match #345",
+    "id": "island-334",
+    "name": "Eclipse 3 - The Reborn",
     "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
+    "date": "2027-02-03",
+    "startTime": "10:00pm",
+    "location": "T.B.A",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com",
+    "ticketUrl": "https://islandetickets.com/event/thebornexlipse3",
     "tags": [
-      "scraped"
-    ]
-  },
-  {
-    "id": "scraped-346",
-    "name": "Unassigned Fete Match #346",
-    "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
-    "region": "North",
-    "ticketUrl": "https://islandetickets.com",
-    "tags": [
-      "scraped"
-    ]
-  },
-  {
-    "id": "scraped-347",
-    "name": "Unassigned Fete Match #347",
-    "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
-    "region": "North",
-    "ticketUrl": "https://islandetickets.com",
-    "tags": [
-      "scraped"
-    ]
-  },
-  {
-    "id": "scraped-348",
-    "name": "Unassigned Fete Match #348",
-    "type": "Fete",
-    "date": "2027-02-01",
-    "startTime": "22:00",
-    "location": "Trinidad Venue TBA",
-    "region": "North",
-    "ticketUrl": "https://islandetickets.com",
-    "tags": [
-      "scraped"
+      "islandetickets"
     ]
   }
 ]
