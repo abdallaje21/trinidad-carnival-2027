@@ -943,24 +943,8 @@
     "startTime": "9:00am - 2:00pm",
     "location": "Harts Cut, Chagaramus",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com/event/CURVEZTRINIDAD",
-    "tags": [
-      "islandetickets"
-    ]
-  },
-  {
-    "  {
-    "id": "island-72",
-    "name": "CURVEZ TRINIDAD DDI",
-    "type": "Fete",
-    "date": "2027-02-10",
-    "startTime": "9:00am - 2:00pm",
-    "location": "Harts Cut, Chagaramus",
-    "region": "North",
-    "ticketUrl": "https://islandetickets.com/event/CURVEZTRINIDAD",
-    "tags": [
-      "islandetickets"
-    ]
+    "ticketUrl": "https://islandetickets.com",
+    "tags": ["islandetickets"]
   },
   {
     "id": "island-73",
@@ -970,10 +954,8 @@
     "startTime": "2:00pm - 7:00pm",
     "location": "DDI Trinidad",
     "region": "North",
-    "ticketUrl": "https://islandetickets.com/event/Pinkpinett",
-    "tags": [
-      "islandetickets"
-    ]
+    "ticketUrl": "https://islandetickets.com",
+    "tags": ["islandetickets"]
   },
   {
     "id": "manual-xperience-amazonia",
@@ -983,10 +965,8 @@
     "startTime": "3:00 am - 10:00 am",
     "location": "Skinner Park, San Fernando",
     "region": "South",
-    "ticketUrl": "https://islandetickets.com/event/XperienceAmazonia2027",
-    "tags": [
-      "manual-entry"
-    ]
+    "ticketUrl": "https://islandetickets.com",
+    "tags": ["manual-entry"]
   },
   {
     "id": "manual-prestige-origins",
@@ -996,9 +976,7 @@
     "startTime": "5:00 pm - 11:00 pm",
     "location": "Presentation College, San Fernando",
     "region": "South",
-    "ticketUrl": "https://islandetickets.com/event/PREStige-Fete-Origins",
-    "tags": [
-      "manual-entry"
-    ]
+    "ticketUrl": "https://islandetickets.com",
+    "tags": ["manual-entry"]
   }
 ]
