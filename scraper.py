@@ -1,149 +1,178 @@
 import asyncio
 import json
 import re
+from datetime import date
 from bs4 import BeautifulSoup
 from playwright.async_api import async_playwright
 
-async def scrape_caribbean_events():
-    print("🚀 Initializing live web browser pipeline...")
-    target_url = "https://islandetickets.com" 
+# ─── Strict date window ──────────────────────────────────────
+DATE_FROM = date(2027, 1, 1)
+DATE_TO   = date(2027, 2, 28)
+
+TARGET_URL   = "https://islandetickets.com"
+OUTPUT_FILE  = "src/data/events.json"
+
+# Fixed: Only scan for the months that actually matter for your window
+CARNIVAL_MONTHS = {
+    "JAN": 1, "JANUARY": 1,
+    "FEB": 2, "FEBRUARY": 2,
+}
+
+EVENT_TYPE_KEYWORDS = {
+    "Boat Cruise":     ["CRUISE", "BOAT"],
+    "Cooler Fete":     ["COOLER"],
+    "Breakfast Fete":  ["BREAKFAST"],
+    "All-Inclusive":   ["INCLUSIVE", "ALL INCLUSIVE"],
+}
+
+REGION_KEYWORDS = {
+    "South": ["SOUTH", "FERNANDO", "SAN JUAN", "SIPARIA"],
+    "East":  ["VALSAYN", "ARIMA", "MACOYA", "TUNAPUNA"],
+    "West":  ["WEST", "DIEGO MARTIN", "CARENAGE"],
+}
+
+
+def classify_event_type(name: str) -> str:
+    upper = name.upper()
+    for label, keywords in EVENT_TYPE_KEYWORDS.items():
+        if any(k in upper for k in keywords):
+            return label
+    return "Fete"
+
+
+def classify_region(text: str) -> str:
+    upper = text.upper()
+    for region, keywords in REGION_KEYWORDS.items():
+        if any(k in upper for k in keywords):
+            return region
+    return "North"
+
+
+def parse_date_from_context(search_text: str) -> date | None:
+    upper = search_text.upper()
+
+    for month_str, month_num in CARNIVAL_MONTHS.items():
+        pattern = rf'\b{month_str}\w*\s+(\d{{1,2}})\b|\b(\d{{1,2}})\w*\s+{month_str}\w*\b'
+        match = re.search(pattern, upper)
+        if not match:
+            continue
+
+        day_str = match.group(1) or match.group(2)
+        if not day_str:
+            continue
+
+        day = int(day_str)
+        if not (1 <= day <= 31):
+            continue
+
+        # Target year is strictly 2027 for this window
+        year = 2027
+
+        try:
+            candidate = date(year, month_num, day)
+        except ValueError:
+            continue
+
+        if DATE_FROM <= candidate <= DATE_TO:
+            return candidate
+
+    return None
+
+
+async def scrape():
+    print(f"Launching browser → {TARGET_URL}")
 
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless=True)
-        page = await browser.new_page()
-        print(f"📡 Navigating tracking matrix onto: {target_url}")
-        await page.goto(target_url, timeout=60000, wait_until="networkidle")
-        html_content = await page.content()
+        page    = await browser.new_page()
+        await page.goto(TARGET_URL, timeout=60000, wait_until="networkidle")
+        html = await page.content()
         await browser.close()
-        
-    print("🧹 Download complete. Processing page flow sequentially...")
-    soup = BeautifulSoup(html_content, "html.parser")
-    staged_events = []
-    
-    # Locate all event title nodes across the layout stream
-    event_titles = soup.find_all("h5")
-    
-    months_map = {
-        "JAN": "01", "JANUARY": "01",
-        "FEB": "02", "FEBRUARY": "02",
-        "NOV": "11", "NOVEMBER": "11",
-        "DEC": "12", "DECEMBER": "12"
-    }
 
-    for index, title_node in enumerate(event_titles):
+    print("Page loaded. Parsing...")
+    soup   = BeautifulSoup(html, "html.parser")
+    events = []
+    seen   = set()
+
+    for title_node in soup.find_all("h5"):
         try:
             name = title_node.get_text(strip=True)
-            # Skip promotional banners or section titles
-            if not name or "THESE EVENTS" in name.upper() or name.upper() in months_map.keys():
+            if not name or len(name) < 3:
                 continue
-                
+            if name in seen:
+                continue
+
             parent_card = title_node.find_parent("div")
             if not parent_card:
                 continue
-                
-            card_text = parent_card.get_text("\n", strip=True)
-            lines = [line.strip() for line in card_text.split("\n") if line.strip()]
-            
-            location = "Trinidad Venue TBA"
-            start_time = "22:00"
-            for line in lines:
-                if line.startswith("@"):
-                    location = line.replace("@", "").strip()
-                elif any(x in line.lower() for x in ["am", "pm"]):
-                    start_time = line.strip()
 
-            # --- ROBUST UPWARD MONTH-TRACKING SCANNER ---
-            # Search parent elements to isolate sticky header markers
-            current_year = "2026"
-            current_month_num = "11"
-            
-            # Look at immediate container ancestors first
-            ancestor = title_node.find_parent(class_=re.compile(r'(card|holder|event|item|col)', re.I)) or parent_card
-            context_text = ancestor.get_text(" ", strip=True).upper() if ancestor else ""
-            
-            # Backup text search through previous siblings to find floating section tags
-            prev_sib = parent_card.find_previous()
-            sibling_text = prev_sib.get_text(" ", strip=True).upper() if prev_sib else ""
-            
-            full_search_text = context_text + " " + sibling_text
-            
-            # Update date tracker context matching
-            if "JAN" in full_search_text or "JANUARY" in full_search_text:
-                current_month_num = "01"
-                current_year = "2027"
-            elif "FEB" in full_search_text or "FEBRUARY" in full_search_text:
-                current_month_num = "02"
-                current_year = "2027"
-            elif "DEC" in full_search_text or "DECEMBER" in full_search_text:
-                current_month_num = "12"
-                current_year = "2026"
-            else:
-                current_month_num = "11"
-                current_year = "2026"
+            # Target lines to look for explicit location labels or details
+            card_text = parent_card.get_text(" ", strip=True)
+            raw_lines = parent_card.get_text("\n", strip=True).split("\n")
 
-            # Parse numeric day digit tokens sitting adjacent to card elements
-            day_num = "01"
-            prev_elements = parent_card.find_previous_siblings()
-            for elem in prev_elements:
-                elem_text = elem.get_text(strip=True)
-                # Strip out trailing th, nd, st tags from strings (e.g. '5th' -> '5')
-                clean_digits = re.sub(r'\D', '', elem_text)
-                if clean_digits and 1 <= int(clean_digits) <= 31:
-                    day_num = clean_digits.zfill(2)
-                    break
+            prev_sib      = parent_card.find_previous()
+            sibling_text  = prev_sib.get_text(" ", strip=True) if prev_sib else ""
+            full_context  = f"{sibling_text} {card_text}"
 
-            date_iso = f"{current_year}-{current_month_num}-{day_num}"
+            # ── Date detection (strict) ───────────────────────
+            event_date = parse_date_from_context(full_context)
+            if event_date is None:
+                ancestor = (
+                    title_node.find_parent(class_=re.compile(r'card|holder|event|item|col', re.I))
+                    or parent_card
+                )
+                ancestor_text = ancestor.get_text(" ", strip=True) if ancestor else ""
+                event_date = parse_date_from_context(ancestor_text)
 
-            # --- CRITICAL STRICT CARNIVAL WINDOW FILTER ---
-            # Drop any event that does not fall into January 2027 or February 2027
-            if not (date_iso.startswith("2027-01") or date_iso.startswith("2027-02")):
+            if event_date is None:
                 continue
 
-            link_node = parent_card.find_parent("a") or parent_card.find("a")
-            ticket_url = link_node['href'] if link_node and link_node.has_attr('href') else target_url
-            if ticket_url.startswith("/"):
-                ticket_url = f"https://islandetickets.com{ticket_url}"
+            # ── Location & Time Processing ────────────────────
+            location = "Trinidad Venue TBA"
+            start_time = "22:00"
+            for line in [l.strip() for l in raw_lines if l.strip()]:
+                if line.startswith("@"):
+                    location = line.lstrip("@").strip()
+                elif re.search(r'\d{1,2}:\d{2}\s*(am|pm)', line, re.I):
+                    start_time = line.strip()
+                elif re.search(r'\d{1,2}\s*(am|pm)', line, re.I):
+                    start_time = line.strip()
 
-            event_type = "Fete"
-            if "CRUISE" in name.upper() or "BOAT" in name.upper():
-                event_type = "Boat Cruise"
-            elif "COOLER" in name.upper():
-                event_type = "Cooler Fete"
-            elif "BREAKFAST" in name.upper():
-                event_type = "Breakfast Fete"
-            elif "INCLUSIVE" in name.upper():
-                event_type = "All-Inclusive"
+            # ── Ticket URL ────────────────────────────────────
+            link = parent_card.find_parent("a") or parent_card.find("a")
+            if link and link.has_attr("href"):
+                ticket_url = link["href"]
+                if ticket_url.startswith("/"):
+                    ticket_url = f"https://islandetickets.com{ticket_url}"
+            else:
+                ticket_url = TARGET_URL
 
-            region = "North"
-            if "SOUTH" in card_text.upper() or "FERNANDO" in card_text.upper():
-                region = "South"
-            elif any(e in card_text.upper() for e in ["VALSAYN", "ARIMA", "MACOYA"]):
-                region = "East"
-
-            staged_events.append({
-                "id": f"island-{len(staged_events)}",
-                "name": name,
-                "type": event_type,
-                "date": date_iso,
+            seen.add(name)
+            events.append({
+                "id":        f"island-{len(events)}",
+                "name":      name,
+                "type":      classify_event_type(name),
+                "date":      event_date.isoformat(),
                 "startTime": start_time,
-                "location": location,
-                "region": region,
+                "location":  location,
+                "region":    classify_region(card_text),
                 "ticketUrl": ticket_url,
-                "tags": ["islandetickets"]
+                "tags":      ["islandetickets"],
             })
-        except Exception as e:
+
+        except Exception:
             continue
 
-    # Deduplicate entries by name cleanly
-    unique_events = {e["name"]: e for e in staged_events}.values()
+    # Sort chronologically
+    events.sort(key=lambda e: e["date"])
 
-    # Sync directly with production database file path targets
-    output_filename = "src/data/events.json"
-    with open(output_filename, "w", encoding="utf-8") as f:
-        json.dump(list(unique_events), f, indent=2, ensure_ascii=False)
-        
-    print(f"✅ Success! Isolated [{len(unique_events)}] pristine Carnival 2027 elements.")
-    print(f"📂 Synced clean data layout file: {output_filename}")
+    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+        json.dump(events, f, indent=2, ensure_ascii=False)
+
+    print(f"✅ Done — {len(events)} event(s) written to {OUTPUT_FILE}")
+    if events:
+        print(f"  Date range: {events[0]['date']} → {events[-1]['date']}")
+
 
 if __name__ == "__main__":
-    asyncio.run(scrape_caribbean_events())
+    asyncio.run(scrape())
