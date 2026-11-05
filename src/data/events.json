@@ -1,0 +1,24 @@
+[
+  {
+    "id": "2027-tribe-ice",
+    "name": "TRIBE ICE 2027",
+    "type": "Cooler Fete",
+    "date": "2027-01-02",
+    "startTime": "22:00",
+    "location": "St. Elizabeth Estate",
+    "region": "North",
+    "ticketUrl": "https://frontlineticketing.com",
+    "tags": ["night", "cooler"]
+  },
+  {
+    "id": "2027-soaka-sunrise",
+    "name": "Soaka Till Sunrise",
+    "type": "Breakfast Fete",
+    "date": "2027-01-31",
+    "startTime": "04:00",
+    "location": "O2 Park, Chaguaramas",
+    "region": "North",
+    "ticketUrl": "https://islandetickets.com",
+    "tags": ["morning", "wet"]
+  }
+]

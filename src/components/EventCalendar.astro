@@ -1,0 +1,63 @@
+---
+// src/components/EventCalendar.astro
+const { events } = Astro.props;
+
+// Group events by their date string (e.g. "2027-01-02")
+const eventsByDate = events.reduce((acc, event) => {
+  if (!acc[event.date]) acc[event.date] = [];
+  acc[event.date].push(event);
+  return acc;
+}, {});
+
+// Generate a static array of dates to render for the peak Carnival window (Jan 31 - Feb 10, 2027)
+// You can expand this array later as your event coverage grows
+const calendarDays = [
+  { dateStr: '2027-01-31', label: 'Jan 31', isPeak: true },
+  { dateStr: '2027-02-01', label: 'Feb 1', isPeak: true },
+  { dateStr: '2027-02-02', label: 'Feb 2', isPeak: true },
+  { dateStr: '2027-02-03', label: 'Feb 3', isPeak: true },
+  { dateStr: '2027-02-04', label: 'Feb 4', isPeak: true },
+  { dateStr: '2027-02-05', label: 'Feb 5', isPeak: true },
+  { dateStr: '2027-02-06', label: 'Feb 6', isPeak: true },
+  { dateStr: '2027-02-07', label: 'Feb 7', isPeak: true },
+  { dateStr: '2027-02-08', label: 'Feb 8', isPeak: true },
+  { dateStr: '2027-02-09', label: 'Feb 9', isPeak: true },
+  { dateStr: '2027-02-10', label: 'Feb 10', isPeak: true },
+];
+---
+
+<div class="bg-white rounded-xl border border-gray-100 shadow-sm p-4 overflow-x-auto">
+  <div class="min-w-[800px]">
+    <!-- Calendar Days Header -->
+    <div class="grid grid-cols-7 gap-2 bg-purple-600 text-white text-center font-bold text-xs py-2.5 rounded-t-xl tracking-wider uppercase">
+      <div>Sun</div><div>Mon</div><div>Tue</div><div>Wed</div><div>Thu</div><div>Fri</div><div>Sat</div>
+    </div>
+
+    <!-- Calendar Matrix Grid -->
+    <div class="grid grid-cols-7 gap-2 bg-gray-50 p-2 rounded-b-xl border-b border-x border-gray-100 min-h-[450px]">
+      <!-- Empty placeholders to align Jan 31 to Sunday correctly -->
+      
+      
+      {calendarDays.map((day) => (
+        <div class="bg-white p-3 rounded-lg border border-gray-100 flex flex-col min-h-[140px] shadow-2xs hover:border-purple-200 transition-colors">
+          <span class="text-xs font-bold text-gray-400 mb-2 block">{day.label}</span>
+          
+          <div class="space-y-1.5 overflow-y-auto flex-grow custom-scrollbar">
+            {eventsByDate[day.dateStr]?.map((event) => (
+              <a 
+                href={event.ticketUrl} 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                class="block text-[11px] leading-tight font-semibold p-1.5 bg-purple-50 text-purple-700 rounded border border-purple-100 hover:bg-purple-100 hover:text-purple-900 transition-all truncate"
+                title={`${event.name} @ ${event.startTime}`}
+              >
+                <span class="text-[9px] opacity-70 block font-normal">{event.startTime}</span>
+                {event.name}
+              </a>
+            ))}
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</div>

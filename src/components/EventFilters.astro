@@ -1,0 +1,75 @@
+---
+const { events } = Astro.props;
+const eventTypes = [...new Set(events.map(e => e.type))].sort();
+const regions = [...new Set(events.map(e => e.region))].sort();
+---
+<div class="space-y-6">
+  <div class="bg-white p-4 rounded-xl border border-gray-100 shadow-sm grid grid-cols-1 md:grid-cols-3 gap-4">
+    <div>
+      <label class="block text-xs font-semibold text-gray-500 uppercase tracking-wider mb-1">Search Fetes</label>
+      <input type="text" id="search-input" placeholder="Type fete name, venue..." class="w-full px-3 py-2 border border-gray-200 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-purple-500"/>
+    </div>
+    <div>
+      <label class="block text-xs font-semibold text-gray-500 uppercase tracking-wider mb-1">Event Type</label>
+      <select id="type-filter" class="w-full px-3 py-2 border border-gray-200 rounded-lg text-sm bg-white">
+        <option value="">All Event Styles</option>
+        {eventTypes.map(type => <option value={type}>{type}</option>)}
+      </select>
+    </div>
+    <div>
+      <label class="block text-xs font-semibold text-gray-500 uppercase tracking-wider mb-1">Region</label>
+      <select id="region-filter" class="w-full px-3 py-2 border border-gray-200 rounded-lg text-sm bg-white">
+        <option value="">All Regions</option>
+        {regions.map(reg => <option value={reg}>{reg}</option>)}
+      </select>
+    </div>
+  </div>
+  <div id="events-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+    <slot />
+  </div>
+  <div id="empty-state" class="hidden text-center py-12 text-gray-500 bg-white border border-dashed border-gray-200 rounded-xl">
+    <p class="text-lg font-medium">No Carnival events match your filters.</p>
+  </div>
+</div>
+
+<script define:vars={{ events }}>
+  const searchInput = document.getElementById('search-input');
+  const typeFilter = document.getElementById('type-filter');
+  const regionFilter = document.getElementById('region-filter');
+  const grid = document.getElementById('events-grid');
+  const emptyState = document.getElementById('empty-state');
+  const cards = Array.from(grid.children);
+
+  function filterList() {
+    const searchVal = searchInput.value.toLowerCase();
+    const typeVal = typeFilter.value;
+    const regionVal = regionFilter.value;
+    let visibleCount = 0;
+
+    events.forEach((event, index) => {
+      const cardDom = cards[index];
+      const matchesSearch = event.name.toLowerCase().includes(searchVal) || event.location.toLowerCase().includes(searchVal);
+      const matchesType = !typeVal || event.type === typeVal;
+      const matchesRegion = !regionVal || event.region === regionVal;
+
+      if (matchesSearch && matchesType && matchesRegion) {
+        cardDom.style.display = '';
+        visibleCount++;
+      } else {
+        cardDom.style.display = 'none';
+      }
+    });
+
+    if (visibleCount === 0) {
+      grid.style.display = 'none';
+      emptyState.classList.remove('hidden');
+    } else {
+      grid.style.display = '';
+      emptyState.classList.add('hidden');
+    }
+  }
+
+  searchInput.addEventListener('input', filterList);
+  typeFilter.addEventListener('change', filterList);
+  regionFilter.addEventListener('change', filterList);
+</script>

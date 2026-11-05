@@ -1,0 +1,76 @@
+---
+// src/pages/index.astro
+import BaseLayout from '../layouts/BaseLayout.astro';
+import EventCard from '../components/EventCard.astro';
+import EventFilters from '../components/EventFilters.astro';
+import EventCalendar from '../components/EventCalendar.astro';
+import eventData from '../data/events.json';
+
+const sortedEvents = eventData.sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime());
+---
+
+<BaseLayout title="Trinidad Carnival 2027 Event Directory">
+  <header class="bg-white border-b border-gray-100 py-6 shadow-xs">
+    <div class="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+      <div>
+        <h1 class="text-3xl font-extrabold text-gray-900 tracking-tight">Trinidad Carnival 2027</h1>
+        <p class="text-gray-500 mt-1">The simple, one-stop directory for every fete and event.</p>
+      </div>
+      
+      <!-- High Performance Toggle Layout Switcher -->
+      <div class="inline-flex rounded-lg border border-gray-200 bg-gray-50 p-1 self-start sm:self-center">
+        <button id="toggle-directory" class="px-4 py-1.5 text-xs font-semibold rounded-md bg-white text-gray-900 shadow-xs transition-all">
+          Directory View
+        </button>
+        <button id="toggle-calendar" class="px-4 py-1.5 text-xs font-semibold rounded-md text-gray-500 hover:text-gray-900 transition-all">
+          Calendar View
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="flex-grow max-w-7xl mx-auto px-4 w-full py-8">
+    <!-- View 1: Card List View with Filtering -->
+    <div id="directory-view-pane">
+      <EventFilters events={sortedEvents}>
+        {sortedEvents.map((event) => (
+          <EventCard event={event} />
+        ))}
+      </EventFilters>
+    </div>
+
+    <!-- View 2: Grouped Matrix Grid Grid View -->
+    <div id="calendar-view-pane" class="hidden">
+      <EventCalendar events={sortedEvents} />
+    </div>
+  </main>
+
+  <script>
+    const btnDir = document.getElementById('toggle-directory');
+    const btnCal = document.getElementById('toggle-calendar');
+    const paneDir = document.getElementById('directory-view-pane');
+    const paneCal = document.getElementById('calendar-view-pane');
+
+    btnDir.addEventListener('click', () => {
+      // Toggle display wrappers
+      paneDir.classList.remove('hidden');
+      paneCal.classList.add('hidden');
+      // Update toggle button states
+      btnDir.classList.add('bg-white', 'text-gray-900', 'shadow-xs');
+      btnDir.classList.remove('text-gray-500');
+      btnCal.classList.remove('bg-white', 'text-gray-900', 'shadow-xs');
+      btnCal.classList.add('text-gray-500');
+    });
+
+    btnCal.addEventListener('click', () => {
+      // Toggle display wrappers
+      paneCal.classList.remove('hidden');
+      paneDir.classList.add('hidden');
+      // Update toggle button states
+      btnCal.classList.add('bg-white', 'text-gray-900', 'shadow-xs');
+      btnCal.classList.remove('text-gray-500');
+      btnDir.classList.remove('bg-white', 'text-gray-900', 'shadow-xs');
+      btnDir.classList.add('text-gray-500');
+    });
+  </script>
+</BaseLayout>
