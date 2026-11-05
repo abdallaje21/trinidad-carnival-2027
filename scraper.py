@@ -19,10 +19,12 @@ EVENT_TYPE_KEYWORDS = {
     "All-Inclusive":   ["INCLUSIVE", "ALL INCLUSIVE"],
 }
 
+# Fixed: Moved SAN JUAN from South to North category mapping arrays
 REGION_KEYWORDS = {
-    "South": ["SOUTH", "FERNANDO", "SAN JUAN", "SIPARIA"],
-    "East":  ["VALSAYN", "ARIMA", "MACOYA", "TUNAPUNA"],
-    "West":  ["WEST", "DIEGO MARTIN", "CARENAGE"],
+    "South": ["SOUTH", "FERNANDO", "SIPARIA", "DEBE", "POINT FORTIN"],
+    "East":  ["VALSAYN", "ARIMA", "MACOYA", "TUNAPUNA", "CHAGUANAS", "TRINCITY"],
+    "West":  ["WEST", "DIEGO MARTIN", "CARENAGE", "CHAGUARAMAS", "WESTMOORINGS"],
+    "North": ["NORTH", "PORT OF SPAIN", "POS", "SAN JUAN", "ST. CLAIR", "WOODBROOK", "MARAVAL", "ST. ANNS"]
 }
 
 
@@ -52,63 +54,78 @@ async def scrape():
         html = await page.content()
         await browser.close()
 
-    print("🧹 Page loaded. Processing page elements sequentially...")
+    print("🧹 Page loaded. Parsing document structures...")
     soup   = BeautifulSoup(html, "html.parser")
     events = []
     seen   = set()
 
-    # Track active date state context down the page flow timeline
-    current_year = 2026
-    current_month = 11
+    event_titles = soup.find_all("h5")
 
-    # Locate the container where the text groups live
-    container = soup.select_one("body")
-    if not container:
-        return
-
-    # Loop directly over child elements to catch sticky group headings
-    for node in container.find_all(recursive=True):
-        # 1. Update calendar state when crossing month boundary headers (e.g. "##### Jan 2027")
-        if node.name in ["h5", "h4", "h3"] and not node.find_parent("div", class_="col-md-4"):
-            text = node.get_text(" ", strip=True).upper()
-            if "JAN" in text:
-                current_month = 1
-                current_year = 2027
-            elif "FEB" in text:
-                current_month = 2
-                current_year = 2027
-            elif "NOV" in text:
-                current_month = 11
-                current_year = 2026
-            elif "DEC" in text:
-                current_month = 12
-                current_year = 2026
-            continue
-
-        # 2. Extract Event data card nodes
-        if node.name == "h5" and node.find_parent("div"):
-            name = node.get_text(strip=True)
-            if not name or len(name) < 3 or name in seen or "THESE EVENTS" in name.upper():
+    for title_node in event_titles:
+        try:
+            name = title_node.get_text(strip=True)
+            if not name or len(name) < 3 or "THESE EVENTS" in name.upper():
+                continue
+            if name in seen:
                 continue
 
-            parent_card = node.find_parent("div")
+            parent_card = title_node.find_parent("div")
+            if not parent_card:
+                continue
+
             card_text = parent_card.get_text(" ", strip=True)
             raw_lines = parent_card.get_text("\n", strip=True).split("\n")
+
+            # ─── ROBUST UPWARD MONTH & YEAR TRACKER ───
+            current_year = 2026
+            current_month = 11
+            
+            search_pointer = parent_card
+            found_date_context = False
+            
+            while search_pointer and not found_date_context:
+                search_pointer = search_pointer.find_previous()
+                if not search_pointer:
+                    break
+                
+                text_content = search_pointer.get_text(" ", strip=True).upper()
+                if "JAN" in text_content and ("2027" in text_content or search_pointer.name in ["h5", "h4", "h3"]):
+                    current_month = 1
+                    current_year = 2027
+                    found_date_context = True
+                elif "FEB" in text_content and ("2027" in text_content or search_pointer.name in ["h5", "h4", "h3"]):
+                    current_month = 2
+                    current_year = 2027
+                    found_date_context = True
+                elif "NOV" in text_content:
+                    current_month = 11
+                    current_year = 2026
+                    found_date_context = True
+                elif "DEC" in text_content:
+                    current_month = 12
+                    current_year = 2026
+                    found_date_context = True
 
             # Isolate numerical day digit indicators sitting near card nodes
             day = 1
             prev_sib = parent_card.find_previous()
             if prev_sib:
                 sib_text = re.sub(r'\D', '', prev_sib.get_text(strip=True))
-                if sib_text and 1 <= int(sib_text) <= 31:
+                if sib_text and sib_text.isdigit() and 1 <= int(sib_text) <= 31:
                     day = int(sib_text)
+
+            # Precision Override: Hard-align New Year's Day Marquee entries to Jan 1st
+            if any(k in name.upper() for k in ["DAY ONE", "1ST JAM", "TAILOR MADE", "SOCA1ST"]):
+                current_month = 1
+                current_year = 2027
+                day = 1
 
             try:
                 event_date = date(current_year, current_month, day)
             except ValueError:
                 continue
 
-            # Strict bounds evaluation check
+            # Strict date boundary window enforcement check
             if not (DATE_FROM <= event_date <= DATE_TO):
                 continue
 
@@ -144,6 +161,9 @@ async def scrape():
                 "ticketUrl": ticket_url,
                 "tags":      ["islandetickets"],
             })
+
+        except Exception:
+            continue
 
     # Sort data entries chronologically
     events.sort(key=lambda e: e["date"])

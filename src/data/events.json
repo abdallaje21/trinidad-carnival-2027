@@ -1,1 +1,964 @@
-[]
+[
+  {
+    "id": "island-0",
+    "name": "Nov2026",
+    "type": "Fete",
+    "date": "2027-01-01",
+    "startTime": "5:00pm - 8:30pm",
+    "location": "Churchill Roosevelt Hwy, Valsayn",
+    "region": "South",
+    "ticketUrl": "https://islandetickets.com/event/TT051126",
+    "tags": [
+      "islandetickets"
+    ]
+  },
+  {
+    "id": "island-1",
+    "name": "DAY ONE",
+    "type": "Fete",
+    "date": "2027-01-01",
+    "startTime": "8:00am - 2:00pm",
+    "location": "San Fernando, Trinidad",
+    "region": "South",
+    "ticketUrl": "https://islandetickets.com/event/DayOne2027",
+    "tags": [
+      "islandetickets"
+    ]
+  },
+  {
+    "id": "island-2",
+    "name": "1ST JAM 2027",
+    "type": "Fete",
+    "date": "2027-01-01",
+    "startTime": "3:00pm - 11:00pm",
+    "location": "Port-of-Spain",
+    "region": "North",
+    "ticketUrl": "https://islandetickets.com/event/1ST-JAM-2027",
+    "tags": [
+      "islandetickets"
+    ]
+  },
+  {
+    "id": "island-3",
+    "name": "Soca1st",
+    "type": "Fete",
+    "date": "2027-01-01",
+    "startTime": "3:00pm - 8:00pm",
+    "location": "Harbour Master",
+    "region": "North",
+    "ticketUrl": "https://islandetickets.com/event/SocaFirst2027",
+    "tags": [
+      "islandetickets"
+    ]
+  },
+  {
+    "id": "island-4",
+    "name": "TAILOR MADE 2027: New Year’s Day Black Tie Boat Ride | New Orleans",
+    "type": "Boat Cruise",
+    "date": "2027-01-01",
+    "startTime": "7:00pm - 10:00pm",
+    "location": "Creole Queen",
+    "region": "North",
+    "ticketUrl": "https://islandetickets.com/event/tailormadenola",
+    "tags": [
+      "islandetickets"
+    ]
+  },
+  {
+    "id": "island-5",
+    "name": "DEBUT",
+    "type": "Fete",
+    "date": "2027-01-02",
+    "startTime": "1:00pm - 7:00pm",
+    "location": "Port of Spain",
+    "region": "North",
+    "ticketUrl": "https://islandetickets.com/event/Debut",
+    "tags": [
+      "islandetickets"
+    ]
+  },
+  {
+    "id": "island-6",
+    "name": "TIDE",
+    "type": "Fete",
+    "date": "2027-01-02",
+    "startTime": "3:00pm - 7:00pm",
+    "location": "Harbour Master",
+    "region": "North",
+    "ticketUrl": "https://islandetickets.com/event/TIDEWILD",
+    "tags": [
+      "islandetickets"
+    ]
+  },
+  {
+    "id": "island-7",
+    "name": "Bishop’s Food Inclusive Cooler Fete",
+    "type": "Cooler Fete",
+    "date": "2027-01-02",
+    "startTime": "5:00pm - 12:00am",
+    "location": "Chancery Lane, Port of Spain",
+    "region": "North",
+    "ticketUrl": "https://islandetickets.com/event/httpswwwfacebookcomsharep1BhwsDPb6Kmibex",
+    "tags": [
+      "islandetickets"
+    ]
+  },
+  {
+    "id": "island-8",
+    "name": "JOUVERT ON THE LAND - BLANC",
+    "type": "Fete",
+    "date": "2027-01-03",
+    "startTime": "2:00am - 8:00am",
+    "location": "IYKYK",
+    "region": "North",
+    "ticketUrl": "https://islandetickets.com/event/JOTL-BLANC",
+    "tags": [
+      "islandetickets"
+    ]
+  },
+  {
+    "id": "island-9",
+    "name": "So Sweet Brunch",
+    "type": "Fete",
+    "date": "2027-01-03",
+    "startTime": "6:00am - 1:00pm",
+    "location": "NAPA Garden",
+    "region": "North",
+    "ticketUrl": "https://islandetickets.com/event/sosweet27",
+    "tags": [
+      "islandetickets"
+    ]
+  },
+  {
+    "id": "island-10",
+    "name": "French Toast Breakfast Experience",
+    "type": "Breakfast Fete",
+    "date": "2027-01-03",
+    "startTime": "6:00am - 12:00pm",
+    "location": "Queens Hall, Port of Spain",
+    "region": "North",
+    "ticketUrl": "https://islandetickets.com/event/Frenchtoast27",
+    "tags": [
+      "islandetickets"
+    ]
+  },
+  {
+    "id": "island-11",
+    "name": "CIAO - Hello Carnival Bikini Breakfast Cooler Cruise",
+    "type": "Boat Cruise",
+    "date": "2027-01-03",
+    "startTime": "9:00am - 1:00pm",
+    "location": "Harbour Master 191 Westen Main Road, Cocorite (After Peakes Gas Station)",
+    "region": "West",
+    "ticketUrl": "https://islandetickets.com/event/ciao27",
+    "tags": [
+      "islandetickets"
+    ]
+  },
+  {
+    "id": "island-12",
+    "name": "Hello Carnival : The Rooftop Experience",
+    "type": "Fete",
+    "date": "2027-01-03",
+    "startTime": "3:00pm - 8:00pm",
+    "location": "Port of Spain",
+    "region": "North",
+    "ticketUrl": "https://islandetickets.com/event/Hello-carnival-2027",
+    "tags": [
+      "islandetickets"
+    ]
+  },
+  {
+    "id": "island-13",
+    "name": "FIORÈ - Garden of Desire",
+    "type": "Fete",
+    "date": "2027-01-03",
+    "startTime": "4:00pm - 10:00pm",
+    "location": "Brentwood",
+    "region": "North",
+    "ticketUrl": "https://islandetickets.com/event/FIORE2027",
+    "tags": [
+      "islandetickets"
+    ]
+  },
+  {
+    "id": "island-14",
+    "name": "Soka in Moka - Enchanted",
+    "type": "Fete",
+    "date": "2027-01-03",
+    "startTime": "5:00pm - 11:00pm",
+    "location": "Trinity College, Moka",
+    "region": "North",
+    "ticketUrl": "https://islandetickets.com/event/sokainmoka27",
+    "tags": [
+      "islandetickets"
+    ]
+  },
+  {
+    "id": "island-15",
+    "name": "St. Andrew’s Schooler Fete 5",
+    "type": "Fete",
+    "date": "2027-01-08",
+    "startTime": "8:00pm - 1:00am",
+    "location": "Sound Forge",
+    "region": "North",
+    "ticketUrl": "https://islandetickets.com/event/schooler-5",
+    "tags": [
+      "islandetickets"
+    ]
+  },
+  {
+    "id": "island-16",
+    "name": "MOKSHA",
+    "type": "Fete",
+    "date": "2027-02-01",
+    "startTime": "9:00pm - 2:00am",
+    "location": "Centre of Excellence",
+    "region": "North",
+    "ticketUrl": "https://islandetickets.com/event/httpsislandeticketscomevent279921",
+    "tags": [
+      "islandetickets"
+    ]
+  },
+  {
+    "id": "island-17",
+    "name": "Pree Dawn 2027",
+    "type": "Fete",
+    "date": "2027-02-02",
+    "startTime": "3:00am - 8:00am",
+    "location": "Harbour Master",
+    "region": "North",
+    "ticketUrl": "https://islandetickets.com/event/PreeDawn2027",
+    "tags": [
+      "islandetickets"
+    ]
+  },
+  {
+    "id": "island-18",
+    "name": "K-Paya Cooler Cruise",
+    "type": "Boat Cruise",
+    "date": "2027-02-02",
+    "startTime": "4:00pm - 8:00pm",
+    "location": "Harbour Master",
+    "region": "North",
+    "ticketUrl": "https://islandetickets.com/event/Kpayacooler",
+    "tags": [
+      "islandetickets"
+    ]
+  },
+  {
+    "id": "island-19",
+    "name": "SHHH TRINIDAD",
+    "type": "Fete",
+    "date": "2027-02-02",
+    "startTime": "5:00pm - 1:00am",
+    "location": "MILLE FLEURS",
+    "region": "North",
+    "ticketUrl": "https://islandetickets.com/event/SHHH-TRINIDAD27",
+    "tags": [
+      "islandetickets"
+    ]
+  },
+  {
+    "id": "island-20",
+    "name": "HOUSE OF VALEVIBE COOLER-2027",
+    "type": "Cooler Fete",
+    "date": "2027-02-02",
+    "startTime": "5:00pm - 1:00am",
+    "location": "DREW MANOR, SANTA CRUZ, TRINIDAD",
+    "region": "North",
+    "ticketUrl": "https://islandetickets.com/event/HOUSE-OF-VALEVIBE-COOLER-2027",
+    "tags": [
+      "islandetickets"
+    ]
+  },
+  {
+    "id": "island-21",
+    "name": "Tequila Sunrise",
+    "type": "Breakfast Fete",
+    "date": "2027-02-03",
+    "startTime": "4:00am - 8:00am",
+    "location": "Harbour Master",
+    "region": "North",
+    "ticketUrl": "https://islandetickets.com/event/TequilaSunrise2027",
+    "tags": [
+      "islandetickets"
+    ]
+  },
+  {
+    "id": "island-22",
+    "name": "ASSUME CARNIVAL COOLER CRUISE 'RUM EDITION'",
+    "type": "Boat Cruise",
+    "date": "2027-02-03",
+    "startTime": "9:00am - 2:00pm",
+    "location": "OCEAN PELICAN",
+    "region": "North",
+    "ticketUrl": "https://islandetickets.com/event/AssumeCarnivalCoolerCruiseRUMEDITION",
+    "tags": [
+      "islandetickets"
+    ]
+  },
+  {
+    "id": "island-23",
+    "name": "RUNAWAY",
+    "type": "Fete",
+    "date": "2027-02-03",
+    "startTime": "10:00am - 2:00pm",
+    "location": "Harbour Master",
+    "region": "North",
+    "ticketUrl": "https://islandetickets.com/event/RunawayCarnivalEdition",
+    "tags": [
+      "islandetickets"
+    ]
+  },
+  {
+    "id": "island-24",
+    "name": "Citrus Trinidad Carnival 2027 | PREMIUM ALL INCLUSIVE TROPICAL EXPERIENCE",
+    "type": "All-Inclusive",
+    "date": "2027-02-03",
+    "startTime": "2:00pm - 7:00pm",
+    "location": "Green Meadows, Santa Barbara Boulevard, Santa Cruz, Trinidad & Tobago",
+    "region": "North",
+    "ticketUrl": "https://islandetickets.com/event/citrus-tt-27",
+    "tags": [
+      "islandetickets"
+    ]
+  },
+  {
+    "id": "island-25",
+    "name": "WE LIMING WEDNESDAY",
+    "type": "Fete",
+    "date": "2027-02-03",
+    "startTime": "2:00pm - 6:00pm",
+    "location": "OCEAN PELICAN",
+    "region": "North",
+    "ticketUrl": "https://islandetickets.com/event/WelimingWednesday",
+    "tags": [
+      "islandetickets"
+    ]
+  },
+  {
+    "id": "island-26",
+    "name": "NECTAR 2027- All Inclusive",
+    "type": "All-Inclusive",
+    "date": "2027-02-03",
+    "startTime": "5:00pm - 11:00pm",
+    "location": "Trinidad",
+    "region": "North",
+    "ticketUrl": "https://islandetickets.com/event/nectar2027",
+    "tags": [
+      "islandetickets"
+    ]
+  },
+  {
+    "id": "island-27",
+    "name": "J'lime Trinidad Carnival 2027",
+    "type": "Fete",
+    "date": "2027-02-03",
+    "startTime": "6:30pm - 12:01am",
+    "location": "Mille Fleurs 23 Maraval Rd",
+    "region": "North",
+    "ticketUrl": "https://islandetickets.com/event/jlimett27",
+    "tags": [
+      "islandetickets"
+    ]
+  },
+  {
+    "id": "island-28",
+    "name": "DJ JEL - Jus'so Fete 2027 - The Night Market",
+    "type": "Fete",
+    "date": "2027-02-03",
+    "startTime": "8:00pm - 2:00am",
+    "location": "SoundForge Woodbrook, POS Trinidad",
+    "region": "North",
+    "ticketUrl": "https://islandetickets.com/event/dj-jel-jusso-fete-2027",
+    "tags": [
+      "islandetickets"
+    ]
+  },
+  {
+    "id": "island-29",
+    "name": "Good People Cooler Boatride 2",
+    "type": "Boat Cruise",
+    "date": "2027-02-03",
+    "startTime": "8:00pm - 12:30am",
+    "location": "Kings Wharf, San Fernando",
+    "region": "South",
+    "ticketUrl": "https://islandetickets.com/event/GoodPeopleBoatride2",
+    "tags": [
+      "islandetickets"
+    ]
+  },
+  {
+    "id": "island-30",
+    "name": "CROSS ROADS 2027",
+    "type": "Fete",
+    "date": "2027-02-03",
+    "startTime": "9:00pm - 4:00am",
+    "location": "Port of Spain",
+    "region": "North",
+    "ticketUrl": "https://islandetickets.com/event/crossroads2027",
+    "tags": [
+      "islandetickets"
+    ]
+  },
+  {
+    "id": "island-31",
+    "name": "A.M.BEACH CLUB '27",
+    "type": "Fete",
+    "date": "2027-02-04",
+    "startTime": "6:00am - 12:00pm",
+    "location": "Trinidad",
+    "region": "North",
+    "ticketUrl": "https://islandetickets.com/event/ambeachclub27",
+    "tags": [
+      "islandetickets"
+    ]
+  },
+  {
+    "id": "island-32",
+    "name": "BOOZY BOAT III",
+    "type": "Boat Cruise",
+    "date": "2027-02-04",
+    "startTime": "7:00am - 12:00pm",
+    "location": "Harbour Master",
+    "region": "North",
+    "ticketUrl": "https://islandetickets.com/event/BOOZYBOATIII",
+    "tags": [
+      "islandetickets"
+    ]
+  },
+  {
+    "id": "island-33",
+    "name": "AWOL TT 2027",
+    "type": "Fete",
+    "date": "2027-02-04",
+    "startTime": "9:00am - 2:00pm",
+    "location": "Harts Cut Chaguramas Trinidad",
+    "region": "North",
+    "ticketUrl": "https://islandetickets.com/event/AWOLTT2027",
+    "tags": [
+      "islandetickets"
+    ]
+  },
+  {
+    "id": "island-34",
+    "name": "04022027 Private Carnival Cruise",
+    "type": "Boat Cruise",
+    "date": "2027-02-04",
+    "startTime": "2:30pm - 7:30pm",
+    "location": "Pick up Point: Crews Inn Marina",
+    "region": "North",
+    "ticketUrl": "https://islandetickets.com/event/0402202-Private-Carnival-Cruise",
+    "tags": [
+      "islandetickets"
+    ]
+  },
+  {
+    "id": "island-35",
+    "name": "Pure White 2027",
+    "type": "Fete",
+    "date": "2027-02-04",
+    "startTime": "4:00pm - 8:00pm",
+    "location": "Harbour Master",
+    "region": "North",
+    "ticketUrl": "https://islandetickets.com/event/PureWhite2027",
+    "tags": [
+      "islandetickets"
+    ]
+  },
+  {
+    "id": "island-36",
+    "name": "B.O.Y.C.O.T.T. 2027",
+    "type": "Fete",
+    "date": "2027-02-04",
+    "startTime": "5:00pm - 11:00pm",
+    "location": "West Moorings, Diego Martin",
+    "region": "West",
+    "ticketUrl": "https://islandetickets.com/event/BOYCOTT2027",
+    "tags": [
+      "islandetickets"
+    ]
+  },
+  {
+    "id": "island-37",
+    "name": "FOF Carnival “A Cold World”",
+    "type": "Fete",
+    "date": "2027-02-04",
+    "startTime": "5:00pm - 11:00pm",
+    "location": "Hotel Normandie",
+    "region": "North",
+    "ticketUrl": "https://islandetickets.com/event/fofcoldworld",
+    "tags": [
+      "islandetickets"
+    ]
+  },
+  {
+    "id": "island-38",
+    "name": "SOCA LOVEBOAT 2027  WONDERLAND OF THE SEA",
+    "type": "Boat Cruise",
+    "date": "2027-02-04",
+    "startTime": "6:00pm - 11:15pm",
+    "location": "The Anchorage",
+    "region": "North",
+    "ticketUrl": "https://islandetickets.com/event/socaloveboat2027",
+    "tags": [
+      "islandetickets"
+    ]
+  },
+  {
+    "id": "island-39",
+    "name": "Caribbean and Foreigners Fete 2027",
+    "type": "Fete",
+    "date": "2027-02-04",
+    "startTime": "8:00pm - 3:00am",
+    "location": "The Lobby, Paria Suites Hotel",
+    "region": "North",
+    "ticketUrl": "https://islandetickets.com/event/Caribbean-and-Foreigners-Fete-2027",
+    "tags": [
+      "islandetickets"
+    ]
+  },
+  {
+    "id": "island-40",
+    "name": "TRIBE Ignite - Olympia 2027",
+    "type": "Fete",
+    "date": "2027-02-04",
+    "startTime": "9:00pm - 3:00am",
+    "location": "POS",
+    "region": "North",
+    "ticketUrl": "https://islandetickets.com/event/TRIBE-Ignite-Olympia",
+    "tags": [
+      "islandetickets"
+    ]
+  },
+  {
+    "id": "island-41",
+    "name": "Freebird Fete 2027: The Breakfast Club",
+    "type": "Breakfast Fete",
+    "date": "2027-02-05",
+    "startTime": "6:00am - 11:00am",
+    "location": "National Cricket Centre Couva",
+    "region": "North",
+    "ticketUrl": "https://islandetickets.com/event/Freebirdfete27",
+    "tags": [
+      "islandetickets"
+    ]
+  },
+  {
+    "id": "island-42",
+    "name": "Rum and Music - Cruizin | Cooler Cruise 27 | Trinidad Carnival",
+    "type": "Boat Cruise",
+    "date": "2027-02-05",
+    "startTime": "2:00pm - 7:00pm",
+    "location": "Harbour Master",
+    "region": "North",
+    "ticketUrl": "https://islandetickets.com/event/cruizincooler27",
+    "tags": [
+      "islandetickets"
+    ]
+  },
+  {
+    "id": "island-43",
+    "name": "Frolic..Rhythm of our people",
+    "type": "Fete",
+    "date": "2027-02-05",
+    "startTime": "6:00pm - 12:00am",
+    "location": "Fete Yard, Queen's Hall, St. Anns, Port of Spain",
+    "region": "North",
+    "ticketUrl": "https://islandetickets.com/event/froliccarnivalfete27",
+    "tags": [
+      "islandetickets"
+    ]
+  },
+  {
+    "id": "island-44",
+    "name": "Hard Fete - Fete Harder!",
+    "type": "Fete",
+    "date": "2027-02-05",
+    "startTime": "8:00pm - 3:00am",
+    "location": "Port of Spain",
+    "region": "North",
+    "ticketUrl": "https://islandetickets.com/event/Hard-Fete-Fete-Harder",
+    "tags": [
+      "islandetickets"
+    ]
+  },
+  {
+    "id": "island-45",
+    "name": "Blue Range Cooler Fete 2027",
+    "type": "Cooler Fete",
+    "date": "2027-02-05",
+    "startTime": "9:00pm - 4:00am",
+    "location": "Blue Range Tennis Court",
+    "region": "North",
+    "ticketUrl": "https://islandetickets.com/event/BRC-2027",
+    "tags": [
+      "islandetickets"
+    ]
+  },
+  {
+    "id": "island-46",
+    "name": "SOCA On The Seas",
+    "type": "Fete",
+    "date": "2027-02-05",
+    "startTime": "10:00pm - 4:00am",
+    "location": "Trinidad",
+    "region": "North",
+    "ticketUrl": "https://islandetickets.com/event/Soca-Cruise280380",
+    "tags": [
+      "islandetickets"
+    ]
+  },
+  {
+    "id": "island-47",
+    "name": "STRUT TRINIDAD CARNIVAL COOLER CRUISE 2027",
+    "type": "Boat Cruise",
+    "date": "2027-02-06",
+    "startTime": "7:00am - 11:00am",
+    "location": "Trinidad",
+    "region": "North",
+    "ticketUrl": "https://islandetickets.com/event/STRUT-TRINIDAD-CARNIVAL-COOLER-CRUISE-27",
+    "tags": [
+      "islandetickets"
+    ]
+  },
+  {
+    "id": "island-48",
+    "name": "SKIN2SKIN TT",
+    "type": "Fete",
+    "date": "2027-02-06",
+    "startTime": "10:00am - 4:00pm",
+    "location": "Anchorage",
+    "region": "North",
+    "ticketUrl": "https://islandetickets.com/event/SKIN2SKINTT",
+    "tags": [
+      "islandetickets"
+    ]
+  },
+  {
+    "id": "island-49",
+    "name": "Soca Brainwash Music Festival 'A Pirate’s Tale'",
+    "type": "Fete",
+    "date": "2027-02-06",
+    "startTime": "12:00pm - 8:00pm",
+    "location": "St Mary's Grounds",
+    "region": "North",
+    "ticketUrl": "https://islandetickets.com/event/SocaBrainwash",
+    "tags": [
+      "islandetickets"
+    ]
+  },
+  {
+    "id": "island-50",
+    "name": "PINKnicTT presents 'JAIPUR' The Pink City",
+    "type": "Fete",
+    "date": "2027-02-06",
+    "startTime": "3:00pm - 10:00pm",
+    "location": "Trinidad",
+    "region": "North",
+    "ticketUrl": "https://islandetickets.com/event/pinknic2027",
+    "tags": [
+      "islandetickets"
+    ]
+  },
+  {
+    "id": "island-51",
+    "name": "WESTMOORINGS FETE BY D SEA 2027",
+    "type": "Fete",
+    "date": "2027-02-06",
+    "startTime": "4:00pm - 11:00pm",
+    "location": "WESTMOORINGS",
+    "region": "West",
+    "ticketUrl": "https://islandetickets.com/event/FETE-BY-D-SEA-2027",
+    "tags": [
+      "islandetickets"
+    ]
+  },
+  {
+    "id": "island-52",
+    "name": "Shades of Blue 3",
+    "type": "Fete",
+    "date": "2027-02-06",
+    "startTime": "5:00pm - 12:00am",
+    "location": "Tanty .Elieen's Place..Mazanilla Road, Mayaro",
+    "region": "North",
+    "ticketUrl": "https://islandetickets.com/event/ShadesofBlue3",
+    "tags": [
+      "islandetickets"
+    ]
+  },
+  {
+    "id": "island-53",
+    "name": "Large Conventional Band FINALS - National Panorama 2027",
+    "type": "Fete",
+    "date": "2027-02-06",
+    "startTime": "7:00pm - 11:59pm",
+    "location": "Grand & North Stands, Queen’s Park Savannah, Port of Spain",
+    "region": "North",
+    "ticketUrl": "https://islandetickets.com/event/largefinals2027",
+    "tags": [
+      "islandetickets"
+    ]
+  },
+  {
+    "id": "island-54",
+    "name": "MIAMI BEACH BLUE",
+    "type": "Fete",
+    "date": "2027-02-07",
+    "startTime": "2:00am - 8:00am",
+    "location": "02 Park Chaguaramas",
+    "region": "West",
+    "ticketUrl": "https://islandetickets.com/event/MiamiBeachBlue",
+    "tags": [
+      "islandetickets"
+    ]
+  },
+  {
+    "id": "island-55",
+    "name": "Island Rise 2026",
+    "type": "Fete",
+    "date": "2027-02-07",
+    "startTime": "5:00am - 11:00am",
+    "location": "Mendez Drive, Diego Martin",
+    "region": "West",
+    "ticketUrl": "https://islandetickets.com/event/Island-Rise-2026",
+    "tags": [
+      "islandetickets"
+    ]
+  },
+  {
+    "id": "island-56",
+    "name": "D'Original Vale Breakfast Party 2027",
+    "type": "Breakfast Fete",
+    "date": "2027-02-07",
+    "startTime": "5:00am - 12:00pm",
+    "location": "Drew Manor, Santa Cruz",
+    "region": "North",
+    "ticketUrl": "https://islandetickets.com/event/valevibebreakfast2027",
+    "tags": [
+      "islandetickets"
+    ]
+  },
+  {
+    "id": "island-57",
+    "name": "NAKED BREAKFAST CRUISE TT",
+    "type": "Boat Cruise",
+    "date": "2027-02-07",
+    "startTime": "6:00am - 11:00am",
+    "location": "191 WESTERN MAIN ROAD, PORT OF SPAIN, TRINIDAD",
+    "region": "West",
+    "ticketUrl": "https://islandetickets.com/event/nbctt3",
+    "tags": [
+      "islandetickets"
+    ]
+  },
+  {
+    "id": "island-58",
+    "name": "SHADES NOSTALGIA 2027",
+    "type": "Fete",
+    "date": "2027-02-07",
+    "startTime": "6:00am - 12:00pm",
+    "location": "NAPA, POS",
+    "region": "North",
+    "ticketUrl": "https://islandetickets.com/event/Shades2027",
+    "tags": [
+      "islandetickets"
+    ]
+  },
+  {
+    "id": "island-59",
+    "name": "TROPIC - Hot Sun + Rum",
+    "type": "Fete",
+    "date": "2027-02-07",
+    "startTime": "12:00pm - 4:00pm",
+    "location": "Harbour Master",
+    "region": "North",
+    "ticketUrl": "https://islandetickets.com/event/TROPICHotSunRum",
+    "tags": [
+      "islandetickets"
+    ]
+  },
+  {
+    "id": "island-60",
+    "name": "Botanica - Garden Glamishness",
+    "type": "Fete",
+    "date": "2027-02-07",
+    "startTime": "3:00pm - 9:00pm",
+    "location": "POS",
+    "region": "North",
+    "ticketUrl": "https://islandetickets.com/event/botanica27",
+    "tags": [
+      "islandetickets"
+    ]
+  },
+  {
+    "id": "island-61",
+    "name": "M.C. Boat Experience T&T 2027",
+    "type": "Boat Cruise",
+    "date": "2027-02-07",
+    "startTime": "3:00pm - 8:00pm",
+    "location": "Chaquacabana Beach Resort, Chaguaramas, Trinidad",
+    "region": "West",
+    "ticketUrl": "https://islandetickets.com/event/mcboat2027",
+    "tags": [
+      "islandetickets"
+    ]
+  },
+  {
+    "id": "island-62",
+    "name": "Soca Refuel Cooler Party",
+    "type": "Cooler Fete",
+    "date": "2027-02-07",
+    "startTime": "3:00pm - 9:00pm",
+    "location": "Normandie under the Trees",
+    "region": "North",
+    "ticketUrl": "https://islandetickets.com/event/socarefuelcoolerparty2027",
+    "tags": [
+      "islandetickets"
+    ]
+  },
+  {
+    "id": "island-63",
+    "name": "JABB - TRINIDAD JOUVERT 2027",
+    "type": "Fete",
+    "date": "2027-02-08",
+    "startTime": "2:00am - 8:00am",
+    "location": "TRINIDAD",
+    "region": "North",
+    "ticketUrl": "https://islandetickets.com/event/JABB-TRINIDAD-2027",
+    "tags": [
+      "islandetickets"
+    ]
+  },
+  {
+    "id": "island-64",
+    "name": "Rebelź Jouvert",
+    "type": "Fete",
+    "date": "2027-02-08",
+    "startTime": "3:00am - 10:00am",
+    "location": "Port of spain",
+    "region": "North",
+    "ticketUrl": "https://islandetickets.com/event/Reblez",
+    "tags": [
+      "islandetickets"
+    ]
+  },
+  {
+    "id": "island-65",
+    "name": "Enter the Wild- ROD Kingdom J’ouvert 2027 (in collaboration with Dirty Medics Carnival)",
+    "type": "Fete",
+    "date": "2027-02-08",
+    "startTime": "3:00am - 10:00am",
+    "location": "Nelson Mandela Park",
+    "region": "North",
+    "ticketUrl": "https://islandetickets.com/event/RODKingdom",
+    "tags": [
+      "islandetickets"
+    ]
+  },
+  {
+    "id": "island-66",
+    "name": "JabJouverTT | THE RISING",
+    "type": "Fete",
+    "date": "2027-02-08",
+    "startTime": "3:00am - 9:00am",
+    "location": "Port of Spain",
+    "region": "North",
+    "ticketUrl": "https://islandetickets.com/event/JabJouverTT2027",
+    "tags": [
+      "islandetickets"
+    ]
+  },
+  {
+    "id": "island-67",
+    "name": "NVus J'ouvert | Wicked Jab",
+    "type": "Fete",
+    "date": "2027-02-08",
+    "startTime": "3:00am - 9:00am",
+    "location": "Port-of-Spain",
+    "region": "North",
+    "ticketUrl": "https://islandetickets.com/event/NVus",
+    "tags": [
+      "islandetickets"
+    ]
+  },
+  {
+    "id": "island-68",
+    "name": "Rebelź J'ouvert",
+    "type": "Fete",
+    "date": "2027-02-08",
+    "startTime": "3:00am - 10:00am",
+    "location": "Port of Spain, Trinidad",
+    "region": "North",
+    "ticketUrl": "https://islandetickets.com/event/RebelJouvert2027",
+    "tags": [
+      "islandetickets"
+    ]
+  },
+  {
+    "id": "island-69",
+    "name": "LIME J'ouvert 2027 - RELEASE",
+    "type": "Fete",
+    "date": "2027-02-08",
+    "startTime": "3:00am - 9:00am",
+    "location": "Port of Spain",
+    "region": "North",
+    "ticketUrl": "https://islandetickets.com/event/lime-jouvert-2027",
+    "tags": [
+      "islandetickets"
+    ]
+  },
+  {
+    "id": "island-70",
+    "name": "Trinidad Carnival 2027 w/Treasures Mas",
+    "type": "Fete",
+    "date": "2027-02-08",
+    "startTime": "8:43am - 8:43am",
+    "location": "Port of Spain",
+    "region": "North",
+    "ticketUrl": "https://islandetickets.com/event/Infinitymas_Band",
+    "tags": [
+      "islandetickets"
+    ]
+  },
+  {
+    "id": "island-71",
+    "name": "Blow Mano Blow Carnival 2027 - To Birdie With Love",
+    "type": "Fete",
+    "date": "2027-02-08",
+    "startTime": "12:00pm - 7:00pm",
+    "location": "Trinidad and Tobago",
+    "region": "North",
+    "ticketUrl": "https://islandetickets.com/event/BlowManoBlowToBirdieWithLove2027",
+    "tags": [
+      "islandetickets"
+    ]
+  },
+  {
+    "id": "island-72",
+    "name": "CURVEZ TRINIDAD DDI",
+    "type": "Fete",
+    "date": "2027-02-10",
+    "startTime": "9:00am - 2:00pm",
+    "location": "Harts Cut, Chagaramus",
+    "region": "North",
+    "ticketUrl": "https://islandetickets.com/event/CURVEZTRINIDAD",
+    "tags": [
+      "islandetickets"
+    ]
+  },
+  {
+    "id": "island-73",
+    "name": "Pink Pineapple",
+    "type": "Fete",
+    "date": "2027-02-10",
+    "startTime": "2:00pm - 7:00pm",
+    "location": "DDI Trinidad",
+    "region": "North",
+    "ticketUrl": "https://islandetickets.com/event/Pinkpinett",
+    "tags": [
+      "islandetickets"
+    ]
+  }
+]
