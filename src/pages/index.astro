@@ -39,7 +39,7 @@ const sortedEvents = eventData.sort((a, b) => new Date(a.date).getTime() - new D
       </EventFilters>
     </div>
 
-    <!-- View 2: Grouped Matrix Grid Grid View -->
+    <!-- View 2: Grouped Matrix Grid View -->
     <div id="calendar-view-pane" class="hidden">
       <EventCalendar events={sortedEvents} />
     </div>
@@ -51,26 +51,25 @@ const sortedEvents = eventData.sort((a, b) => new Date(a.date).getTime() - new D
     const paneDir = document.getElementById('directory-view-pane');
     const paneCal = document.getElementById('calendar-view-pane');
 
-    btnDir.addEventListener('click', () => {
-      // Toggle display wrappers
-      paneDir.classList.remove('hidden');
-      paneCal.classList.add('hidden');
-      // Update toggle button states
-      btnDir.classList.add('bg-white', 'text-gray-900', 'shadow-xs');
-      btnDir.classList.remove('text-gray-500');
-      btnCal.classList.remove('bg-white', 'text-gray-900', 'shadow-xs');
-      btnCal.classList.add('text-gray-500');
-    });
+    // Only apply logic loops if the elements exist safely in the DOM wrapper tree
+    if (btnDir && btnCal && paneDir && paneCal) {
+      btnDir.addEventListener('click', () => {
+        paneDir.classList.remove('hidden');
+        paneCal.classList.add('hidden');
+        btnDir.classList.add('bg-white', 'text-gray-900', 'shadow-xs');
+        btnDir.classList.remove('text-gray-500');
+        btnCal.classList.remove('bg-white', 'text-gray-900', 'shadow-xs');
+        btnCal.classList.add('text-gray-500');
+      });
 
-    btnCal.addEventListener('click', () => {
-      // Toggle display wrappers
-      paneCal.classList.remove('hidden');
-      paneDir.classList.add('hidden');
-      // Update toggle button states
-      btnCal.classList.add('bg-white', 'text-gray-900', 'shadow-xs');
-      btnCal.classList.remove('text-gray-500');
-      btnDir.classList.remove('bg-white', 'text-gray-900', 'shadow-xs');
-      btnDir.classList.add('text-gray-500');
-    });
+      btnCal.addEventListener('click', () => {
+        paneCal.classList.remove('hidden');
+        paneDir.classList.add('hidden');
+        btnCal.classList.add('bg-white', 'text-gray-900', 'shadow-xs');
+        btnCal.classList.remove('text-gray-500');
+        btnDir.classList.remove('bg-white', 'text-gray-900', 'shadow-xs');
+        btnDir.classList.add('text-gray-500');
+      });
+    }
   </script>
 </BaseLayout>

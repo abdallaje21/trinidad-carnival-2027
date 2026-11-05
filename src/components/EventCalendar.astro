@@ -1,16 +1,19 @@
 ---
 // src/components/EventCalendar.astro
+interface Props {
+  events: any[];
+}
+
 const { events } = Astro.props;
 
-// Group events by their date string (e.g. "2027-01-02")
-const eventsByDate = events.reduce((acc, event) => {
+// Group events by their date string with explicit TypeScript types
+const eventsByDate = events.reduce((acc: Record<string, any[]>, event: any) => {
   if (!acc[event.date]) acc[event.date] = [];
   acc[event.date].push(event);
   return acc;
 }, {});
 
-// Generate a static array of dates to render for the peak Carnival window (Jan 31 - Feb 10, 2027)
-// You can expand this array later as your event coverage grows
+// Generate a static array of dates to render for the peak Carnival window
 const calendarDays = [
   { dateStr: '2027-01-31', label: 'Jan 31', isPeak: true },
   { dateStr: '2027-02-01', label: 'Feb 1', isPeak: true },
@@ -35,15 +38,14 @@ const calendarDays = [
 
     <!-- Calendar Matrix Grid -->
     <div class="grid grid-cols-7 gap-2 bg-gray-50 p-2 rounded-b-xl border-b border-x border-gray-100 min-h-[450px]">
-      <!-- Empty placeholders to align Jan 31 to Sunday correctly -->
-      
+      <!-- January 31, 2027 is a Sunday, so no empty placeholder padding divs are needed -->
       
       {calendarDays.map((day) => (
         <div class="bg-white p-3 rounded-lg border border-gray-100 flex flex-col min-h-[140px] shadow-2xs hover:border-purple-200 transition-colors">
           <span class="text-xs font-bold text-gray-400 mb-2 block">{day.label}</span>
           
           <div class="space-y-1.5 overflow-y-auto flex-grow custom-scrollbar">
-            {eventsByDate[day.dateStr]?.map((event) => (
+            {eventsByDate[day.dateStr]?.map((event: any) => (
               <a 
                 href={event.ticketUrl} 
                 target="_blank" 
