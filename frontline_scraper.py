@@ -45,6 +45,15 @@ def classify_region(text: str) -> str:
             return region
     return "North"
 
+
+async def auto_scroll(page):
+    """Scroll down the page sequentially to trigger lazy-loading image/data grids."""
+    print("📜 Simulating human viewport scrolling to trigger lazy loaders...")
+    for _ in range(5):
+        await page.evaluate("window.scrollBy(0, 800);")
+        await asyncio.sleep(1)
+
+
 async def scrape_frontline():
     print(f"🚀 Launching browser → {TARGET_URL}")
 
@@ -52,17 +61,16 @@ async def scrape_frontline():
         browser = await p.chromium.launch(headless=True)
         page    = await browser.new_page()
         
-        # FIXED: Switch wait target to domcontentloaded to handle heavy live tracking layout delays
         print("📡 Streaming data frame packets...")
         await page.goto(TARGET_URL, timeout=45000, wait_until="domcontentloaded")
         
-        # Give explicit page layout containers an additional 3 seconds to resolve cleanly
-        await page.wait_for_timeout(3000)
+        # Force lazy load content triggers via automated viewport updates
+        await auto_scroll(page)
         
         html = await page.content()
         await browser.close()
 
-    print("🧹 Page loaded. Parsing Frontline document cards...")
+    print("🧹 Page loaded. Parsing Frontline document elements...")
     soup = BeautifulSoup(html, "html.parser")
     new_events = []
     
@@ -74,24 +82,25 @@ async def scrape_frontline():
         existing_events = []
         seen_names = set()
 
-    # Target Frontline's actual event block structures
-    cards = soup.select(".event-card-wrapper, div[class*='card'], .product-layout")
+    # Broadened structural scanner loop to target Frontline's actual container text trees
+    cards = soup.find_all(lambda tag: tag.name in ["div", "section"] and tag.find("a", href=True) and any(m in tag.get_text() for m in ["-27", "2027"]))
     
     for card in cards:
         try:
-            title_node = card.select_one("h3, h4, h5, .title, .event-title")
+            # Locate title elements inside nested grids
+            title_node = card.find(["h3", "h4", "h5"])
             if not title_node:
                 continue
             name = title_node.get_text(strip=True)
             
-            if not name or len(name) < 3 or name in seen_names or "STICKER" in name.upper():
+            if not name or len(name) < 3 or name in seen_names or any(x in name.upper() for x in ["STICKER", "USD", "CAMPAIGN"]):
                 continue
 
             card_text = card.get_text(" ", strip=True)
             text_upper = card_text.upper()
             
-            # --- DATE EXTRACTION PARSING ---
-            # Frontline lists date blocks formatted cleanly like "Feb-07-27" or "Jan-30-27"
+            # --- DATE EXTRACTION HANDLING ---
+            # Parses dates directly from explicit structure signatures (e.g., "Jan-30-27" or "Feb-07-27")
             date_match = re.search(r'\b(JAN|FEB|MAR|APR|MAY|JUN|JUL|AUG|SEP|OCT|NOV|DEC)-(\d{1,2})-(\d{2})\b', text_upper)
             
             if date_match:
@@ -103,7 +112,7 @@ async def scrape_frontline():
             else:
                 continue
 
-            # Strict date window evaluation bounds gatekeeper
+            # Strict date boundary window gatekeeper
             if not (DATE_FROM <= event_date <= DATE_TO):
                 continue
 
@@ -111,7 +120,7 @@ async def scrape_frontline():
             location = "Trinidad Venue TBA"
             lines = [l.strip() for l in card.get_text("\n", strip=True).split("\n") if l.strip()]
             for line in lines:
-                if any(x in line.upper() for x in ["TRINIDAD", "QUEENS HALL", "THE ANCHORAGE", "MOKA"]):
+                if any(x in line.upper() for x in ["TRINIDAD", "QUEENS HALL", "THE ANCHORAGE", "MOKA", "TRINCITY"]):
                     location = line
                     break
 
@@ -135,7 +144,7 @@ async def scrape_frontline():
         except Exception:
             continue
 
-    # Combine datasets chronologically
+    # Combine datasets and enforce chronological sorting
     combined_events = existing_events + new_events
     combined_events.sort(key=lambda e: e["date"])
 
