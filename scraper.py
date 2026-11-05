@@ -20,47 +20,27 @@ async def scrape_caribbean_events():
     soup = BeautifulSoup(html_content, "html.parser")
     staged_events = []
     
-    # Target the primary container where all calendar data streams sequentially
-    main_container = soup.select_one(".container, body")
-    if not main_container:
-        print("❌ Could not locate main body wrapper.")
-        return
-
-    # Months converter map
-    months_map = {"JAN": "01", "JANUARY": "01", "FEB": "02", "FEBRUARY": "02"}
+    # Locate all event title nodes across the layout stream
+    event_titles = soup.find_all("h5")
     
-    # State tracking variables
-    current_year = "2026"
-    current_month_num = "11"
-    
-    # Loop over elements to maintain top-to-bottom reading context
-    for element in main_container.find_all(recursive=True):
-        # 1. Catch sticky header updates (e.g., "Nov 2026" or "Jan 2027")
-        if element.name in ['h5', 'h4', 'h3', 'div'] and any(m in element.get_text().upper() for m in months_map.keys()):
-            header_text = element.get_text(" ", strip=True).upper()
-            match = re.search(r'\b(JAN|JANUARY|FEB|FEBRUARY)\b\s*(\d{4})?', header_text)
-            if match:
-                month_name = match.group(1)
-                current_month_num = months_map[month_name]
-                if match.group(2):
-                    current_year = match.group(2)
-                else:
-                    current_year = "2027"
-                continue
+    months_map = {
+        "JAN": "01", "JANUARY": "01",
+        "FEB": "02", "FEBRUARY": "02",
+        "NOV": "11", "NOVEMBER": "11",
+        "DEC": "12", "DECEMBER": "12"
+    }
 
-        # 2. Process Event Card Blocks
-        if element.name == "h5" and element.find_parent("div"):
-            parent_card = element.find_parent("div")
-            name = element.get_text(strip=True)
-            
-            # Skip noise nodes or structural header banners
+    for index, title_node in enumerate(event_titles):
+        try:
+            name = title_node.get_text(strip=True)
+            # Skip promotional banners or section titles
             if not name or "THESE EVENTS" in name.upper() or name.upper() in months_map.keys():
                 continue
-
-            # CRITICAL ENFORCEMENT FILTER: Skip anything that belongs to 2026
-            if current_year == "2026":
+                
+            parent_card = title_node.find_parent("div")
+            if not parent_card:
                 continue
-
+                
             card_text = parent_card.get_text("\n", strip=True)
             lines = [line.strip() for line in card_text.split("\n") if line.strip()]
             
@@ -72,16 +52,52 @@ async def scrape_caribbean_events():
                 elif any(x in line.lower() for x in ["am", "pm"]):
                     start_time = line.strip()
 
-            # Isolate the Day Number token sitting next to card elements
+            # --- ROBUST UPWARD MONTH-TRACKING SCANNER ---
+            # Search parent elements to isolate sticky header markers
+            current_year = "2026"
+            current_month_num = "11"
+            
+            # Look at immediate container ancestors first
+            ancestor = title_node.find_parent(class_=re.compile(r'(card|holder|event|item|col)', re.I)) or parent_card
+            context_text = ancestor.get_text(" ", strip=True).upper() if ancestor else ""
+            
+            # Backup text search through previous siblings to find floating section tags
+            prev_sib = parent_card.find_previous()
+            sibling_text = prev_sib.get_text(" ", strip=True).upper() if prev_sib else ""
+            
+            full_search_text = context_text + " " + sibling_text
+            
+            # Update date tracker context matching
+            if "JAN" in full_search_text or "JANUARY" in full_search_text:
+                current_month_num = "01"
+                current_year = "2027"
+            elif "FEB" in full_search_text or "FEBRUARY" in full_search_text:
+                current_month_num = "02"
+                current_year = "2027"
+            elif "DEC" in full_search_text or "DECEMBER" in full_search_text:
+                current_month_num = "12"
+                current_year = "2026"
+            else:
+                current_month_num = "11"
+                current_year = "2026"
+
+            # Parse numeric day digit tokens sitting adjacent to card elements
             day_num = "01"
-            prev_siblings = parent_card.find_previous_siblings()
-            for sib in prev_siblings:
-                sib_text = sib.get_text(strip=True)
-                if sib_text.isdigit() and 1 <= int(sib_text) <= 31:
-                    day_num = sib_text.zfill(2)
+            prev_elements = parent_card.find_previous_siblings()
+            for elem in prev_elements:
+                elem_text = elem.get_text(strip=True)
+                # Strip out trailing th, nd, st tags from strings (e.g. '5th' -> '5')
+                clean_digits = re.sub(r'\D', '', elem_text)
+                if clean_digits and 1 <= int(clean_digits) <= 31:
+                    day_num = clean_digits.zfill(2)
                     break
 
             date_iso = f"{current_year}-{current_month_num}-{day_num}"
+
+            # --- CRITICAL STRICT CARNIVAL WINDOW FILTER ---
+            # Drop any event that does not fall into January 2027 or February 2027
+            if not (date_iso.startswith("2027-01") or date_iso.startswith("2027-02")):
+                continue
 
             link_node = parent_card.find_parent("a") or parent_card.find("a")
             ticket_url = link_node['href'] if link_node and link_node.has_attr('href') else target_url
@@ -115,16 +131,19 @@ async def scrape_caribbean_events():
                 "ticketUrl": ticket_url,
                 "tags": ["islandetickets"]
             })
+        except Exception as e:
+            continue
 
-    # Deduplicate entries cleanly
+    # Deduplicate entries by name cleanly
     unique_events = {e["name"]: e for e in staged_events}.values()
 
+    # Sync directly with production database file path targets
     output_filename = "src/data/events.json"
     with open(output_filename, "w", encoding="utf-8") as f:
         json.dump(list(unique_events), f, indent=2, ensure_ascii=False)
         
-    print(f"✅ Success! Isolated [{len(unique_events)}] real Carnival 2027 elements.")
-    print(f"📂 Synced database configuration file: {output_filename}")
+    print(f"✅ Success! Isolated [{len(unique_events)}] pristine Carnival 2027 elements.")
+    print(f"📂 Synced clean data layout file: {output_filename}")
 
 if __name__ == "__main__":
     asyncio.run(scrape_caribbean_events())
