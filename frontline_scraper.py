@@ -9,7 +9,7 @@ from playwright.async_api import async_playwright
 DATE_FROM = date(2027, 1, 1)
 DATE_TO   = date(2027, 2, 28)
 
-TARGET_URL   = "https://www.frontlineticketing.com"
+TARGET_URL   = "https://frontlineticketing.com"
 DATABASE_FILE = "src/data/events.json"
 
 EVENT_TYPE_KEYWORDS = {
@@ -45,6 +45,13 @@ def classify_region(text: str) -> str:
             return region
     return "North"
 
+async def auto_scroll(page):
+    """Scroll down the page sequentially to trigger lazy-loading image/data grids."""
+    print("📜 Simulating human viewport scrolling to trigger lazy loaders...")
+    for _ in range(6):
+        await page.evaluate("window.scrollBy(0, 1000);")
+        await asyncio.sleep(1)
+
 async def scrape_frontline():
     print(f"🚀 Launching browser → {TARGET_URL}")
 
@@ -56,10 +63,8 @@ async def scrape_frontline():
         await page.goto(TARGET_URL, timeout=45000, wait_until="domcontentloaded")
         
         # Scroll smoothly to reveal hidden dynamic card grids
-        for _ in range(6):
-            await page.evaluate("window.scrollBy(0, 1000);")
-            await asyncio.sleep(1)
-            
+        await auto_scroll(page)
+        
         html = await page.content()
         await browser.close()
 
@@ -75,18 +80,23 @@ async def scrape_frontline():
         existing_events = []
         seen_names = set()
 
-    # Targets any text container that wraps target fete title sequences on Frontline
+    # Targets text blocks or containers that contain our known Frontline event tags
     target_nodes = soup.find_all(lambda tag: tag.name in ["h3", "h4", "h5", "div", "a"] and any(k in tag.get_text() for k in ["Brunch And Soca", "Artform", "Skin2SkinTT"]))
 
     for node in target_nodes:
         try:
-            # Clean up trailing spaces or characters out of the title nodes
-            name = node.get_text(strip=True)
-            if "GET TICKETS" in name or len(name) < 3 or name in seen_names:
+            raw_name = node.get_text(strip=True)
+            if "GET TICKETS" in raw_name.upper() and len(raw_name) < 15:
                 continue
                 
             # Clean up title formatting if trailing words bleed in
-            name = name.split("\n")[0].split("Get Tickets")[0].strip()
+            name = raw_name
+            if "GET TICKETS" in name.upper():
+                name = name.replace("Get Tickets", "").replace("GET TICKETS", "")
+            name = name.strip()
+
+            if not name or len(name) < 3 or name in seen_names:
+                continue
 
             # Find the card layout container wrapping this specific element block
             parent_container = node.find_parent("div") or node.parent
@@ -108,7 +118,7 @@ async def scrape_frontline():
                 month_num = MONTH_MAP[month_str]
                 event_date = date(year_num, month_num, day_num)
             else:
-                # Direct custom mappings for known target baseline variables
+                # Direct custom mappings based on known target baseline elements
                 if "ARTFORM" in name.upper():
                     event_date = date(2027, 1, 30)
                 elif "SKIN2SKIN" in name.upper():
@@ -134,7 +144,7 @@ async def scrape_frontline():
             link = parent_container.find("a", href=True) or node.find_parent("a", href=True)
             ticket_url = link["href"] if link else TARGET_URL
             if ticket_url.startswith("/"):
-                ticket_url = f"https://www.frontlineticketing.com{ticket_url}"
+                ticket_url = f"https://frontlineticketing.com{ticket_url}"
 
             seen_names.add(name)
             new_events.append({
