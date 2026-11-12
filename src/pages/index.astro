@@ -17,15 +17,25 @@ const sortedEvents = eventData.sort((a, b) => new Date(a.date).getTime() - new D
         <p class="text-gray-500 mt-1">The simple, one-stop directory for every fete and event.</p>
       </div>
       
-      <!-- High Performance Toggle Layout Switcher -->
-      <div class="inline-flex rounded-lg border border-gray-200 bg-gray-50 p-1 self-start sm:self-center">
-        <button id="toggle-directory" class="px-4 py-1.5 text-xs font-semibold rounded-md bg-white text-gray-900 shadow-xs transition-all">
-          Directory View
-        </button>
-        <button id="toggle-calendar" class="px-4 py-1.5 text-xs font-semibold rounded-md text-gray-500 hover:text-gray-900 transition-all">
-          Calendar View
-        </button>
-      </div>
+             <!-- Header Actions & Layout Switcher -->
+        <div class="flex flex-wrap items-center gap-3 self-start sm:self-center">
+          <a 
+            href="/add-event" 
+            class="px-4 py-2 rounded-lg bg-purple-600 hover:bg-purple-700 text-white text-xs font-bold tracking-wide shadow-xs transition-colors"
+          >
+            + Submit an Event
+          </a>
+
+          <div class="inline-flex rounded-lg border border-gray-200 bg-gray-50 p-1">
+            <button id="toggle-directory" class="px-4 py-1.5 text-xs font-semibold rounded-md bg-white text-gray-900 shadow-xs transition-all">
+              Directory View
+            </button>
+            <button id="toggle-calendar" class="px-4 py-1.5 text-xs font-semibold rounded-md text-gray-500 hover:text-gray-900 transition-all">
+              Calendar View
+            </button>
+          </div>
+        </div>
+
     </div>
   </header>
 
