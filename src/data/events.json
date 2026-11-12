@@ -1,17 +1,5 @@
 [
-  {
-    "id": "island-0",
-    "name": "Nov2026",
-    "type": "Fete",
-    "date": "2027-01-01",
-    "startTime": "5:00pm - 8:30pm",
-    "location": "Churchill Roosevelt Hwy, Valsayn",
-    "region": "South",
-    "ticketUrl": "https://islandetickets.com/event/TT051126",
-    "tags": [
-      "islandetickets"
-    ]
-  },
+  
   {
     "id": "island-1",
     "name": "DAY ONE",
