@@ -1,7 +1,7 @@
 import asyncio
 import json
 import re
-from datetime import date, datetime
+from datetime import date
 from bs4 import BeautifulSoup
 from playwright.async_api import async_playwright
 
@@ -13,7 +13,6 @@ SCAN_URLS = [
     "https://islandetickets.com",
 ]
 
-# Add direct URLs for premier events that might not be on the main feed yet
 WATCHLIST_URLS = [
     "https://islandetickets.com",
     "https://islandetickets.com",
@@ -34,6 +33,21 @@ REGION_KEYWORDS = {
     "East":  ["VALSAYN", "ARIMA", "MACOYA", "TUNAPUNA", "CHAGUANAS", "TRINCITY"],
     "West":  ["WEST", "DIEGO MARTIN", "CARENAGE", "CHAGUARAMAS", "WESTMOORINGS"],
     "North": ["NORTH", "PORT OF SPAIN", "POS", "SAN JUAN", "ST. CLAIR", "WOODBROOK", "MARAVAL", "ST. ANNS"]
+}
+
+MONTH_HEADERS = {
+    "JAN": 1, "JANUARY": 1,
+    "FEB": 2, "FEBRUARY": 2,
+    "MAR": 3, "MARCH": 3,
+    "APR": 4, "APRIL": 4,
+    "MAY": 5,
+    "JUN": 6, "JUNE": 6,
+    "JUL": 7, "JULY": 7,
+    "AUG": 8, "AUGUST": 8,
+    "SEP": 9, "SEPTEMBER": 9,
+    "OCT": 10, "OCTOBER": 10,
+    "NOV": 11, "NOVEMBER": 11,
+    "DEC": 12, "DECEMBER": 12,
 }
 
 def classify_event_type(name: str) -> str:
@@ -60,13 +74,11 @@ def parse_detail_page(html: str, url: str) -> dict | None:
     text = soup.get_text("\n", strip=True)
     lines = [l.strip() for l in text.split("\n") if l.strip()]
 
-    # Title is usually the first major heading on individual event pages
     title_node = soup.find(["h1", "h2", "h3", "h4"])
     name = title_node.get_text(strip=True) if title_node else ""
     if not name or len(name) < 3:
         return None
 
-    # Match full detail page dates like "Sat 30th January , 2027"
     date_match = re.search(
         r'\b(\d{1,2})(?:st|nd|rd|th)?\s+(January|February|Jan|Feb)\s*,?\s*(2027)\b',
         text,
@@ -87,7 +99,6 @@ def parse_detail_page(html: str, url: str) -> dict | None:
     if not (DATE_FROM <= event_date <= DATE_TO):
         return None
 
-    # Extract time range like "3:00 AM - 10:00 AM"
     time_match = re.search(
         r'\d{1,2}:\d{2}\s*(?:AM|PM)\s*-\s*\d{1,2}:\d{2}\s*(?:AM|PM)',
         text,
@@ -95,7 +106,6 @@ def parse_detail_page(html: str, url: str) -> dict | None:
     )
     start_time = time_match.group(0) if time_match else "22:00"
 
-    # Find location line right after time or date
     location = "Trinidad"
     for i, line in enumerate(lines):
         if time_match and time_match.group(0) in line and i + 1 < len(lines):
@@ -116,22 +126,27 @@ def parse_detail_page(html: str, url: str) -> dict | None:
     }
 
 async def scrape():
+    # Preserve manual entries and Frontline additions while clearing bad scraped dates
     try:
         with open(OUTPUT_FILE, "r", encoding="utf-8") as f:
             existing_events = json.load(f)
     except Exception:
         existing_events = []
 
-    seen = {e["name"].strip().upper() for e in existing_events}
-    new_events = []
+    preserved_events = [
+        e for e in existing_events
+        if "islandetickets" not in e.get("tags", [])
+    ]
 
-    print(f"Loaded {len(existing_events)} existing event(s).")
+    seen = {e["name"].strip().upper() for e in preserved_events}
+    fresh_events = []
+
+    print(f"Preserved {len(preserved_events)} manual/external event(s).")
 
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless=True)
         page = await browser.new_page()
 
-        # 1. Crawl main catalog pages with auto-scroll
         for target in SCAN_URLS:
             print(f"Scanning catalog → {target}")
             try:
@@ -140,31 +155,40 @@ async def scrape():
                 html = await page.content()
                 soup = BeautifulSoup(html, "html.parser")
 
-                for title_node in soup.find_all("h5"):
-                    name = title_node.get_text(strip=True)
-                    if not name or len(name) < 3 or "THESE EVENTS" in name.upper() or name.upper() in seen:
+                # Track active month/year sequentially from top to bottom
+                active_year = None
+                active_month = None
+
+                for tag in soup.find_all(["h3", "h4", "h5"]):
+                    text = tag.get_text(" ", strip=True)
+                    upper = text.upper()
+
+                    # Check if this tag is a sticky month header like "Nov2026" or "Jan 2027"
+                    header_match = re.fullmatch(
+                        r'(JAN|JANUARY|FEB|FEBRUARY|MAR|MARCH|APR|APRIL|MAY|JUN|JUNE|JUL|JULY|AUG|AUGUST|SEP|SEPTEMBER|OCT|OCTOBER|NOV|NOVEMBER|DEC|DECEMBER)\s*(202\d)',
+                        upper
+                    )
+                    if header_match:
+                        active_month = MONTH_HEADERS[header_match.group(1)]
+                        active_year = int(header_match.group(2))
                         continue
 
-                    parent_card = title_node.find_parent("div")
+                    if tag.name != "h5":
+                        continue
+
+                    if not text or len(text) < 3 or "THESE EVENTS" in upper or upper in seen:
+                        continue
+
+                    # Require a confirmed 2027 Jan/Feb header before accepting cards
+                    if active_year != 2027 or active_month not in (1, 2):
+                        continue
+
+                    parent_card = tag.find_parent("div")
                     if not parent_card:
                         continue
 
                     card_text = parent_card.get_text(" ", strip=True)
                     raw_lines = parent_card.get_text("\n", strip=True).split("\n")
-
-                    current_year, current_month = 2026, 11
-                    search_pointer = parent_card
-                    found_date_context = False
-
-                    while search_pointer and not found_date_context:
-                        search_pointer = search_pointer.find_previous()
-                        if not search_pointer:
-                            break
-                        text_content = search_pointer.get_text(" ", strip=True).upper()
-                        if "JAN" in text_content and ("2027" in text_content or search_pointer.name in ["h5", "h4", "h3"]):
-                            current_month, current_year, found_date_context = 1, 2027, True
-                        elif "FEB" in text_content and ("2027" in text_content or search_pointer.name in ["h5", "h4", "h3"]):
-                            current_month, current_year, found_date_context = 2, 2027, True
 
                     day = 1
                     prev_sib = parent_card.find_previous()
@@ -173,11 +197,8 @@ async def scrape():
                         if sib_text and sib_text.isdigit() and 1 <= int(sib_text) <= 31:
                             day = int(sib_text)
 
-                    if any(k in name.upper() for k in ["DAY ONE", "1ST JAM", "TAILOR MADE", "SOCA1ST"]):
-                        current_month, current_year, day = 1, 2027, 1
-
                     try:
-                        event_date = date(current_year, current_month, day)
+                        event_date = date(active_year, active_month, day)
                     except ValueError:
                         continue
 
@@ -199,11 +220,11 @@ async def scrape():
                     if ticket_url.startswith("/"):
                         ticket_url = f"https://islandetickets.com{ticket_url}"
 
-                    seen.add(name.upper())
-                    new_events.append({
-                        "id": f"island-{len(existing_events) + len(new_events)}",
-                        "name": name,
-                        "type": classify_event_type(name),
+                    seen.add(upper)
+                    fresh_events.append({
+                        "id": f"island-{len(preserved_events) + len(fresh_events)}",
+                        "name": text,
+                        "type": classify_event_type(text),
                         "date": event_date.isoformat(),
                         "startTime": start_time,
                         "location": location,
@@ -214,7 +235,6 @@ async def scrape():
             except Exception as e:
                 print(f"Skipped {target}: {e}")
 
-        # 2. Check premier event watchlist URLs directly
         for url in WATCHLIST_URLS:
             print(f"Checking watchlist → {url}")
             try:
@@ -224,22 +244,21 @@ async def scrape():
                 parsed = parse_detail_page(html, url)
                 if parsed and parsed["name"].upper() not in seen:
                     seen.add(parsed["name"].upper())
-                    parsed["id"] = f"island-{len(existing_events) + len(new_events)}"
-                    new_events.append(parsed)
+                    parsed["id"] = f"island-{len(preserved_events) + len(fresh_events)}"
+                    fresh_events.append(parsed)
             except Exception as e:
                 print(f"Watchlist error on {url}: {e}")
 
         await browser.close()
 
-    combined = existing_events + new_events
+    combined = preserved_events + fresh_events
     combined.sort(key=lambda e: e["date"])
 
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(combined, f, indent=2, ensure_ascii=False)
 
-    print(f"Done — Added {len(new_events)} new event(s). Total database size: {len(combined)}")
-    for e in new_events:
-        print(f"  + {e['date']} | {e['name']} ({e['location']})")
+    print(f"Done — Rebuilt with {len(fresh_events)} verified 2027 Island eTickets event(s).")
+    print(f"Total clean events in {OUTPUT_FILE}: {len(combined)}")
 
 if __name__ == "__main__":
     asyncio.run(scrape())
