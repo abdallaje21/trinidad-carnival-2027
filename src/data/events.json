@@ -1870,5 +1870,32 @@
     "tags": [
       "islandetickets"
     ]
+  },
+   {
+    "id": "manual-event-one-2027",
+    "name": "Brunch and Soca Trinidad",
+    "type": "All-Inclusive",
+    "date": "2027-02-07",
+    "startTime": "4:00 PM - 10:00 PM",
+    "location": "Trincity College East, Trincity",
+    "region": "East",
+    "ticketUrl": "https://frontlineticketing.com/event/view/Brunchandsocatrinidad2027",
+    "tags": [
+      "manual-entry"
+    ]
+  },
+  {
+    "id": "manual-event-two-2027",
+    "name": "Artform 8 - The Queen's Landing",
+    "type": "Fete",
+    "date": "2027-01-30",
+    "startTime": "5:00 PM - 1:00 AM",
+    "location": "Queen's Hall Garden, Port-of-Spain",
+    "region": "North",
+    "ticketUrl": "https://nadiabatson.com/",
+    "tags": [
+      "manual-entry"
+    ]
   }
+
 ]
