@@ -10,18 +10,24 @@ const sortedEvents = eventData.sort((a, b) => new Date(a.date).getTime() - new D
 ---
 
 <BaseLayout title="Trinidad Carnival 2027 Event Directory">
-    <header class="bg-black border-b border-neutral-800 py-6">
+      <header class="bg-black border-b border-neutral-800 py-5">
     <div class="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
-      <div>
-        <h1 class="text-2xl sm:text-3xl font-black uppercase tracking-[0.25em] flex items-center gap-3">
-          <span class="text-[#E52521]">WE</span>
-          <span class="text-[#00873E]">OUT</span>
-          <span class="text-[#0055FF]">DAY<span class="text-[#FFD100]">.</span></span>
-        </h1>
-        <p class="text-neutral-400 text-sm mt-1.5">Trinidad Carnival 2027 — The simple, one-stop directory for every fete and event.</p>
+      
+      <!-- Left Side: Logo Stacked Above Tagline -->
+      <div class="flex flex-col items-start">
+        <a href="/" class="inline-block">
+          <img 
+            src="/logo.png" 
+            alt="WE OUT DAY." 
+            class="h-20 sm:h-24 w-auto object-contain object-left -ml-2"
+          />
+        </a>
+        <p class="text-neutral-400 text-xs sm:text-sm mt-1">
+          Trinidad Carnival 2027 — The simple, one-stop directory for every fete and event.
+        </p>
       </div>
 
-      <!-- Header Actions & Layout Switcher -->
+      <!-- Right Side: Header Actions & Layout Switcher -->
       <div class="flex flex-wrap items-center gap-3 self-start sm:self-center">
         <a 
           href="/add-event" 
@@ -38,6 +44,11 @@ const sortedEvents = eventData.sort((a, b) => new Date(a.date).getTime() - new D
             Calendar View
           </button>
         </div>
+      </div>
+
+    </div>
+  </header>
+
       </div>
     </div>
   </header>
