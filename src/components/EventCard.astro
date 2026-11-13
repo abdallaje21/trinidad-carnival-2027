@@ -8,7 +8,7 @@ const formattedDate = new Date(event.date).toLocaleDateString('en-US', {
 <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-6 flex flex-col justify-between hover:shadow-md transition-shadow">
   <div>
     <div class="flex items-center justify-between mb-3">
-      <span class="text-xs font-semibold uppercase tracking-wider px-2.5 py-1 rounded-full bg-purple-50 text-purple-700">{event.type}</span>
+      <span class="text-xs font-semibold uppercase tracking-wider px-2.5 py-1 rounded-full bg-blue-50 text-[#0055FF]">{event.type}</span>
       <span class="text-xs font-medium text-gray-500 bg-gray-100 px-2 py-0.5 rounded">{event.region}</span>
     </div>
     <h3 class="text-lg font-bold text-gray-900 mb-2">{event.name}</h3>
@@ -17,7 +17,7 @@ const formattedDate = new Date(event.date).toLocaleDateString('en-US', {
       <p>📍 {event.location}</p>
     </div>
   </div>
-  <a href={event.ticketUrl} target="_blank" rel="noopener noreferrer" class="w-full text-center bg-purple-600 hover:bg-purple-700 text-white font-medium py-2.5 px-4 rounded-lg transition-colors text-sm">
+  <a href={event.ticketUrl} target="_blank" rel="noopener noreferrer" class="w-full text-center bg-[#0055FF] hover:bg-blue-700 text-white font-medium py-2.5 px-4 rounded-lg transition-colors text-sm">
     Get Tickets ↗
   </a>
 </div>

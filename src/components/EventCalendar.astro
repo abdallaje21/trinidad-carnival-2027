@@ -107,10 +107,11 @@ const activeMobileDays = calendarDays.filter(
           <span class="text-[11px] font-bold text-gray-400 mb-1.5 block">{day.label}</span>
           <div class="space-y-1 overflow-y-auto flex-grow max-h-[120px] custom-scrollbar">
             {eventsByDate[day.dateStr]?.map((event: any) => (
-              <a href={event.ticketUrl} target="_blank" rel="noopener noreferrer" class="block text-[10px] leading-tight font-semibold p-1 bg-purple-50 text-purple-700 rounded border border-purple-100 truncate" title={event.name}>
-                <span class="text-[8px] opacity-70 block font-normal">{event.startTime}</span>
+                            <a href={event.ticketUrl} target="_blank" rel="noopener noreferrer" class="block text-[10px] leading-tight font-semibold p-1 bg-blue-50 text-[#0055FF] hover:bg-blue-100 rounded border border-blue-200 truncate transition-colors" title={event.name}>
+                <span class="text-[8px] text-neutral-500 block font-normal">{event.startTime}</span>
                 {event.name}
               </a>
+
             ))}
           </div>
         </div>
