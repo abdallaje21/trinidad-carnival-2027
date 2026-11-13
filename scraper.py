@@ -12,8 +12,6 @@ SCAN_URLS = [
     "https://islandetickets.com",
 ]
 
-WATCHLIST_URLS = []
-
 OUTPUT_FILE = "src/data/events.json"
 
 EVENT_TYPE_KEYWORDS = {
@@ -25,15 +23,24 @@ EVENT_TYPE_KEYWORDS = {
 }
 
 REGION_KEYWORDS = {
-    "South": ["SOUTH", "FERNANDO", "SIPARIA", "DEBE", "POINT FORTIN", "CLIFTON HILL", "MAYARO", "PENAL"],
+    "South":   ["SOUTH", "FERNANDO", "SIPARIA", "DEBE", "POINT FORTIN", "CLIFTON HILL", "MAYARO", "PENAL"],
     "Central": ["COUVA", "CHAGUANAS", "POINTE A PIERRE", "CARONI"],
-    "East":  ["VALSAYN", "ARIMA", "MACOYA", "TUNAPUNA", "TRINCITY", "ST. AUGUSTINE", "SAINT AUGUSTINE", "ST. JOSEPH", "ARANGUEZ", "EL DORADO", "TACARIGUA", "AROUCA"],
-    "West":  ["WEST", "DIEGO MARTIN", "CARENAGE", "CHAGUARAMAS", "CHAGARAMAS", "CHAGURAMAS", "WESTMOORINGS", "COCORITE", "DDI"],
-    "North": ["NORTH", "PORT OF SPAIN", "PORT-OF-SPAIN", "POS", "SAN JUAN", "ST. CLAIR", "WOODBROOK", "MARAVAL", "ST. ANNS", "SANTA CRUZ", "PARAMIN", "ST. JAMES"]
+    "East":    ["VALSAYN", "ARIMA", "MACOYA", "TUNAPUNA", "TRINCITY", "ST. AUGUSTINE", "SAINT AUGUSTINE", "ST. JOSEPH", "ARANGUEZ", "EL DORADO", "TACARIGUA", "AROUCA"],
+    "West":    ["WEST", "DIEGO MARTIN", "CARENAGE", "CHAGUARAMAS", "CHAGARAMAS", "CHAGURAMAS", "WESTMOORINGS", "COCORITE", "DDI"],
+    "North":   ["NORTH", "PORT OF SPAIN", "PORT-OF-SPAIN", "POS", "SAN JUAN", "ST. CLAIR", "WOODBROOK", "MARAVAL", "ST. ANNS", "SANTA CRUZ", "PARAMIN", "ST. JAMES"]
 }
 
+TRINIDAD_SAFE_KEYWORDS = [
+    "trinidad", "tobago", "port of spain", "port-of-spain", "chaguaramas",
+    "chagaramas", "chaguramas", "queens hall", "queen's hall", "napa",
+    "san fernando", "couva", "arima", "maraval", "st. clair", "woodbrook",
+    "santa cruz", "mayaro", "harbour master", "habour master", "ocean pelican",
+    "sound forge", "soundforge", "o2 park", "02 park", "diego martin",
+    "westmoorings", "st. augustine", "valsayn", "trincity", "macoya"
+]
+
 NON_TRINIDAD_KEYWORDS = [
-    "new orleans", "creole queen", "miami", "new york", "brooklyn", "queens",
+    "new orleans", "creole queen", "miami", "new york", "brooklyn",
     "toronto", "london", "atlanta", "lux cafe", "orlando", "barbara lee",
     "houston", "barbados", "grenada", "st. lucia", "gros islet", "jamaica",
     "guyana", "panama", "dubai", "cincinnati", "louisville", "pittsburgh",
@@ -57,8 +64,14 @@ MONTH_HEADERS = {
 
 def is_trinidad_event(event_title: str, event_location: str, raw_card_text: str = "") -> bool:
     combined = f"{event_title} {event_location} {raw_card_text}".lower()
-    if any(word in combined for word in NON_TRINIDAD_KEYWORDS):
-        return False
+
+    if any(safe in combined for safe in TRINIDAD_SAFE_KEYWORDS):
+        return True
+
+    for word in NON_TRINIDAD_KEYWORDS:
+        if re.search(rf"\b{re.escape(word)}\b", combined):
+            return False
+
     return True
 
 def classify_event_type(name: str) -> str:
@@ -80,67 +93,7 @@ async def auto_scroll(page):
         await page.evaluate("window.scrollBy(0, 1200);")
         await asyncio.sleep(0.8)
 
-def parse_detail_page(html: str, url: str) -> dict | None:
-    soup = BeautifulSoup(html, "html.parser")
-    text = soup.get_text("\n", strip=True)
-    lines = [l.strip() for l in text.split("\n") if l.strip()]
-
-    title_node = soup.find(["h1", "h2", "h3", "h4"])
-    name = title_node.get_text(strip=True) if title_node else ""
-    if not name or len(name) < 3:
-        return None
-
-    date_match = re.search(
-        r'\b(\d{1,2})(?:st|nd|rd|th)?\s+(January|February|Jan|Feb)\s*,?\s*(2027)\b',
-        text,
-        re.I
-    )
-    if not date_match:
-        return None
-
-    day = int(date_match.group(1))
-    month_str = date_match.group(2)[:3].upper()
-    month = 1 if month_str == "JAN" else 2
-
-    try:
-        event_date = date(2027, month, day)
-    except ValueError:
-        return None
-
-    if not (DATE_FROM <= event_date <= DATE_TO):
-        return None
-
-    time_match = re.search(
-        r'\d{1,2}:\d{2}\s*(?:AM|PM)\s*-\s*\d{1,2}:\d{2}\s*(?:AM|PM)',
-        text,
-        re.I
-    )
-    start_time = time_match.group(0) if time_match else "22:00"
-
-    location = "Trinidad"
-    for i, line in enumerate(lines):
-        if time_match and time_match.group(0) in line and i + 1 < len(lines):
-            candidate = lines[i + 1]
-            if candidate.upper() not in ["SHARE", "HOME", "CALENDAR"]:
-                location = candidate
-            break
-
-    if not is_trinidad_event(name, location, text):
-        return None
-
-    return {
-        "name": name,
-        "type": classify_event_type(name),
-        "date": event_date.isoformat(),
-        "startTime": start_time,
-        "location": location,
-        "region": classify_region(f"{name} {location}"),
-        "ticketUrl": url,
-        "tags": ["islandetickets", "watchlist"],
-    }
-
 async def scrape():
-    # Preserve manual entries and Frontline additions while clearing old Island eTickets entries
     try:
         with open(OUTPUT_FILE, "r", encoding="utf-8") as f:
             existing_events = json.load(f)
@@ -192,7 +145,6 @@ async def scrape():
                     if not text or len(text) < 3 or "THESE EVENTS" in upper or upper in seen:
                         continue
 
-                    # Require a confirmed 2027 Jan/Feb header before accepting cards
                     if active_year != 2027 or active_month not in (1, 2):
                         continue
 
@@ -228,7 +180,6 @@ async def scrape():
                         elif re.search(r'\d{1,2}\s*(am|pm)', line, re.I):
                             start_time = line.strip()
 
-                    # Skip events located outside Trinidad & Tobago
                     if not is_trinidad_event(text, location, card_text):
                         skipped_foreign += 1
                         print(f"  [Skipped non-Trinidad] {text} (@ {location})")
@@ -262,3 +213,8 @@ async def scrape():
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(all_events, f, indent=2, ensure_ascii=False)
 
+    print(f"\nDone! Saved {len(fresh_events)} Trinidad event(s) from Island eTickets (skipped {skipped_foreign} non-Trinidad).")
+    print(f"Total events in {OUTPUT_FILE}: {len(all_events)}")
+
+if __name__ == "__main__":
+    asyncio.run(scrape())
