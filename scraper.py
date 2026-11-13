@@ -10,30 +10,35 @@ DATE_TO   = date(2027, 2, 28)
 
 SCAN_URLS = [
     "https://islandetickets.com",
-    "https://islandetickets.com",
 ]
 
-WATCHLIST_URLS = [
-    "https://islandetickets.com",
-    "https://islandetickets.com",
-    "https://islandetickets.com",
-]
+WATCHLIST_URLS = []
 
 OUTPUT_FILE = "src/data/events.json"
 
 EVENT_TYPE_KEYWORDS = {
-    "Boat Cruise":     ["CRUISE", "BOAT", "SAIL"],
+    "Boat Cruise":     ["CRUISE", "BOAT", "SAIL", "YACHT", "RAFT UP", "RAFTUP"],
     "Cooler Fete":     ["COOLER", "STINK"],
-    "Breakfast Fete":  ["BREAKFAST", "SUNRISE"],
+    "Breakfast Fete":  ["BREAKFAST", "SUNRISE", "BRUNCH"],
     "All-Inclusive":   ["INCLUSIVE", "ALL INCLUSIVE", "PRESTIGE"],
+    "J'ouvert":        ["JOUVERT", "J'OUVERT", "JOUVERTT"],
 }
 
 REGION_KEYWORDS = {
-    "South": ["SOUTH", "FERNANDO", "SIPARIA", "DEBE", "POINT FORTIN"],
-    "East":  ["VALSAYN", "ARIMA", "MACOYA", "TUNAPUNA", "CHAGUANAS", "TRINCITY"],
-    "West":  ["WEST", "DIEGO MARTIN", "CARENAGE", "CHAGUARAMAS", "WESTMOORINGS"],
-    "North": ["NORTH", "PORT OF SPAIN", "POS", "SAN JUAN", "ST. CLAIR", "WOODBROOK", "MARAVAL", "ST. ANNS"]
+    "South": ["SOUTH", "FERNANDO", "SIPARIA", "DEBE", "POINT FORTIN", "CLIFTON HILL", "MAYARO", "PENAL"],
+    "Central": ["COUVA", "CHAGUANAS", "POINTE A PIERRE", "CARONI"],
+    "East":  ["VALSAYN", "ARIMA", "MACOYA", "TUNAPUNA", "TRINCITY", "ST. AUGUSTINE", "SAINT AUGUSTINE", "ST. JOSEPH", "ARANGUEZ", "EL DORADO", "TACARIGUA", "AROUCA"],
+    "West":  ["WEST", "DIEGO MARTIN", "CARENAGE", "CHAGUARAMAS", "CHAGARAMAS", "CHAGURAMAS", "WESTMOORINGS", "COCORITE", "DDI"],
+    "North": ["NORTH", "PORT OF SPAIN", "PORT-OF-SPAIN", "POS", "SAN JUAN", "ST. CLAIR", "WOODBROOK", "MARAVAL", "ST. ANNS", "SANTA CRUZ", "PARAMIN", "ST. JAMES"]
 }
+
+NON_TRINIDAD_KEYWORDS = [
+    "new orleans", "creole queen", "miami", "new york", "brooklyn", "queens",
+    "toronto", "london", "atlanta", "lux cafe", "orlando", "barbara lee",
+    "houston", "barbados", "grenada", "st. lucia", "gros islet", "jamaica",
+    "guyana", "panama", "dubai", "cincinnati", "louisville", "pittsburgh",
+    "chicago", "minneapolis", "usa", "canada", "uk"
+]
 
 MONTH_HEADERS = {
     "JAN": 1, "JANUARY": 1,
@@ -50,6 +55,12 @@ MONTH_HEADERS = {
     "DEC": 12, "DECEMBER": 12,
 }
 
+def is_trinidad_event(event_title: str, event_location: str, raw_card_text: str = "") -> bool:
+    combined = f"{event_title} {event_location} {raw_card_text}".lower()
+    if any(word in combined for word in NON_TRINIDAD_KEYWORDS):
+        return False
+    return True
+
 def classify_event_type(name: str) -> str:
     upper = name.upper()
     for label, keywords in EVENT_TYPE_KEYWORDS.items():
@@ -65,7 +76,7 @@ def classify_region(text: str) -> str:
     return "North"
 
 async def auto_scroll(page):
-    for _ in range(8):
+    for _ in range(12):
         await page.evaluate("window.scrollBy(0, 1200);")
         await asyncio.sleep(0.8)
 
@@ -114,6 +125,9 @@ def parse_detail_page(html: str, url: str) -> dict | None:
                 location = candidate
             break
 
+    if not is_trinidad_event(name, location, text):
+        return None
+
     return {
         "name": name,
         "type": classify_event_type(name),
@@ -126,7 +140,7 @@ def parse_detail_page(html: str, url: str) -> dict | None:
     }
 
 async def scrape():
-    # Preserve manual entries and Frontline additions while clearing bad scraped dates
+    # Preserve manual entries and Frontline additions while clearing old Island eTickets entries
     try:
         with open(OUTPUT_FILE, "r", encoding="utf-8") as f:
             existing_events = json.load(f)
@@ -140,6 +154,7 @@ async def scrape():
 
     seen = {e["name"].strip().upper() for e in preserved_events}
     fresh_events = []
+    skipped_foreign = 0
 
     print(f"Preserved {len(preserved_events)} manual/external event(s).")
 
@@ -155,7 +170,6 @@ async def scrape():
                 html = await page.content()
                 soup = BeautifulSoup(html, "html.parser")
 
-                # Track active month/year sequentially from top to bottom
                 active_year = None
                 active_month = None
 
@@ -163,7 +177,6 @@ async def scrape():
                     text = tag.get_text(" ", strip=True)
                     upper = text.upper()
 
-                    # Check if this tag is a sticky month header like "Nov2026" or "Jan 2027"
                     header_match = re.fullmatch(
                         r'(JAN|JANUARY|FEB|FEBRUARY|MAR|MARCH|APR|APRIL|MAY|JUN|JUNE|JUL|JULY|AUG|AUGUST|SEP|SEPTEMBER|OCT|OCTOBER|NOV|NOVEMBER|DEC|DECEMBER)\s*(202\d)',
                         upper
@@ -215,6 +228,12 @@ async def scrape():
                         elif re.search(r'\d{1,2}\s*(am|pm)', line, re.I):
                             start_time = line.strip()
 
+                    # Skip events located outside Trinidad & Tobago
+                    if not is_trinidad_event(text, location, card_text):
+                        skipped_foreign += 1
+                        print(f"  [Skipped non-Trinidad] {text} (@ {location})")
+                        continue
+
                     link = parent_card.find_parent("a") or parent_card.find("a")
                     ticket_url = link["href"] if link and link.has_attr("href") else target
                     if ticket_url.startswith("/"):
@@ -228,37 +247,18 @@ async def scrape():
                         "date": event_date.isoformat(),
                         "startTime": start_time,
                         "location": location,
-                        "region": classify_region(card_text),
+                        "region": classify_region(f"{text} {location}"),
                         "ticketUrl": ticket_url,
                         "tags": ["islandetickets"],
                     })
-            except Exception as e:
-                print(f"Skipped {target}: {e}")
-
-        for url in WATCHLIST_URLS:
-            print(f"Checking watchlist → {url}")
-            try:
-                await page.goto(url, timeout=45000, wait_until="domcontentloaded")
-                await asyncio.sleep(1.5)
-                html = await page.content()
-                parsed = parse_detail_page(html, url)
-                if parsed and parsed["name"].upper() not in seen:
-                    seen.add(parsed["name"].upper())
-                    parsed["id"] = f"island-{len(preserved_events) + len(fresh_events)}"
-                    fresh_events.append(parsed)
-            except Exception as e:
-                print(f"Watchlist error on {url}: {e}")
+            except Exception as err:
+                print(f"Error scanning {target}: {err}")
 
         await browser.close()
 
-    combined = preserved_events + fresh_events
-    combined.sort(key=lambda e: e["date"])
+    all_events = preserved_events + fresh_events
+    all_events.sort(key=lambda x: (x.get("date", "9999-12-31"), x.get("name", "")))
 
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-        json.dump(combined, f, indent=2, ensure_ascii=False)
+        json.dump(all_events, f, indent=2, ensure_ascii=False)
 
-    print(f"Done — Rebuilt with {len(fresh_events)} verified 2027 Island eTickets event(s).")
-    print(f"Total clean events in {OUTPUT_FILE}: {len(combined)}")
-
-if __name__ == "__main__":
-    asyncio.run(scrape())
