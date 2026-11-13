@@ -9,11 +9,12 @@ import eventData from '../data/events.json';
 const sortedEvents = eventData.sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime());
 ---
 
-<BaseLayout title="Trinidad Carnival 2027 Event Directory">
+<BaseLayout title="WE OUT DAY. — Trinidad Carnival 2027 Event Directory">
   <header class="bg-black border-b border-neutral-800 py-5">
     <div class="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
       
-            <div class="flex flex-col items-start">
+      <!-- Left Side: Side-by-Side SVG Icon & Wordmark Above Tagline -->
+      <div class="flex flex-col items-start">
         <a href="/" class="inline-flex items-center gap-3.5">
           <svg class="w-11 h-11 sm:w-12 sm:h-12 text-[#FFD100] shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
@@ -26,17 +27,14 @@ const sortedEvents = eventData.sort((a, b) => new Date(a.date).getTime() - new D
             <rect x="7" y="18" width="2" height="2" fill="currentColor"></rect>
             <rect x="11" y="18" width="2" height="2" fill="currentColor"></rect>
           </svg>
-          <span class="text-2xl sm:text-3xl font-black uppercase tracking-[0.2em] leading-none">
+          <span class="text-2xl sm:text-3xl font-black uppercase tracking-[0.15em] sm:tracking-[0.2em] leading-none">
             <span class="text-[#E52521]">WE</span>
-            <span class="text-[#00873E] ml-2">OUT</span>
-            <span class="text-[#0055FF] ml-2">DAY<span class="text-[#FFD100]">.</span></span>
+            <span class="text-[#00873E] ml-1.5 sm:ml-2">OUT</span>
+            <span class="text-[#0055FF] ml-1.5 sm:ml-2">DAY<span class="text-[#FFD100]">.</span></span>
           </span>
         </a>
         <p class="text-neutral-400 text-xs sm:text-sm mt-2">
           Trinidad Carnival 2027 — The simple, one-stop directory for every fete and event.
-        </p>
-      </div>
-
         </p>
       </div>
 
@@ -84,7 +82,6 @@ const sortedEvents = eventData.sort((a, b) => new Date(a.date).getTime() - new D
     const paneDir = document.getElementById('directory-view-pane');
     const paneCal = document.getElementById('calendar-view-pane');
 
-    // Only apply logic loops if the elements exist safely in the DOM wrapper tree
     if (btnDir && btnCal && paneDir && paneCal) {
       btnDir.addEventListener('click', () => {
         paneDir.classList.remove('hidden');
