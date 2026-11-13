@@ -1923,20 +1923,7 @@
       "manual-entry"
     ]
       },
-   {
-    "id": "manual-event-four-2027",
-    "name": "Brian Lara 'Reclaim 400'",
-    "type": "Cooler Fete",
-    "date": "2027-02-04",
-    "startTime": "4:00 PM - 11:55 PM",
-    "location": "Millennium Lakes Golf and Country Club, Sunrise Loop Trincity",
-    "region": "East",
-    "ticketUrl": "https://www.ticketgateway.com/event/view/brianlara400",
-    "tags": [
-      "manual-entry"
-    ]
-  },
-  {
+      {
     "id": "manual-event-five-2027",
     "name": "Different 2K27",
     "type": "All-Inclusive",
