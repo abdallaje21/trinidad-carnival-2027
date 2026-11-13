@@ -1896,6 +1896,70 @@
     "tags": [
       "manual-entry"
     ]
+  },
+   {
+    "id": "manual-event-three-2027",
+    "name": "Brian Lara 'Par-Tee' 2027",
+    "type": "All-Inclusive",
+    "date": "2027-01-01",
+    "startTime": "4:00 PM - 11:00 PM",
+    "location": "Millennium Lakes Golf and Country Club, Sunrise Loop Trincity",
+    "region": "East",
+    "ticketUrl": "https://www.ticketgateway.com/event/view/partee27",
+    "tags": [
+      "manual-entry"
+    ]
+  },
+  {
+    "id": "manual-event-four-2027",
+    "name": "Brian Lara 'Reclaim 400'",
+    "type": "Cooler Fete",
+    "date": "2027-02-04",
+    "startTime": "4:00 PM - 11:55 PM",
+    "location": "Millennium Lakes Golf and Country Club, Sunrise Loop Trincity",
+    "region": "East",
+    "ticketUrl": "https://www.ticketgateway.com/event/view/brianlara400",
+    "tags": [
+      "manual-entry"
+    ]
+      },
+   {
+    "id": "manual-event-four-2027",
+    "name": "Brian Lara 'Reclaim 400'",
+    "type": "Cooler Fete",
+    "date": "2027-02-04",
+    "startTime": "4:00 PM - 11:55 PM",
+    "location": "Millennium Lakes Golf and Country Club, Sunrise Loop Trincity",
+    "region": "East",
+    "ticketUrl": "https://www.ticketgateway.com/event/view/brianlara400",
+    "tags": [
+      "manual-entry"
+    ]
+  },
+  {
+    "id": "manual-event-five-2027",
+    "name": "Different 2K27",
+    "type": "All-Inclusive",
+    "date": "2027-01-31",
+    "startTime": "6:00 PM - 12:00 AM",
+    "location": "National Academy For The Performing Arts, Port of Spain",
+    "region": "North",
+    "ticketUrl": "https://www.ticketgateway.com/event/view/different2k27",
+    "tags": [
+      "manual-entry"
+    ]
+  },
+  {
+    "id": "manual-event-six-2027",
+    "name": "Breakfast Is... 2K27",
+    "type": "Breakfast Fete",
+    "date": "2027-02-07",
+    "startTime": "4:00 AM - 11:00 AM",
+    "location": "TBA",
+    "region": "North",
+    "ticketUrl": "https://www.ticketgateway.com/event/view/breakfastis2k27",
+    "tags": [
+      "manual-entry"
+    ]
   }
-
 ]
